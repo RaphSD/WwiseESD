@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
+	<RootPaths>
+		<ProjectRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="454820531" Language="SFX">
+			<ObjectPath>\SoundBanks\Default Work Unit\ESD_Main_SoundBank</ObjectPath>
+			<ShortName>ESD_Main_SoundBank</ShortName>
+			<Path>ESD_Main_SoundBank.bnk</Path>
+			<IncludedEvents>
+				<Event Id="1778798315" Name="Play_SFX_Text_Bip" ObjectPath="\Events\Default Work Unit\Play_SFX_Text_Bip"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="620206910" Language="SFX">
+					<ShortName>SFX_Text_Bip.wav</ShortName>
+					<Path>SFX\SFX_Text_Bip_F7D0E330.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ObjectPath>Init</ObjectPath>
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>

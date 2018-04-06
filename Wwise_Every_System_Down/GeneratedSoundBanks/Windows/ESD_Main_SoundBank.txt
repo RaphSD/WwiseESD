@@ -1,0 +1,15 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1778798315	Play_SFX_Text_Bip			\Default Work Unit\Play_SFX_Text_Bip	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	932301089	RTPC_SFX_Volume			\Default Work Unit\RTPC_SFX_Volume	
+	1596647065	RTPC_Music_Volume			\Default Work Unit\RTPC_Music_Volume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	620206910	SFX_Text_Bip	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Text_Bip_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\SFX_Text_Bip		916
+
