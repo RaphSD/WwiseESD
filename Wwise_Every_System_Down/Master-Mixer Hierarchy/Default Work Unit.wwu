@@ -12,6 +12,11 @@
 					<ChildrenList>
 						<Bus Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}">
 							<PropertyList>
+								<Property Name="BusChannelConfig" Type="int32">
+									<ValueList>
+										<Value>6353158</Value>
+									</ValueList>
+								</Property>
 								<Property Name="BusVolume" Type="Real64">
 									<RTPCList>
 										<RTPC Name="" ID="{DFCF4A36-0D6F-44CC-818D-13143588A980}" ShortID="66439352">

@@ -1,5 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	1778798315	Play_SFX_Text_Bip			\Default Work Unit\Play_SFX_Text_Bip	
+	1945756511	Stop_Crackling_Submarine			\Default Work Unit\Stop_Crackling_Submarine	
+	3995708897	Play_Crackling_Submarine			\Default Work Unit\Play_Crackling_Submarine	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	932301089	RTPC_SFX_Volume			\Default Work Unit\RTPC_SFX_Volume	
@@ -11,5 +13,12 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	165936220	ESD_Cracks-007	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-007_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-007		262791
+	318302895	ESD_Cracks-002	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-002_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-002		40900
+	509144032	ESD_Cracks-006	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-006_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-006		150375
 	620206910	SFX_Text_Bip	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Text_Bip_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\SFX_Text_Bip		916
+	622884997	ESD_Cracks-001	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-001_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-001		59418
+	768980723	ESD_Cracks-005	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-005_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-005		110198
+	892078412	ESD_Cracks-004	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-004_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-004		137190
+	1057235633	ESD_Cracks-003	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-003_F7D0E330.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-003		97851
 

@@ -38,6 +38,225 @@
 						</ActorMixer>
 					</ChildrenList>
 				</Folder>
+				<Folder Name="Ambiance" ID="{55F31244-7FE1-4370-A56E-C62DDA85702F}" ShortID="573716392">
+					<ChildrenList>
+						<RandomSequenceContainer Name="Crackling_Submarine" ID="{A4967173-A49F-4479-8B85-B99B324BB0DD}" ShortID="569006703">
+							<PropertyList>
+								<Property Name="3DPositionSource" Type="int16" Value="0"/>
+								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
+								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
+								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
+									<ModifierList>
+										<ModifierInfo>
+											<Modifier Name="" ID="{2B0E188A-16C6-4D0C-9D17-807256D4A553}">
+												<PropertyList>
+													<Property Name="Enabled" Type="bool" Value="True"/>
+													<Property Name="Max" Type="Real64" Value="10"/>
+													<Property Name="Min" Type="Real64" Value="-5"/>
+												</PropertyList>
+											</Modifier>
+										</ModifierInfo>
+									</ModifierList>
+								</Property>
+								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="ESD_Cracks-001" ID="{D084AB6E-982B-4CFE-9150-0676E9A6FC79}" ShortID="683204139">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESD_Cracks-001" ID="{9017EF2D-D170-402B-8905-B561E73D7EDE}" ShortID="622884997">
+											<Language>SFX</Language>
+											<AudioFile>ESD_Cracks-001.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESD_Cracks-001" ID="{9017EF2D-D170-402B-8905-B561E73D7EDE}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESD_Cracks-002" ID="{AD659E6D-8557-4DAC-8552-A0E711075ADC}" ShortID="703603779">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESD_Cracks-002" ID="{9273CF73-617C-4FF9-8C86-AEFEE4BEA93B}" ShortID="318302895">
+											<Language>SFX</Language>
+											<AudioFile>ESD_Cracks-002.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESD_Cracks-002" ID="{9273CF73-617C-4FF9-8C86-AEFEE4BEA93B}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESD_Cracks-003" ID="{7C44AB09-A17A-4C26-9972-ED5C2CF59B00}" ShortID="145330716">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESD_Cracks-003" ID="{5D0D3352-D5E8-4922-9424-2768062C1A65}" ShortID="1057235633">
+											<Language>SFX</Language>
+											<AudioFile>ESD_Cracks-003.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESD_Cracks-003" ID="{5D0D3352-D5E8-4922-9424-2768062C1A65}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESD_Cracks-004" ID="{D10675B1-C3A3-4CA6-A904-F0F2082248CE}" ShortID="109169549">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESD_Cracks-004" ID="{13E1A1D1-F421-4C8C-9234-3536F8707C18}" ShortID="892078412">
+											<Language>SFX</Language>
+											<AudioFile>ESD_Cracks-004.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESD_Cracks-004" ID="{13E1A1D1-F421-4C8C-9234-3536F8707C18}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESD_Cracks-005" ID="{09398821-F35A-448F-9BF7-D71E0306AC7E}" ShortID="18249270">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESD_Cracks-005" ID="{72F0304D-074A-43DD-941A-6F7C6822E2E3}" ShortID="768980723">
+											<Language>SFX</Language>
+											<AudioFile>ESD_Cracks-005.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESD_Cracks-005" ID="{72F0304D-074A-43DD-941A-6F7C6822E2E3}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESD_Cracks-006" ID="{3529D48F-014C-42C1-B17E-5713F130676C}" ShortID="792927036">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESD_Cracks-006" ID="{E4C65D3C-590A-405F-B009-6662802C7E85}" ShortID="509144032">
+											<Language>SFX</Language>
+											<AudioFile>ESD_Cracks-006.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESD_Cracks-006" ID="{E4C65D3C-590A-405F-B009-6662802C7E85}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="ESD_Cracks-007" ID="{338ABAB4-09FD-404F-9CE8-20A8820687E9}" ShortID="406923473">
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="ESD_Cracks-007" ID="{1C6833E9-5EF8-42FF-AFB5-8BDBB7F9755D}" ShortID="165936220">
+											<Language>SFX</Language>
+											<AudioFile>ESD_Cracks-007.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="ESD_Cracks-007" ID="{1C6833E9-5EF8-42FF-AFB5-8BDBB7F9755D}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{C574672A-F5B3-4A6B-814E-8EE568912C35}">
+									<PropertyList>
+										<Property Name="NewPathForEachSound" Type="bool" Value="True"/>
+										<Property Name="PlayMechanismRandomOrSequence" Type="int16" Value="1"/>
+									</PropertyList>
+									<ChildrenList>
+										<Path2D Name="Crackling_Submarine_Path" ID="{C08D4F1C-6F0B-41A9-9DC6-9150D7AF6E3D}">
+											<PointList>
+												<Point>
+													<XPos>31.64558</XPos>
+													<YPos>-61.46498</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Crackling_Submarine_Path_01" ID="{D0887056-7352-4A82-90B0-C444507A20D7}">
+											<PointList>
+												<Point>
+													<XPos>36.70886</XPos>
+													<YPos>92.67516</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Crackling_Submarine_Path_02" ID="{06B62E8B-CB92-493F-BA7F-D3F4591C97EE}">
+											<PointList>
+												<Point>
+													<XPos>-21.51899</XPos>
+													<YPos>-99.68153</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+										<Path2D Name="Crackling_Submarine_Path_03" ID="{E2ED84C5-30F6-4F40-87A1-B6260FC452AF}">
+											<PointList>
+												<Point>
+													<XPos>-24.05063</XPos>
+													<YPos>93.3121</YPos>
+													<Flags>12</Flags>
+													<Time>0</Time>
+												</Point>
+											</PointList>
+										</Path2D>
+									</ChildrenList>
+								</Position>
+							</PositioningInfo>
+						</RandomSequenceContainer>
+					</ChildrenList>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

@@ -1,0 +1,91 @@
+{
+ "SoundBanksInfo": {
+  "Platform": "Windows",
+  "BasePlatform": "Windows",
+  "SchemaVersion": "11",
+  "SoundbankVersion": "128",
+  "RootPaths": {
+   "ProjectRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\",
+   "SourceFilesRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\",
+   "ExternalSourcesInputFile": "",
+   "ExternalSourcesOutputRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\"
+  },
+  "SoundBanks": [
+   {
+    "Id": "454820531",
+    "Language": "SFX",
+    "ObjectPath": "\\SoundBanks\\Default Work Unit\\ESD_Main_SoundBank",
+    "ShortName": "ESD_Main_SoundBank",
+    "Path": "ESD_Main_SoundBank.bnk",
+    "IncludedEvents": [
+     {
+      "Id": "3995708897",
+      "Name": "Play_Crackling_Submarine",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Crackling_Submarine"
+     },
+     {
+      "Id": "1778798315",
+      "Name": "Play_SFX_Text_Bip",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Text_Bip"
+     },
+     {
+      "Id": "1945756511",
+      "Name": "Stop_Crackling_Submarine",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Crackling_Submarine"
+     }
+    ],
+    "IncludedMemoryFiles": [
+     {
+      "Id": "165936220",
+      "Language": "SFX",
+      "ShortName": "ESD_Cracks-007.wav",
+      "Path": "SFX\\ESD_Cracks-007_F7D0E330.wem"
+     },
+     {
+      "Id": "318302895",
+      "Language": "SFX",
+      "ShortName": "ESD_Cracks-002.wav",
+      "Path": "SFX\\ESD_Cracks-002_F7D0E330.wem"
+     },
+     {
+      "Id": "509144032",
+      "Language": "SFX",
+      "ShortName": "ESD_Cracks-006.wav",
+      "Path": "SFX\\ESD_Cracks-006_F7D0E330.wem"
+     },
+     {
+      "Id": "620206910",
+      "Language": "SFX",
+      "ShortName": "SFX_Text_Bip.wav",
+      "Path": "SFX\\SFX_Text_Bip_F7D0E330.wem"
+     },
+     {
+      "Id": "622884997",
+      "Language": "SFX",
+      "ShortName": "ESD_Cracks-001.wav",
+      "Path": "SFX\\ESD_Cracks-001_F7D0E330.wem"
+     },
+     {
+      "Id": "768980723",
+      "Language": "SFX",
+      "ShortName": "ESD_Cracks-005.wav",
+      "Path": "SFX\\ESD_Cracks-005_F7D0E330.wem"
+     },
+     {
+      "Id": "892078412",
+      "Language": "SFX",
+      "ShortName": "ESD_Cracks-004.wav",
+      "Path": "SFX\\ESD_Cracks-004_F7D0E330.wem"
+     },
+     {
+      "Id": "1057235633",
+      "Language": "SFX",
+      "ShortName": "ESD_Cracks-003.wav",
+      "Path": "SFX\\ESD_Cracks-003_F7D0E330.wem"
+     }
+    ]
+   }
+  ]
+ }
+}
