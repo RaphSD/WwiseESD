@@ -5,7 +5,20 @@
 			<ChildrenList>
 				<Effect Name="Auro_Headphones" ID="{4F7563C4-71F7-4885-A640-CC8EEE664D77}" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
 					<PropertyList>
-						<Property Name="Reverb" Type="bool" Value="False"/>
+						<Property Name="ER_Delay" Type="Real32" Value="1"/>
+						<Property Name="ER_Level" Type="Real32" Value="-4.049995"/>
+						<Property Name="LFE_level" Type="Real32" Value="-30.675"/>
+						<Property Name="Reverb_alpha" Type="Real32" Value="0.25"/>
+						<Property Name="Reverb_fcut" Type="Real32" Value="10914.06"/>
+						<Property Name="Reverb_level" Type="Real32" Value="-13.78"/>
+						<Property Name="Reverb_predelay" Type="Real32" Value="0"/>
+						<Property Name="Reverb_tr60" Type="Real32" Value="0.59375"/>
+						<Property Name="Wall_back" Type="Real32" Value="2.6875"/>
+						<Property Name="Wall_bottom" Type="Real32" Value="2.6875"/>
+						<Property Name="Wall_front" Type="Real32" Value="2.6875"/>
+						<Property Name="Wall_left" Type="Real32" Value="2.546875"/>
+						<Property Name="Wall_right" Type="Real32" Value="2.96875"/>
+						<Property Name="Wall_top" Type="Real32" Value="2.546875"/>
 					</PropertyList>
 				</Effect>
 			</ChildrenList>

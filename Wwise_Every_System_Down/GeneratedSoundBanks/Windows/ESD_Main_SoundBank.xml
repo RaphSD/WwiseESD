@@ -15,12 +15,16 @@
 			<IncludedEvents>
 				<Event Id="1313850920" Name="Play_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_Ambiance_01"/>
 				<Event Id="3995708897" Name="Play_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Play_Crackling_Submarine"/>
+				<Event Id="2294038116" Name="Play_SFX_Alarm_Start" ObjectPath="\Events\Default Work Unit\Play_SFX_Alarm_Start"/>
+				<Event Id="2581363913" Name="Play_SFX_Console_Approved" ObjectPath="\Events\Default Work Unit\Play_SFX_Console_Approved"/>
+				<Event Id="4108837005" Name="Play_SFX_Console_Denied" ObjectPath="\Events\Default Work Unit\Play_SFX_Console_Denied"/>
 				<Event Id="1412165763" Name="Play_SFX_Door_Close" ObjectPath="\Events\Default Work Unit\Play_SFX_Door_Close"/>
 				<Event Id="1140103785" Name="Play_SFX_Door_Error" ObjectPath="\Events\Default Work Unit\Play_SFX_Door_Error"/>
 				<Event Id="1312371701" Name="Play_SFX_Door_Open" ObjectPath="\Events\Default Work Unit\Play_SFX_Door_Open"/>
 				<Event Id="1778798315" Name="Play_SFX_Text_Bip" ObjectPath="\Events\Default Work Unit\Play_SFX_Text_Bip"/>
 				<Event Id="1967447362" Name="Stop_Ambiance_01" ObjectPath="\Events\Default Work Unit\Stop_Ambiance_01"/>
 				<Event Id="1945756511" Name="Stop_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Stop_Crackling_Submarine"/>
+				<Event Id="1789658778" Name="Stop_SFX_Alarm_Start" ObjectPath="\Events\Default Work Unit\Stop_SFX_Alarm_Start"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="165936220" Language="SFX">
@@ -31,9 +35,17 @@
 					<ShortName>SFX_Door_Error-001.wav</ShortName>
 					<Path>SFX\SFX_Door_Error-001_B95B134F.wem</Path>
 				</File>
+				<File Id="263819698" Language="SFX">
+					<ShortName>SFX_Alarm.wav</ShortName>
+					<Path>SFX\SFX_Alarm_BABFD097.wem</Path>
+				</File>
 				<File Id="318302895" Language="SFX">
 					<ShortName>ESD_Cracks-002.wav</ShortName>
 					<Path>SFX\ESD_Cracks-002_B95B134F.wem</Path>
+				</File>
+				<File Id="349765883" Language="SFX">
+					<ShortName>SFX_Console_Denied.wav</ShortName>
+					<Path>SFX\SFX_Console_Denied_B95B134F.wem</Path>
 				</File>
 				<File Id="509144032" Language="SFX">
 					<ShortName>ESD_Cracks-006.wav</ShortName>
@@ -54,6 +66,10 @@
 				<File Id="622884997" Language="SFX">
 					<ShortName>ESD_Cracks-001.wav</ShortName>
 					<Path>SFX\ESD_Cracks-001_B95B134F.wem</Path>
+				</File>
+				<File Id="665512331" Language="SFX">
+					<ShortName>SFX_Console_Approved.wav</ShortName>
+					<Path>SFX\SFX_Console_Approved_B95B134F.wem</Path>
 				</File>
 				<File Id="768980723" Language="SFX">
 					<ShortName>ESD_Cracks-005.wav</ShortName>

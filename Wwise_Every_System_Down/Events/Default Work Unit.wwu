@@ -115,6 +115,62 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Alarm_Start" ID="{DE63DA4B-4173-4C8E-9CDD-3E3EC52CB575}">
+					<ChildrenList>
+						<Action Name="" ID="{C05D24EC-BC62-4830-B7DB-7C4AB58F9E8F}" ShortID="713385272">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Alarm_Start" ID="{7FED6DED-4CE0-41A2-8007-1889C47259E9}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_SFX_Alarm_Start" ID="{178C4C76-6949-446B-BD99-5BFF96CBA6DF}">
+					<ChildrenList>
+						<Action Name="" ID="{15C5C90D-9D51-4EA5-9EF4-FE01328BC0EA}" ShortID="1117706">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Alarm_Start" ID="{7FED6DED-4CE0-41A2-8007-1889C47259E9}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Console_Approved" ID="{58042452-3C50-4A2A-B3A4-7037A31DB6F8}">
+					<ChildrenList>
+						<Action Name="" ID="{DE334D3F-904A-48E4-AA3E-FF20199A2B3E}" ShortID="927552044">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Console_Approved" ID="{2ADE7781-2E9E-4634-9B13-2484B142DAE3}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Console_Denied" ID="{34AAF88C-37D9-438A-A8DF-8C608CD90074}">
+					<ChildrenList>
+						<Action Name="" ID="{42093C2D-DC47-4108-82F5-7A01AEB3437F}" ShortID="510576239">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Console_Denied" ID="{A440377D-24EA-43BE-BFE0-4651DE0CD875}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
