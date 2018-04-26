@@ -15,6 +15,9 @@
 			<IncludedEvents>
 				<Event Id="1313850920" Name="Play_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_Ambiance_01"/>
 				<Event Id="3995708897" Name="Play_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Play_Crackling_Submarine"/>
+				<Event Id="1412165763" Name="Play_SFX_Door_Close" ObjectPath="\Events\Default Work Unit\Play_SFX_Door_Close"/>
+				<Event Id="1140103785" Name="Play_SFX_Door_Error" ObjectPath="\Events\Default Work Unit\Play_SFX_Door_Error"/>
+				<Event Id="1312371701" Name="Play_SFX_Door_Open" ObjectPath="\Events\Default Work Unit\Play_SFX_Door_Open"/>
 				<Event Id="1778798315" Name="Play_SFX_Text_Bip" ObjectPath="\Events\Default Work Unit\Play_SFX_Text_Bip"/>
 				<Event Id="1967447362" Name="Stop_Ambiance_01" ObjectPath="\Events\Default Work Unit\Stop_Ambiance_01"/>
 				<Event Id="1945756511" Name="Stop_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Stop_Crackling_Submarine"/>
@@ -24,6 +27,10 @@
 					<ShortName>ESD_Cracks-007.wav</ShortName>
 					<Path>SFX\ESD_Cracks-007_B95B134F.wem</Path>
 				</File>
+				<File Id="257592282" Language="SFX">
+					<ShortName>SFX_Door_Error-001.wav</ShortName>
+					<Path>SFX\SFX_Door_Error-001_B95B134F.wem</Path>
+				</File>
 				<File Id="318302895" Language="SFX">
 					<ShortName>ESD_Cracks-002.wav</ShortName>
 					<Path>SFX\ESD_Cracks-002_B95B134F.wem</Path>
@@ -31,6 +38,10 @@
 				<File Id="509144032" Language="SFX">
 					<ShortName>ESD_Cracks-006.wav</ShortName>
 					<Path>SFX\ESD_Cracks-006_B95B134F.wem</Path>
+				</File>
+				<File Id="571333541" Language="SFX">
+					<ShortName>SFX_Door_Error-002.wav</ShortName>
+					<Path>SFX\SFX_Door_Error-002_B95B134F.wem</Path>
 				</File>
 				<File Id="596582412" Language="SFX">
 					<ShortName>Ambiance_01.wav</ShortName>
@@ -51,6 +62,10 @@
 				<File Id="892078412" Language="SFX">
 					<ShortName>ESD_Cracks-004.wav</ShortName>
 					<Path>SFX\ESD_Cracks-004_B95B134F.wem</Path>
+				</File>
+				<File Id="1009030569" Language="SFX">
+					<ShortName>SFX_Door_Error-003.wav</ShortName>
+					<Path>SFX\SFX_Door_Error-003_B95B134F.wem</Path>
 				</File>
 				<File Id="1057235633" Language="SFX">
 					<ShortName>ESD_Cracks-003.wav</ShortName>

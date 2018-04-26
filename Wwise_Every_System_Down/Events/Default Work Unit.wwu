@@ -73,6 +73,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Door_Close" ID="{67C1B67B-B23A-4868-86DD-CCF6EA3DFAFA}">
+					<ChildrenList>
+						<Action Name="" ID="{1D800EC4-511A-4634-97A8-C04A57B5FFEA}" ShortID="290184138">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Door_Close" ID="{A7DE1492-BF35-4067-BC37-3F27E6AB998A}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Door_Open" ID="{9F775FCD-86C1-4F42-8F54-31FE52B6501F}">
+					<ChildrenList>
+						<Action Name="" ID="{902C1182-39BC-43CF-BC1E-46B986E64624}" ShortID="785951578">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Door_Open" ID="{B22534E4-0746-449F-A3E5-319A619CAD12}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Door_Error" ID="{07C18CF4-2FE5-44EF-A8B5-45CACC377ACF}">
+					<ChildrenList>
+						<Action Name="" ID="{0F2E7CDD-0664-40C1-B84F-5842F3B90CEC}" ShortID="318833915">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Door_Error" ID="{6BF0C459-5A98-4C8A-BCA4-F3D0F9BA17F6}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

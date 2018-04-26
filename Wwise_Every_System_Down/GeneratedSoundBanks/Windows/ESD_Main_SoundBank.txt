@@ -1,5 +1,8 @@
 Event	ID	Name			Wwise Object Path	Notes
+	1140103785	Play_SFX_Door_Error			\Default Work Unit\Play_SFX_Door_Error	
+	1312371701	Play_SFX_Door_Open			\Default Work Unit\Play_SFX_Door_Open	
 	1313850920	Play_Ambiance_01			\Default Work Unit\Play_Ambiance_01	
+	1412165763	Play_SFX_Door_Close			\Default Work Unit\Play_SFX_Door_Close	
 	1778798315	Play_SFX_Text_Bip			\Default Work Unit\Play_SFX_Text_Bip	
 	1945756511	Stop_Crackling_Submarine			\Default Work Unit\Stop_Crackling_Submarine	
 	1967447362	Stop_Ambiance_01			\Default Work Unit\Stop_Ambiance_01	
@@ -20,12 +23,15 @@ Effect plug-ins	ID	Name	Type				Notes
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	165936220	ESD_Cracks-007	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-007_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-007		857753
+	257592282	SFX_Door_Close	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Door_Error-001_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\SFX_Door_Close		3249
 	318302895	ESD_Cracks-002	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-002_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-002		168672
 	509144032	ESD_Cracks-006	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-006_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-006		493616
+	571333541	SFX_Door_Open	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Door_Error-002_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\SFX_Door_Open		3172
 	596582412	Ambiance_01	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Ambiance_01_A2672D7D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance_01		589312
 	620206910	SFX_Text_Bip	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Text_Bip_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\SFX_Text_Bip		2042
 	622884997	ESD_Cracks-001	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-001_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-001		235473
 	768980723	ESD_Cracks-005	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-005_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-005		350829
 	892078412	ESD_Cracks-004	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-004_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-004		461361
+	1009030569	SFX_Door_Error	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Door_Error-003_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\SFX_Door_Error		9302
 	1057235633	ESD_Cracks-003	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-003_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-003		395181
 
