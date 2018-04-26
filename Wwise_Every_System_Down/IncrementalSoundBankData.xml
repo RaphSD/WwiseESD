@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<IncrementalBankBuild Version="6" Flags="1945402095">
+<IncrementalBankBuild Version="6" Flags="1324483096">
 	<Platform GUID="{10E0EAF6-86D2-44E2-AA15-810E2D998A81}">
 		<Banks>
 			<Language ID="393239870">
@@ -9,20 +9,20 @@
 		</Banks>
 		<XMLInfo>
 			<Language ID="393239870">
-				<File Name="ESD_Main_SoundBank" Hash="2108552736" Timestamp="1524746980"/>
-				<File Name="Init" Hash="3655531760" Timestamp="1524746980"/>
+				<File Name="ESD_Main_SoundBank" Hash="1598623356" Timestamp="1524751396"/>
+				<File Name="Init" Hash="1176128004" Timestamp="1524751396"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="4255186473" Timestamp="1524746980"/>
+				<File Name="" Hash="4038418041" Timestamp="1524751396"/>
 			</Language>
 		</XMLInfo>
 		<JSONInfo>
 			<Language ID="393239870">
-				<File Name="ESD_Main_SoundBank" Hash="3910937662" Timestamp="1524746980"/>
-				<File Name="Init" Hash="3133833240" Timestamp="1524746980"/>
+				<File Name="ESD_Main_SoundBank" Hash="2656208550" Timestamp="1524751396"/>
+				<File Name="Init" Hash="2699387357" Timestamp="1524751396"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="4011454056" Timestamp="1524746980"/>
+				<File Name="" Hash="468620301" Timestamp="1524751396"/>
 			</Language>
 		</JSONInfo>
 	</Platform>

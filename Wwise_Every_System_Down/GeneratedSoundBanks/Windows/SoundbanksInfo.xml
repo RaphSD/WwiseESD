@@ -11,23 +11,23 @@
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="454820531" Language="SFX">
+		<SoundBank Id="454820531" GUID="{089F79C2-AAD7-496D-BE70-B61A8BAD55BA}" Language="SFX">
 			<ObjectPath>\SoundBanks\Default Work Unit\ESD_Main_SoundBank</ObjectPath>
 			<ShortName>ESD_Main_SoundBank</ShortName>
 			<Path>ESD_Main_SoundBank.bnk</Path>
 			<IncludedEvents>
-				<Event Id="1313850920" Name="Play_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_Ambiance_01"/>
-				<Event Id="3995708897" Name="Play_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Play_Crackling_Submarine"/>
-				<Event Id="2294038116" Name="Play_SFX_Alarm_Start" ObjectPath="\Events\Default Work Unit\Play_SFX_Alarm_Start"/>
-				<Event Id="2581363913" Name="Play_SFX_Console_Approved" ObjectPath="\Events\Default Work Unit\Play_SFX_Console_Approved"/>
-				<Event Id="4108837005" Name="Play_SFX_Console_Denied" ObjectPath="\Events\Default Work Unit\Play_SFX_Console_Denied"/>
-				<Event Id="1412165763" Name="Play_SFX_Door_Close" ObjectPath="\Events\Default Work Unit\Play_SFX_Door_Close"/>
-				<Event Id="1140103785" Name="Play_SFX_Door_Error" ObjectPath="\Events\Default Work Unit\Play_SFX_Door_Error"/>
-				<Event Id="1312371701" Name="Play_SFX_Door_Open" ObjectPath="\Events\Default Work Unit\Play_SFX_Door_Open"/>
-				<Event Id="1778798315" Name="Play_SFX_Text_Bip" ObjectPath="\Events\Default Work Unit\Play_SFX_Text_Bip"/>
-				<Event Id="1967447362" Name="Stop_Ambiance_01" ObjectPath="\Events\Default Work Unit\Stop_Ambiance_01"/>
-				<Event Id="1945756511" Name="Stop_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Stop_Crackling_Submarine"/>
-				<Event Id="1789658778" Name="Stop_SFX_Alarm_Start" ObjectPath="\Events\Default Work Unit\Stop_SFX_Alarm_Start"/>
+				<Event Id="1313850920" Name="Play_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_Ambiance_01" GUID="{31DC63F8-B1B6-4E0F-A5D2-895CA571B47C}" DurationType="Infinite"/>
+				<Event Id="3995708897" Name="Play_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Play_Crackling_Submarine" GUID="{45DB408B-535E-4C01-AE85-A31852198093}" DurationType="OneShot" DurationMin="97,061539" DurationMax="187,061539"/>
+				<Event Id="2294038116" Name="Play_SFX_Alarm_Start" ObjectPath="\Events\Default Work Unit\Play_SFX_Alarm_Start" GUID="{DE63DA4B-4173-4C8E-9CDD-3E3EC52CB575}" DurationType="Infinite"/>
+				<Event Id="2581363913" Name="Play_SFX_Console_Approved" ObjectPath="\Events\Default Work Unit\Play_SFX_Console_Approved" GUID="{58042452-3C50-4A2A-B3A4-7037A31DB6F8}" DurationType="OneShot" DurationMin="0,223250" DurationMax="0,223250"/>
+				<Event Id="4108837005" Name="Play_SFX_Console_Denied" ObjectPath="\Events\Default Work Unit\Play_SFX_Console_Denied" GUID="{34AAF88C-37D9-438A-A8DF-8C608CD90074}" DurationType="OneShot" DurationMin="0,437500" DurationMax="0,437500"/>
+				<Event Id="1412165763" Name="Play_SFX_Door_Close" ObjectPath="\Events\Default Work Unit\Play_SFX_Door_Close" GUID="{67C1B67B-B23A-4868-86DD-CCF6EA3DFAFA}" DurationType="OneShot" DurationMin="0,200000" DurationMax="0,200000"/>
+				<Event Id="1140103785" Name="Play_SFX_Door_Error" ObjectPath="\Events\Default Work Unit\Play_SFX_Door_Error" GUID="{07C18CF4-2FE5-44EF-A8B5-45CACC377ACF}" DurationType="OneShot" DurationMin="0,266667" DurationMax="0,266667"/>
+				<Event Id="1312371701" Name="Play_SFX_Door_Open" ObjectPath="\Events\Default Work Unit\Play_SFX_Door_Open" GUID="{9F775FCD-86C1-4F42-8F54-31FE52B6501F}" DurationType="OneShot" DurationMin="0,200000" DurationMax="0,200000"/>
+				<Event Id="1778798315" Name="Play_SFX_Text_Bip" ObjectPath="\Events\Default Work Unit\Play_SFX_Text_Bip" GUID="{A3076D17-7C31-4EB7-AA01-1BF26CF1381E}" DurationType="OneShot" DurationMin="0,033333" DurationMax="0,033333"/>
+				<Event Id="1967447362" Name="Stop_Ambiance_01" ObjectPath="\Events\Default Work Unit\Stop_Ambiance_01" GUID="{C8DBBB93-0EA5-4D47-B9CC-AD8EEA92E27C}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
+				<Event Id="1945756511" Name="Stop_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Stop_Crackling_Submarine" GUID="{A361B3EA-FB45-44F2-954D-545F39D1A5CC}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
+				<Event Id="1789658778" Name="Stop_SFX_Alarm_Start" ObjectPath="\Events\Default Work Unit\Stop_SFX_Alarm_Start" GUID="{178C4C76-6949-446B-BD99-5BFF96CBA6DF}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="165936220" Language="SFX">
@@ -92,7 +92,7 @@
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
-		<SoundBank Id="1355168291" Language="SFX">
+		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
 			<ObjectPath>Init</ObjectPath>
 			<ShortName>Init</ShortName>
 			<Path>Init.bnk</Path>
