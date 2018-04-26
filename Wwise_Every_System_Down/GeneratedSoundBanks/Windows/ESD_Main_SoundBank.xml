@@ -13,42 +13,48 @@
 			<ShortName>ESD_Main_SoundBank</ShortName>
 			<Path>ESD_Main_SoundBank.bnk</Path>
 			<IncludedEvents>
+				<Event Id="1313850920" Name="Play_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_Ambiance_01"/>
 				<Event Id="3995708897" Name="Play_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Play_Crackling_Submarine"/>
 				<Event Id="1778798315" Name="Play_SFX_Text_Bip" ObjectPath="\Events\Default Work Unit\Play_SFX_Text_Bip"/>
+				<Event Id="1967447362" Name="Stop_Ambiance_01" ObjectPath="\Events\Default Work Unit\Stop_Ambiance_01"/>
 				<Event Id="1945756511" Name="Stop_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Stop_Crackling_Submarine"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="165936220" Language="SFX">
 					<ShortName>ESD_Cracks-007.wav</ShortName>
-					<Path>SFX\ESD_Cracks-007_F7D0E330.wem</Path>
+					<Path>SFX\ESD_Cracks-007_B95B134F.wem</Path>
 				</File>
 				<File Id="318302895" Language="SFX">
 					<ShortName>ESD_Cracks-002.wav</ShortName>
-					<Path>SFX\ESD_Cracks-002_F7D0E330.wem</Path>
+					<Path>SFX\ESD_Cracks-002_B95B134F.wem</Path>
 				</File>
 				<File Id="509144032" Language="SFX">
 					<ShortName>ESD_Cracks-006.wav</ShortName>
-					<Path>SFX\ESD_Cracks-006_F7D0E330.wem</Path>
+					<Path>SFX\ESD_Cracks-006_B95B134F.wem</Path>
+				</File>
+				<File Id="596582412" Language="SFX">
+					<ShortName>Ambiance_01.wav</ShortName>
+					<Path>SFX\Ambiance_01_A2672D7D.wem</Path>
 				</File>
 				<File Id="620206910" Language="SFX">
 					<ShortName>SFX_Text_Bip.wav</ShortName>
-					<Path>SFX\SFX_Text_Bip_F7D0E330.wem</Path>
+					<Path>SFX\SFX_Text_Bip_B95B134F.wem</Path>
 				</File>
 				<File Id="622884997" Language="SFX">
 					<ShortName>ESD_Cracks-001.wav</ShortName>
-					<Path>SFX\ESD_Cracks-001_F7D0E330.wem</Path>
+					<Path>SFX\ESD_Cracks-001_B95B134F.wem</Path>
 				</File>
 				<File Id="768980723" Language="SFX">
 					<ShortName>ESD_Cracks-005.wav</ShortName>
-					<Path>SFX\ESD_Cracks-005_F7D0E330.wem</Path>
+					<Path>SFX\ESD_Cracks-005_B95B134F.wem</Path>
 				</File>
 				<File Id="892078412" Language="SFX">
 					<ShortName>ESD_Cracks-004.wav</ShortName>
-					<Path>SFX\ESD_Cracks-004_F7D0E330.wem</Path>
+					<Path>SFX\ESD_Cracks-004_B95B134F.wem</Path>
 				</File>
 				<File Id="1057235633" Language="SFX">
 					<ShortName>ESD_Cracks-003.wav</ShortName>
-					<Path>SFX\ESD_Cracks-003_F7D0E330.wem</Path>
+					<Path>SFX\ESD_Cracks-003_B95B134F.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

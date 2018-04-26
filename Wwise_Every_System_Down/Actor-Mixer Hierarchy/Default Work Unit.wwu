@@ -257,6 +257,40 @@
 						</RandomSequenceContainer>
 					</ChildrenList>
 				</Folder>
+				<Sound Name="Ambiance_01" ID="{DC594BFE-AC10-44AD-B73C-BEAE84A78237}" ShortID="529104281">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>79</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Ambiance_01" ID="{67371315-3AE6-4F08-B906-75E4D7E664D2}" ShortID="596582412">
+							<PropertyList>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>1.2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Ambiance_01.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Ambiance_01" ID="{67371315-3AE6-4F08-B906-75E4D7E664D2}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

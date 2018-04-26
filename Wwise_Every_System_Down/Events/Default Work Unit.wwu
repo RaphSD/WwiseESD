@@ -45,6 +45,34 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Ambiance_01" ID="{31DC63F8-B1B6-4E0F-A5D2-895CA571B47C}">
+					<ChildrenList>
+						<Action Name="" ID="{42F45B62-B5D1-4FDD-96B6-7F6B040B8679}" ShortID="811715219">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance_01" ID="{DC594BFE-AC10-44AD-B73C-BEAE84A78237}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Ambiance_01" ID="{C8DBBB93-0EA5-4D47-B9CC-AD8EEA92E27C}">
+					<ChildrenList>
+						<Action Name="" ID="{80ED8257-2163-431C-B9BC-5745DE560C05}" ShortID="756748862">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Ambiance_01" ID="{DC594BFE-AC10-44AD-B73C-BEAE84A78237}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
