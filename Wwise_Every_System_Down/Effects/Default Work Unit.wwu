@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{413C499A-0E45-4E9F-B152-F4F15152586F}" SchemaVersion="85">
 	<Effects>
-		<WorkUnit Name="Default Work Unit" ID="{413C499A-0E45-4E9F-B152-F4F15152586F}" PersistMode="Standalone"/>
+		<WorkUnit Name="Default Work Unit" ID="{413C499A-0E45-4E9F-B152-F4F15152586F}" PersistMode="Standalone">
+			<ChildrenList>
+				<Effect Name="Auro_Headphones" ID="{4F7563C4-71F7-4885-A640-CC8EEE664D77}" PluginName="Auro Headphone" CompanyID="263" PluginID="1100" PluginType="3">
+					<PropertyList>
+						<Property Name="Reverb" Type="bool" Value="False"/>
+					</PropertyList>
+				</Effect>
+			</ChildrenList>
+		</WorkUnit>
 	</Effects>
 </WwiseDocument>

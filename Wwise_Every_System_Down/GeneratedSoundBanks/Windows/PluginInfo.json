@@ -18,6 +18,11 @@
     "Name": "No Output",
     "ID": "11862023",
     "DLL": "DefaultSink"
+   },
+   "Plugin": {
+    "Name": "Auro Headphone",
+    "ID": "72093811",
+    "DLL": "Auro"
    }
   }
  }

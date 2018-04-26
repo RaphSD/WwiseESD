@@ -17,9 +17,13 @@ Game Parameter	ID	Name			Wwise Object Path	Notes
 	4262522749	Wood_Bright			\Factory Reflect Acoustic Textures\Textures\Wood_Bright	
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
-	393239870	SFX			\Default Work Unit\Master Audio Bus\SFX	
+	393239870	SFX			\Default Work Unit\Master Audio Bus\MAIN\SFX	
+	3161908922	MAIN			\Default Work Unit\Master Audio Bus\MAIN	
 	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
-	3991942870	Music			\Default Work Unit\Master Audio Bus\Music	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\MAIN\Music	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2037162648	Auro_Headphones	Auro Headphone			
 
 Audio Devices	ID	Name	Type				Notes
 	530303819	Communication	Communication			
