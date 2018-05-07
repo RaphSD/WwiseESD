@@ -51,6 +51,13 @@
       "DurationType": "Infinite"
      },
      {
+      "Id": "2825731411",
+      "Name": "Play_SFX_Avarie_Going",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Avarie_Going",
+      "GUID": "{34B24811-E690-484A-8519-C667902EB90B}",
+      "DurationType": "Infinite"
+     },
+     {
       "Id": "2581363913",
       "Name": "Play_SFX_Console_Approved",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Console_Approved",
@@ -125,10 +132,30 @@
       "DurationMax": "0,000000"
      },
      {
+      "Id": "2197570480",
+      "Name": "Stop_Electricity_Engine",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Electricity_Engine",
+      "GUID": "{42251E8E-1DA3-4B66-AE97-27FAD5395ADF}",
+      "MaxAttenuation": "0,000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0,000000",
+      "DurationMax": "0,000000"
+     },
+     {
       "Id": "1789658778",
       "Name": "Stop_SFX_Alarm_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_SFX_Alarm_Start",
       "GUID": "{178C4C76-6949-446B-BD99-5BFF96CBA6DF}",
+      "MaxAttenuation": "0,000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0,000000",
+      "DurationMax": "0,000000"
+     },
+     {
+      "Id": "2742673161",
+      "Name": "Stop_SFX_Avarie_Going",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_SFX_Avarie_Going",
+      "GUID": "{2F3E2090-470C-43FA-A6B9-4C370FD2189E}",
       "MaxAttenuation": "0,000000",
       "DurationType": "OneShot",
       "DurationMin": "0,000000",
@@ -213,6 +240,12 @@
       "Language": "SFX",
       "ShortName": "ESD_Cracks-005.wav",
       "Path": "SFX\\ESD_Cracks-005_B95B134F.wem"
+     },
+     {
+      "Id": "889974538",
+      "Language": "SFX",
+      "ShortName": "Avarie_During.wav",
+      "Path": "SFX\\Avarie_During_B95B134F.wem"
      },
      {
       "Id": "892078412",

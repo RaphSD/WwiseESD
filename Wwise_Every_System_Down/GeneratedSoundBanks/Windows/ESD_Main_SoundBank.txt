@@ -7,8 +7,11 @@ Event	ID	Name			Wwise Object Path	Notes
 	1789658778	Stop_SFX_Alarm_Start			\Default Work Unit\Stop_SFX_Alarm_Start	
 	1945756511	Stop_Crackling_Submarine			\Default Work Unit\Stop_Crackling_Submarine	
 	1967447362	Stop_Ambiance_01			\Default Work Unit\Stop_Ambiance_01	
+	2197570480	Stop_Electricity_Engine			\Default Work Unit\Stop_Electricity_Engine	
 	2294038116	Play_SFX_Alarm_Start			\Default Work Unit\Play_SFX_Alarm_Start	
 	2581363913	Play_SFX_Console_Approved			\Default Work Unit\Play_SFX_Console_Approved	
+	2742673161	Stop_SFX_Avarie_Going			\Default Work Unit\Stop_SFX_Avarie_Going	
+	2825731411	Play_SFX_Avarie_Going			\Default Work Unit\Play_SFX_Avarie_Going	
 	3495528830	Play_Electricity_Engine			\Default Work Unit\Play_Electricity_Engine	
 	3995708897	Play_Crackling_Submarine			\Default Work Unit\Play_Crackling_Submarine	
 	4108837005	Play_SFX_Console_Denied			\Default Work Unit\Play_SFX_Console_Denied	
@@ -40,6 +43,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	622884997	ESD_Cracks-001	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-001_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-001		235473
 	665512331	SFX_Console_Approved	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Console_Approved_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\SFX_Console_Approved		3120
 	768980723	ESD_Cracks-005	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-005_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-005		350829
+	889974538	Avarie_During	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Avarie_During_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\SFX_Avarie_Going\Avarie_During		7849
 	892078412	ESD_Cracks-004	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-004_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-004		461361
 	1009030569	SFX_Door_Error	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Door_Error-003_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\SFX_Door_Error		9302
 	1057235633	ESD_Cracks-003	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-003_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-003		395181
