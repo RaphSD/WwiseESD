@@ -15,6 +15,7 @@ namespace AK
     {
         static const AkUniqueID PLAY_AMBIANCE_01 = 1313850920U;
         static const AkUniqueID PLAY_CRACKLING_SUBMARINE = 3995708897U;
+        static const AkUniqueID PLAY_ELECTRICITY_ENGINE = 3495528830U;
         static const AkUniqueID PLAY_SFX_ALARM_START = 2294038116U;
         static const AkUniqueID PLAY_SFX_CONSOLE_APPROVED = 2581363913U;
         static const AkUniqueID PLAY_SFX_CONSOLE_DENIED = 4108837005U;

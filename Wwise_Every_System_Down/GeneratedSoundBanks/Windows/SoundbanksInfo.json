@@ -5,11 +5,11 @@
   "SchemaVersion": "11",
   "SoundbankVersion": "128",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\",
-   "SourceFilesRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\",
+   "SourceFilesRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\"
+   "ExternalSourcesOutputRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -38,6 +38,13 @@
       "DurationType": "OneShot",
       "DurationMin": "97,061539",
       "DurationMax": "187,061539"
+     },
+     {
+      "Id": "3495528830",
+      "Name": "Play_Electricity_Engine",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Electricity_Engine",
+      "GUID": "{8304B0B2-C71B-4C79-9552-7294D912EAAC}",
+      "DurationType": "Infinite"
      },
      {
       "Id": "2294038116",
@@ -133,6 +140,12 @@
     ],
     "IncludedMemoryFiles": [
      {
+      "Id": "20439515",
+      "Language": "SFX",
+      "ShortName": "Track 05.wav",
+      "Path": "SFX\\Track 05_233BD093.wem"
+     },
+     {
       "Id": "165936220",
       "Language": "SFX",
       "ShortName": "ESD_Cracks-007.wav",
@@ -148,7 +161,7 @@
       "Id": "263819698",
       "Language": "SFX",
       "ShortName": "SFX_Alarm.wav",
-      "Path": "SFX\\SFX_Alarm_BABFD097.wem"
+      "Path": "SFX\\SFX_Alarm_6D7C38E4.wem"
      },
      {
       "Id": "318302895",
@@ -221,6 +234,12 @@
       "Language": "SFX",
       "ShortName": "ESD_Cracks-003.wav",
       "Path": "SFX\\ESD_Cracks-003_B95B134F.wem"
+     },
+     {
+      "Id": "1072512648",
+      "Language": "SFX",
+      "ShortName": "Track 18.wav",
+      "Path": "SFX\\Track 18_1F0CECF2.wem"
      }
     ]
    },

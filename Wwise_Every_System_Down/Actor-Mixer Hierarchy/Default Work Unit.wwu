@@ -6,6 +6,13 @@
 				<Folder Name="SFX" ID="{7BDBF7BE-A1ED-4F46-9E11-B87B7FA7929E}" ShortID="73439963">
 					<ChildrenList>
 						<ActorMixer Name="SFX_Computer" ID="{F987AFB1-942E-4185-89C8-712900341AE5}" ShortID="88150137">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
@@ -146,6 +153,11 @@
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-8</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -188,6 +200,11 @@
 						<RandomSequenceContainer Name="Crackling_Submarine" ID="{A4967173-A49F-4479-8B85-B99B324BB0DD}" ShortID="569006703">
 							<PropertyList>
 								<Property Name="3DPositionSource" Type="int16" Value="0"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>59</Value>
+									</ValueList>
+								</Property>
 								<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
 								<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="1"/>
 								<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="10">
@@ -205,6 +222,11 @@
 								</Property>
 								<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
 								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-15</Value>
+									</ValueList>
+								</Property>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
@@ -400,42 +422,125 @@
 								</Position>
 							</PositioningInfo>
 						</RandomSequenceContainer>
-					</ChildrenList>
-				</Folder>
-				<Sound Name="Ambiance_01" ID="{DC594BFE-AC10-44AD-B73C-BEAE84A78237}" ShortID="529104281">
-					<PropertyList>
-						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
-						<Property Name="Lowpass" Type="int16">
-							<ValueList>
-								<Value>79</Value>
-							</ValueList>
-						</Property>
-					</PropertyList>
-					<ReferenceList>
-						<Reference Name="Conversion">
-							<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
-						</Reference>
-						<Reference Name="OutputBus">
-							<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
-						</Reference>
-					</ReferenceList>
-					<ChildrenList>
-						<AudioFileSource Name="Ambiance_01" ID="{67371315-3AE6-4F08-B906-75E4D7E664D2}" ShortID="596582412">
+						<Sound Name="Electric_Hum" ID="{8771F283-F540-44FB-B3DE-5CC4B8D3186A}" ShortID="783569730">
 							<PropertyList>
-								<Property Name="VolumeOffset" Type="Real64">
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>1.2</Value>
+										<Value>-31</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
-							<Language>SFX</Language>
-							<AudioFile>Ambiance_01.wav</AudioFile>
-						</AudioFileSource>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Electric_Hum" ID="{4B8D6D0B-9DDB-40B2-BC71-EF1B1CA0330E}" ShortID="20439515">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="250"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.74571428571429"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="1.41142857142857"/>
+										<Property Name="LoopBegin" Type="Real64" Value="14.1885714285714"/>
+										<Property Name="LoopEnd" Type="Real64" Value="20.7628571428571"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="12.0342857142857"/>
+										<Property Name="TrimEnd" Type="Real64" Value="24.44"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Track 05.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Electric_Hum" ID="{4B8D6D0B-9DDB-40B2-BC71-EF1B1CA0330E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Engine" ID="{863B5767-32F5-4B81-A1D2-E0678EFE50DD}" ShortID="242701520">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>50</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-45</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Engine" ID="{81B0790A-9FB2-4079-9847-1FDFE47DE41A}" ShortID="1072512648">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="41"/>
+										<Property Name="FadeInDuration" Type="Real64" Value="1.79910714285714"/>
+										<Property Name="LoopBegin" Type="Real64" Value="6.54875"/>
+										<Property Name="LoopEnd" Type="Real64" Value="39.5803571428572"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="3.09446428571429"/>
+										<Property Name="TrimEnd" Type="Real64" Value="42.315"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Track 18.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Engine" ID="{81B0790A-9FB2-4079-9847-1FDFE47DE41A}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Ambiance_01" ID="{DC594BFE-AC10-44AD-B73C-BEAE84A78237}" ShortID="529104281">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>79</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-19</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Ambiance_01" ID="{67371315-3AE6-4F08-B906-75E4D7E664D2}" ShortID="596582412">
+									<PropertyList>
+										<Property Name="VolumeOffset" Type="Real64">
+											<ValueList>
+												<Value>1.2</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Ambiance_01.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Ambiance_01" ID="{67371315-3AE6-4F08-B906-75E4D7E664D2}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
 					</ChildrenList>
-					<ActiveSourceList>
-						<ActiveSource Name="Ambiance_01" ID="{67371315-3AE6-4F08-B906-75E4D7E664D2}" Platform="Linked"/>
-					</ActiveSourceList>
-				</Sound>
+				</Folder>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

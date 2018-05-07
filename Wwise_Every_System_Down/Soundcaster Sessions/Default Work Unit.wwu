@@ -14,6 +14,18 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Ambiance_01" ID="{DC594BFE-AC10-44AD-B73C-BEAE84A78237}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+							<Position X="0" Y="2"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Electric_Hum" ID="{8771F283-F540-44FB-B3DE-5CC4B8D3186A}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+							<Position X="0" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Engine" ID="{863B5767-32F5-4B81-A1D2-E0678EFE50DD}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+							<Position X="0" Y="4"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Stop_Crackling_Submarine" ID="{A361B3EA-FB45-44F2-954D-545F39D1A5CC}" WorkUnitID="{3FA4B29B-685F-4625-AF37-09E67FE76CDE}"/>
 							<Position X="1" Y="0"/>
 						</Module>
