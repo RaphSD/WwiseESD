@@ -54,9 +54,9 @@
       "DurationType": "Infinite"
      },
      {
-      "Id": "2825731411",
-      "Name": "Play_SFX_Avarie_Going",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Avarie_Going",
+      "Id": "1317253172",
+      "Name": "Play_SFX_Avarie",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Avarie",
       "GUID": "{34B24811-E690-484A-8519-C667902EB90B}",
       "DurationType": "Infinite"
      },
@@ -155,14 +155,13 @@
       "DurationMax": "0,000000"
      },
      {
-      "Id": "2742673161",
-      "Name": "Stop_SFX_Avarie_Going",
-      "ObjectPath": "\\Events\\Default Work Unit\\Stop_SFX_Avarie_Going",
+      "Id": "2894064942",
+      "Name": "Stop_SFX_Avarie",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_SFX_Avarie",
       "GUID": "{2F3E2090-470C-43FA-A6B9-4C370FD2189E}",
-      "MaxAttenuation": "0,000000",
       "DurationType": "OneShot",
-      "DurationMin": "0,000000",
-      "DurationMax": "0,000000"
+      "DurationMin": "1,178417",
+      "DurationMax": "1,178417"
      }
     ],
     "IncludedMemoryFiles": [
@@ -201,6 +200,12 @@
       "Language": "SFX",
       "ShortName": "SFX_Console_Denied.wav",
       "Path": "SFX\\SFX_Console_Denied_B95B134F.wem"
+     },
+     {
+      "Id": "359134993",
+      "Language": "SFX",
+      "ShortName": "Avarie_Start.wav",
+      "Path": "SFX\\Avarie_Start_B95B134F.wem"
      },
      {
       "Id": "509144032",
@@ -255,6 +260,12 @@
       "Language": "SFX",
       "ShortName": "ESD_Cracks-004.wav",
       "Path": "SFX\\ESD_Cracks-004_B95B134F.wem"
+     },
+     {
+      "Id": "948872807",
+      "Language": "SFX",
+      "ShortName": "Avarie_End.wav",
+      "Path": "SFX\\Avarie_End_B95B134F.wem"
      },
      {
       "Id": "1009030569",

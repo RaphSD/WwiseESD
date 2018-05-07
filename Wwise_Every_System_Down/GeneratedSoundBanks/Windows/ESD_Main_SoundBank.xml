@@ -17,7 +17,7 @@
 				<Event Id="3995708897" Name="Play_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Play_Crackling_Submarine" GUID="{45DB408B-535E-4C01-AE85-A31852198093}" DurationType="OneShot" DurationMin="97,061539" DurationMax="187,061539"/>
 				<Event Id="3495528830" Name="Play_Electricity_Engine" ObjectPath="\Events\Default Work Unit\Play_Electricity_Engine" GUID="{8304B0B2-C71B-4C79-9552-7294D912EAAC}" DurationType="Infinite"/>
 				<Event Id="2294038116" Name="Play_SFX_Alarm_Start" ObjectPath="\Events\Default Work Unit\Play_SFX_Alarm_Start" GUID="{DE63DA4B-4173-4C8E-9CDD-3E3EC52CB575}" DurationType="Infinite"/>
-				<Event Id="2825731411" Name="Play_SFX_Avarie_Going" ObjectPath="\Events\Default Work Unit\Play_SFX_Avarie_Going" GUID="{34B24811-E690-484A-8519-C667902EB90B}" DurationType="Infinite"/>
+				<Event Id="1317253172" Name="Play_SFX_Avarie" ObjectPath="\Events\Default Work Unit\Play_SFX_Avarie" GUID="{34B24811-E690-484A-8519-C667902EB90B}" DurationType="Infinite"/>
 				<Event Id="2581363913" Name="Play_SFX_Console_Approved" ObjectPath="\Events\Default Work Unit\Play_SFX_Console_Approved" GUID="{58042452-3C50-4A2A-B3A4-7037A31DB6F8}" DurationType="OneShot" DurationMin="0,223250" DurationMax="0,223250"/>
 				<Event Id="4108837005" Name="Play_SFX_Console_Denied" ObjectPath="\Events\Default Work Unit\Play_SFX_Console_Denied" GUID="{34AAF88C-37D9-438A-A8DF-8C608CD90074}" DurationType="OneShot" DurationMin="0,437500" DurationMax="0,437500"/>
 				<Event Id="1412165763" Name="Play_SFX_Door_Close" ObjectPath="\Events\Default Work Unit\Play_SFX_Door_Close" GUID="{67C1B67B-B23A-4868-86DD-CCF6EA3DFAFA}" DurationType="OneShot" DurationMin="0,200000" DurationMax="0,200000"/>
@@ -28,7 +28,7 @@
 				<Event Id="1945756511" Name="Stop_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Stop_Crackling_Submarine" GUID="{A361B3EA-FB45-44F2-954D-545F39D1A5CC}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
 				<Event Id="2197570480" Name="Stop_Electricity_Engine" ObjectPath="\Events\Default Work Unit\Stop_Electricity_Engine" GUID="{42251E8E-1DA3-4B66-AE97-27FAD5395ADF}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
 				<Event Id="1789658778" Name="Stop_SFX_Alarm_Start" ObjectPath="\Events\Default Work Unit\Stop_SFX_Alarm_Start" GUID="{178C4C76-6949-446B-BD99-5BFF96CBA6DF}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
-				<Event Id="2742673161" Name="Stop_SFX_Avarie_Going" ObjectPath="\Events\Default Work Unit\Stop_SFX_Avarie_Going" GUID="{2F3E2090-470C-43FA-A6B9-4C370FD2189E}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
+				<Event Id="2894064942" Name="Stop_SFX_Avarie" ObjectPath="\Events\Default Work Unit\Stop_SFX_Avarie" GUID="{2F3E2090-470C-43FA-A6B9-4C370FD2189E}" DurationType="OneShot" DurationMin="1,178417" DurationMax="1,178417"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="20439515" Language="SFX">
@@ -54,6 +54,10 @@
 				<File Id="349765883" Language="SFX">
 					<ShortName>SFX_Console_Denied.wav</ShortName>
 					<Path>SFX\SFX_Console_Denied_B95B134F.wem</Path>
+				</File>
+				<File Id="359134993" Language="SFX">
+					<ShortName>Avarie_Start.wav</ShortName>
+					<Path>SFX\Avarie_Start_B95B134F.wem</Path>
 				</File>
 				<File Id="509144032" Language="SFX">
 					<ShortName>ESD_Cracks-006.wav</ShortName>
@@ -90,6 +94,10 @@
 				<File Id="892078412" Language="SFX">
 					<ShortName>ESD_Cracks-004.wav</ShortName>
 					<Path>SFX\ESD_Cracks-004_B95B134F.wem</Path>
+				</File>
+				<File Id="948872807" Language="SFX">
+					<ShortName>Avarie_End.wav</ShortName>
+					<Path>SFX\Avarie_End_B95B134F.wem</Path>
 				</File>
 				<File Id="1009030569" Language="SFX">
 					<ShortName>SFX_Door_Error-003.wav</ShortName>

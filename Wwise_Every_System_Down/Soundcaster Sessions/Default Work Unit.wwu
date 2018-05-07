@@ -14,15 +14,11 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Ambiance_01" ID="{DC594BFE-AC10-44AD-B73C-BEAE84A78237}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
-							<Position X="0" Y="2"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Electric_Hum" ID="{8771F283-F540-44FB-B3DE-5CC4B8D3186A}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+							<ObjectRef Name="Play_SFX_Avarie" ID="{34B24811-E690-484A-8519-C667902EB90B}" WorkUnitID="{3FA4B29B-685F-4625-AF37-09E67FE76CDE}"/>
 							<Position X="0" Y="3"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Engine" ID="{863B5767-32F5-4B81-A1D2-E0678EFE50DD}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+							<ObjectRef Name="Stop_SFX_Avarie" ID="{2F3E2090-470C-43FA-A6B9-4C370FD2189E}" WorkUnitID="{3FA4B29B-685F-4625-AF37-09E67FE76CDE}"/>
 							<Position X="0" Y="4"/>
 						</Module>
 						<Module>

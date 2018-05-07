@@ -17,7 +17,7 @@ namespace AK
         static const AkUniqueID PLAY_CRACKLING_SUBMARINE = 3995708897U;
         static const AkUniqueID PLAY_ELECTRICITY_ENGINE = 3495528830U;
         static const AkUniqueID PLAY_SFX_ALARM_START = 2294038116U;
-        static const AkUniqueID PLAY_SFX_AVARIE_GOING = 2825731411U;
+        static const AkUniqueID PLAY_SFX_AVARIE = 1317253172U;
         static const AkUniqueID PLAY_SFX_CONSOLE_APPROVED = 2581363913U;
         static const AkUniqueID PLAY_SFX_CONSOLE_DENIED = 4108837005U;
         static const AkUniqueID PLAY_SFX_DOOR_CLOSE = 1412165763U;
@@ -28,7 +28,7 @@ namespace AK
         static const AkUniqueID STOP_CRACKLING_SUBMARINE = 1945756511U;
         static const AkUniqueID STOP_ELECTRICITY_ENGINE = 2197570480U;
         static const AkUniqueID STOP_SFX_ALARM_START = 1789658778U;
-        static const AkUniqueID STOP_SFX_AVARIE_GOING = 2742673161U;
+        static const AkUniqueID STOP_SFX_AVARIE = 2894064942U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS
