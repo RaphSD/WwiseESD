@@ -111,8 +111,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Text_Bip",
       "GUID": "{A3076D17-7C31-4EB7-AA01-1BF26CF1381E}",
       "DurationType": "OneShot",
-      "DurationMin": "0,133333",
-      "DurationMax": "0,133333"
+      "DurationMin": "0,033333",
+      "DurationMax": "0,033333"
      },
      {
       "Id": "1967447362",
