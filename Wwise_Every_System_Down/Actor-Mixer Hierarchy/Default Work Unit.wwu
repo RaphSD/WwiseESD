@@ -24,6 +24,17 @@
 							<ChildrenList>
 								<Sound Name="SFX_Text_Bip" ID="{966795AE-BC63-455C-BE94-2B59A5630225}" ShortID="511159282">
 									<PropertyList>
+										<Property Name="IsGlobalLimit" Type="int16" Value="1"/>
+										<Property Name="MaxSoundPerInstance" Type="int16">
+											<ValueList>
+												<Value>1</Value>
+											</ValueList>
+										</Property>
+										<Property Name="UseMaxSoundPerInstance" Type="bool">
+											<ValueList>
+												<Value>True</Value>
+											</ValueList>
+										</Property>
 										<Property Name="Volume" Type="Real64">
 											<ValueList>
 												<Value>-24</Value>
