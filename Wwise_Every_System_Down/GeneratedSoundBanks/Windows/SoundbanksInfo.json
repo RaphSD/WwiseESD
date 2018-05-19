@@ -5,11 +5,11 @@
   "SchemaVersion": "11",
   "SoundbankVersion": "128",
   "RootPaths": {
-   "ProjectRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\",
-   "SourceFilesRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\",
+   "SourceFilesRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\"
+   "ExternalSourcesOutputRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -169,7 +169,7 @@
       "Id": "20439515",
       "Language": "SFX",
       "ShortName": "Track 05.wav",
-      "Path": "SFX\\Track 05_233BD093.wem"
+      "Path": "SFX\\Track 05_6DC33264.wem"
      },
      {
       "Id": "165936220",
@@ -283,7 +283,7 @@
       "Id": "1072512648",
       "Language": "SFX",
       "ShortName": "Track 18.wav",
-      "Path": "SFX\\Track 18_1F0CECF2.wem"
+      "Path": "SFX\\Track 18_64EFA247.wem"
      }
     ]
    },
