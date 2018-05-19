@@ -3,26 +3,26 @@
 	<Platform GUID="{10E0EAF6-86D2-44E2-AA15-810E2D998A81}">
 		<Banks>
 			<Language ID="393239870">
-				<File Name="ESD_Main_SoundBank" Hash="1990900627" Timestamp="1524746980"/>
-				<File Name="Init" Hash="3073897835" Timestamp="1524746980"/>
+				<File Name="ESD_Main_SoundBank" Hash="2905439481" Timestamp="1526730513"/>
+				<File Name="Init" Hash="3294896062" Timestamp="1526730513"/>
 			</Language>
 		</Banks>
 		<XMLInfo>
 			<Language ID="393239870">
-				<File Name="ESD_Main_SoundBank" Hash="1598623356" Timestamp="1524751396"/>
-				<File Name="Init" Hash="1176128004" Timestamp="1524751396"/>
+				<File Name="ESD_Main_SoundBank" Hash="991458593" Timestamp="1526730513"/>
+				<File Name="Init" Hash="1176128004" Timestamp="1526730513"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="4038418041" Timestamp="1524751396"/>
+				<File Name="" Hash="4291731798" Timestamp="1526730513"/>
 			</Language>
 		</XMLInfo>
 		<JSONInfo>
 			<Language ID="393239870">
-				<File Name="ESD_Main_SoundBank" Hash="2656208550" Timestamp="1524751396"/>
-				<File Name="Init" Hash="2699387357" Timestamp="1524751396"/>
+				<File Name="ESD_Main_SoundBank" Hash="259716719" Timestamp="1526730513"/>
+				<File Name="Init" Hash="2699387357" Timestamp="1526730513"/>
 			</Language>
 			<Language ID="-1">
-				<File Name="" Hash="468620301" Timestamp="1524751396"/>
+				<File Name="" Hash="362743972" Timestamp="1526730513"/>
 			</Language>
 		</JSONInfo>
 	</Platform>

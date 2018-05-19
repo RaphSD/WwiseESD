@@ -63,7 +63,7 @@
 				<Property Name="ProjectExplorer\x64_Expanded_1_1" Type="string" Value="2KQUFaYdKkGhfnXKDCFJ81mm84aLvyhDr7PXFOVPyi+WpCYW82vWT6UbFdAvks3/"/>
 				<Property Name="ProjectExplorer\x64_Expanded_20_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_21_1" Type="string" Value=""/>
-				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="sa+H+S6UhUGJyHEpADQa5UQS81Xhf3BDpW7GLdqFcC++99t77aFGT54RuHt/p5Ke0vel9z/ni0+GIspBVXJThQ=="/>
+				<Property Name="ProjectExplorer\x64_Expanded_2_1" Type="string" Value="sa+H+S6UhUGJyHEpADQa5e1t7X/gTKJBgAcYicRyWelEEvNV4X9wQ6Vuxi3ahXAvvvfbe+2hRk+eEbh7f6eSntL3pfc/54tPhiLKQVVyU4U="/>
 				<Property Name="ProjectExplorer\x64_Expanded_3_1" Type="string" Value="m7KkP19oJUavNwnmf+ds3g=="/>
 				<Property Name="ProjectExplorer\x64_Expanded_4_1" Type="string" Value=""/>
 				<Property Name="ProjectExplorer\x64_Expanded_5_1" Type="string" Value=""/>
@@ -109,6 +109,7 @@
 						<Value Platform="Windows"></Value>
 					</ValueList>
 				</Property>
+				<Property Name="Soundcaster\PreviousSession" Type="string" Value="{AD9632B2-B8ED-4B74-AC25-6F532FD07B62}"/>
 			</PropertyList>
 		</UserProjectSettings>
 	</UserProjectSettingsInfo>
