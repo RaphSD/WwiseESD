@@ -171,6 +171,92 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Electricity_Engine" ID="{8304B0B2-C71B-4C79-9552-7294D912EAAC}">
+					<ChildrenList>
+						<Action Name="" ID="{98A8E652-33CE-4147-9C49-1EA61E76508D}" ShortID="878740880">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Electric_Hum" ID="{8771F283-F540-44FB-B3DE-5CC4B8D3186A}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{7FC1298F-7D6B-467E-9530-BCA741773575}" ShortID="75513696">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Engine" ID="{863B5767-32F5-4B81-A1D2-E0678EFE50DD}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Avarie" ID="{34B24811-E690-484A-8519-C667902EB90B}">
+					<ChildrenList>
+						<Action Name="" ID="{79EC35B1-6831-49CE-BD37-1259B96481E1}" ShortID="384437437">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Avarie_Start_Going" ID="{DDC1185B-BB8D-4A6E-920F-0220D8F6D5EF}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_SFX_Avarie" ID="{2F3E2090-470C-43FA-A6B9-4C370FD2189E}">
+					<ChildrenList>
+						<Action Name="" ID="{7B523D43-DEF0-448F-B4D6-ADC2B2E3C6B9}" ShortID="338156753">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Avarie_Start_Going" ID="{DDC1185B-BB8D-4A6E-920F-0220D8F6D5EF}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{28732BD4-F2D7-48DD-9660-7647E6B65C0E}" ShortID="130056881">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Avarie_End" ID="{7C240D95-3ACB-486F-A9BC-082539C9F088}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Electricity_Engine" ID="{42251E8E-1DA3-4B66-AE97-27FAD5395ADF}">
+					<ChildrenList>
+						<Action Name="" ID="{E07F19F6-6C60-4621-9754-EE2FE8033A48}" ShortID="724169383">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Electric_Hum" ID="{8771F283-F540-44FB-B3DE-5CC4B8D3186A}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{CAB3148A-AF37-4EB8-A756-5DC0C5601983}" ShortID="948465475">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Engine" ID="{863B5767-32F5-4B81-A1D2-E0678EFE50DD}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

@@ -5,11 +5,11 @@
   "SchemaVersion": "11",
   "SoundbankVersion": "128",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\",
-   "SourceFilesRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\",
+   "SourceFilesRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\"
+   "ExternalSourcesOutputRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -40,10 +40,24 @@
       "DurationMax": "187,061539"
      },
      {
+      "Id": "3495528830",
+      "Name": "Play_Electricity_Engine",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Electricity_Engine",
+      "GUID": "{8304B0B2-C71B-4C79-9552-7294D912EAAC}",
+      "DurationType": "Infinite"
+     },
+     {
       "Id": "2294038116",
       "Name": "Play_SFX_Alarm_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Alarm_Start",
       "GUID": "{DE63DA4B-4173-4C8E-9CDD-3E3EC52CB575}",
+      "DurationType": "Infinite"
+     },
+     {
+      "Id": "1317253172",
+      "Name": "Play_SFX_Avarie",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Avarie",
+      "GUID": "{34B24811-E690-484A-8519-C667902EB90B}",
       "DurationType": "Infinite"
      },
      {
@@ -121,6 +135,16 @@
       "DurationMax": "0,000000"
      },
      {
+      "Id": "2197570480",
+      "Name": "Stop_Electricity_Engine",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Electricity_Engine",
+      "GUID": "{42251E8E-1DA3-4B66-AE97-27FAD5395ADF}",
+      "MaxAttenuation": "0,000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0,000000",
+      "DurationMax": "0,000000"
+     },
+     {
       "Id": "1789658778",
       "Name": "Stop_SFX_Alarm_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_SFX_Alarm_Start",
@@ -129,9 +153,24 @@
       "DurationType": "OneShot",
       "DurationMin": "0,000000",
       "DurationMax": "0,000000"
+     },
+     {
+      "Id": "2894064942",
+      "Name": "Stop_SFX_Avarie",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_SFX_Avarie",
+      "GUID": "{2F3E2090-470C-43FA-A6B9-4C370FD2189E}",
+      "DurationType": "OneShot",
+      "DurationMin": "1,178417",
+      "DurationMax": "1,178417"
      }
     ],
     "IncludedMemoryFiles": [
+     {
+      "Id": "20439515",
+      "Language": "SFX",
+      "ShortName": "Track 05.wav",
+      "Path": "SFX\\Track 05_233BD093.wem"
+     },
      {
       "Id": "165936220",
       "Language": "SFX",
@@ -161,6 +200,12 @@
       "Language": "SFX",
       "ShortName": "SFX_Console_Denied.wav",
       "Path": "SFX\\SFX_Console_Denied_B95B134F.wem"
+     },
+     {
+      "Id": "359134993",
+      "Language": "SFX",
+      "ShortName": "Avarie_Start.wav",
+      "Path": "SFX\\Avarie_Start_B95B134F.wem"
      },
      {
       "Id": "509144032",
@@ -205,10 +250,22 @@
       "Path": "SFX\\ESD_Cracks-005_B95B134F.wem"
      },
      {
+      "Id": "889974538",
+      "Language": "SFX",
+      "ShortName": "Avarie_During.wav",
+      "Path": "SFX\\Avarie_During_B95B134F.wem"
+     },
+     {
       "Id": "892078412",
       "Language": "SFX",
       "ShortName": "ESD_Cracks-004.wav",
       "Path": "SFX\\ESD_Cracks-004_B95B134F.wem"
+     },
+     {
+      "Id": "948872807",
+      "Language": "SFX",
+      "ShortName": "Avarie_End.wav",
+      "Path": "SFX\\Avarie_End_B95B134F.wem"
      },
      {
       "Id": "1009030569",
@@ -221,6 +278,12 @@
       "Language": "SFX",
       "ShortName": "ESD_Cracks-003.wav",
       "Path": "SFX\\ESD_Cracks-003_B95B134F.wem"
+     },
+     {
+      "Id": "1072512648",
+      "Language": "SFX",
+      "ShortName": "Track 18.wav",
+      "Path": "SFX\\Track 18_1F0CECF2.wem"
      }
     ]
    },

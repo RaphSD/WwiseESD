@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\</ProjectRoot>
+		<SourceFilesRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="454820531" GUID="{089F79C2-AAD7-496D-BE70-B61A8BAD55BA}" Language="SFX">
@@ -15,7 +15,9 @@
 			<IncludedEvents>
 				<Event Id="1313850920" Name="Play_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_Ambiance_01" GUID="{31DC63F8-B1B6-4E0F-A5D2-895CA571B47C}" DurationType="Infinite"/>
 				<Event Id="3995708897" Name="Play_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Play_Crackling_Submarine" GUID="{45DB408B-535E-4C01-AE85-A31852198093}" DurationType="OneShot" DurationMin="97,061539" DurationMax="187,061539"/>
+				<Event Id="3495528830" Name="Play_Electricity_Engine" ObjectPath="\Events\Default Work Unit\Play_Electricity_Engine" GUID="{8304B0B2-C71B-4C79-9552-7294D912EAAC}" DurationType="Infinite"/>
 				<Event Id="2294038116" Name="Play_SFX_Alarm_Start" ObjectPath="\Events\Default Work Unit\Play_SFX_Alarm_Start" GUID="{DE63DA4B-4173-4C8E-9CDD-3E3EC52CB575}" DurationType="Infinite"/>
+				<Event Id="1317253172" Name="Play_SFX_Avarie" ObjectPath="\Events\Default Work Unit\Play_SFX_Avarie" GUID="{34B24811-E690-484A-8519-C667902EB90B}" DurationType="Infinite"/>
 				<Event Id="2581363913" Name="Play_SFX_Console_Approved" ObjectPath="\Events\Default Work Unit\Play_SFX_Console_Approved" GUID="{58042452-3C50-4A2A-B3A4-7037A31DB6F8}" DurationType="OneShot" DurationMin="0,223250" DurationMax="0,223250"/>
 				<Event Id="4108837005" Name="Play_SFX_Console_Denied" ObjectPath="\Events\Default Work Unit\Play_SFX_Console_Denied" GUID="{34AAF88C-37D9-438A-A8DF-8C608CD90074}" DurationType="OneShot" DurationMin="0,437500" DurationMax="0,437500"/>
 				<Event Id="1412165763" Name="Play_SFX_Door_Close" ObjectPath="\Events\Default Work Unit\Play_SFX_Door_Close" GUID="{67C1B67B-B23A-4868-86DD-CCF6EA3DFAFA}" DurationType="OneShot" DurationMin="0,200000" DurationMax="0,200000"/>
@@ -24,9 +26,15 @@
 				<Event Id="1778798315" Name="Play_SFX_Text_Bip" ObjectPath="\Events\Default Work Unit\Play_SFX_Text_Bip" GUID="{A3076D17-7C31-4EB7-AA01-1BF26CF1381E}" DurationType="OneShot" DurationMin="0,033333" DurationMax="0,033333"/>
 				<Event Id="1967447362" Name="Stop_Ambiance_01" ObjectPath="\Events\Default Work Unit\Stop_Ambiance_01" GUID="{C8DBBB93-0EA5-4D47-B9CC-AD8EEA92E27C}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
 				<Event Id="1945756511" Name="Stop_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Stop_Crackling_Submarine" GUID="{A361B3EA-FB45-44F2-954D-545F39D1A5CC}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
+				<Event Id="2197570480" Name="Stop_Electricity_Engine" ObjectPath="\Events\Default Work Unit\Stop_Electricity_Engine" GUID="{42251E8E-1DA3-4B66-AE97-27FAD5395ADF}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
 				<Event Id="1789658778" Name="Stop_SFX_Alarm_Start" ObjectPath="\Events\Default Work Unit\Stop_SFX_Alarm_Start" GUID="{178C4C76-6949-446B-BD99-5BFF96CBA6DF}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
+				<Event Id="2894064942" Name="Stop_SFX_Avarie" ObjectPath="\Events\Default Work Unit\Stop_SFX_Avarie" GUID="{2F3E2090-470C-43FA-A6B9-4C370FD2189E}" DurationType="OneShot" DurationMin="1,178417" DurationMax="1,178417"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="20439515" Language="SFX">
+					<ShortName>Track 05.wav</ShortName>
+					<Path>SFX\Track 05_233BD093.wem</Path>
+				</File>
 				<File Id="165936220" Language="SFX">
 					<ShortName>ESD_Cracks-007.wav</ShortName>
 					<Path>SFX\ESD_Cracks-007_B95B134F.wem</Path>
@@ -46,6 +54,10 @@
 				<File Id="349765883" Language="SFX">
 					<ShortName>SFX_Console_Denied.wav</ShortName>
 					<Path>SFX\SFX_Console_Denied_B95B134F.wem</Path>
+				</File>
+				<File Id="359134993" Language="SFX">
+					<ShortName>Avarie_Start.wav</ShortName>
+					<Path>SFX\Avarie_Start_B95B134F.wem</Path>
 				</File>
 				<File Id="509144032" Language="SFX">
 					<ShortName>ESD_Cracks-006.wav</ShortName>
@@ -75,9 +87,17 @@
 					<ShortName>ESD_Cracks-005.wav</ShortName>
 					<Path>SFX\ESD_Cracks-005_B95B134F.wem</Path>
 				</File>
+				<File Id="889974538" Language="SFX">
+					<ShortName>Avarie_During.wav</ShortName>
+					<Path>SFX\Avarie_During_B95B134F.wem</Path>
+				</File>
 				<File Id="892078412" Language="SFX">
 					<ShortName>ESD_Cracks-004.wav</ShortName>
 					<Path>SFX\ESD_Cracks-004_B95B134F.wem</Path>
+				</File>
+				<File Id="948872807" Language="SFX">
+					<ShortName>Avarie_End.wav</ShortName>
+					<Path>SFX\Avarie_End_B95B134F.wem</Path>
 				</File>
 				<File Id="1009030569" Language="SFX">
 					<ShortName>SFX_Door_Error-003.wav</ShortName>
@@ -86,6 +106,10 @@
 				<File Id="1057235633" Language="SFX">
 					<ShortName>ESD_Cracks-003.wav</ShortName>
 					<Path>SFX\ESD_Cracks-003_B95B134F.wem</Path>
+				</File>
+				<File Id="1072512648" Language="SFX">
+					<ShortName>Track 18.wav</ShortName>
+					<Path>SFX\Track 18_1F0CECF2.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>
