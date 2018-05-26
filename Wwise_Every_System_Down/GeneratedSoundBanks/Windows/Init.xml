@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\</ProjectRoot>
-		<SourceFilesRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="1355168291" GUID="{701ECBBD-9C7B-4030-8CDB-749EE5D1C7B9}" Language="SFX">
