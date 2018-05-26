@@ -37,9 +37,9 @@
       "DurationMax": "187,061539"
      },
      {
-      "Id": "3495528830",
-      "Name": "Play_Electricity_Engine",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Electricity_Engine",
+      "Id": "639345804",
+      "Name": "Play_Engine",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Engine",
       "GUID": "{8304B0B2-C71B-4C79-9552-7294D912EAAC}",
       "DurationType": "Infinite"
      },
@@ -132,9 +132,9 @@
       "DurationMax": "0,000000"
      },
      {
-      "Id": "2197570480",
-      "Name": "Stop_Electricity_Engine",
-      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Electricity_Engine",
+      "Id": "37214798",
+      "Name": "Stop_Engine",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Engine",
       "GUID": "{42251E8E-1DA3-4B66-AE97-27FAD5395ADF}",
       "MaxAttenuation": "0,000000",
       "DurationType": "OneShot",
@@ -190,7 +190,7 @@
       "Id": "20439515",
       "Language": "SFX",
       "ShortName": "Track 05.wav",
-      "Path": "SFX\\Track 05_6DC33264.wem"
+      "Path": "SFX\\Track 05_78803219.wem"
      },
      {
       "Id": "30822695",
@@ -449,6 +449,12 @@
       "Language": "English(US)",
       "ShortName": "Level 0\\37.wav",
       "Path": "Voices\\English(US)\\Level 0\\37_B95B134F.wem"
+     },
+     {
+      "Id": "367498797",
+      "Language": "SFX",
+      "ShortName": "Track 22.wav",
+      "Path": "SFX\\Track 22_8E60898C.wem"
      },
      {
       "Id": "376228990",
@@ -1042,7 +1048,7 @@
       "Id": "1072512648",
       "Language": "SFX",
       "ShortName": "Track 18.wav",
-      "Path": "SFX\\Track 18_64EFA247.wem"
+      "Path": "SFX\\Track 18_8EE4FF6A.wem"
      }
     ]
    }

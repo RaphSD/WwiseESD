@@ -1,4 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
+	37214798	Stop_Engine			\Default Work Unit\Stop_Engine	
+	639345804	Play_Engine			\Default Work Unit\Play_Engine	
 	1140103785	Play_SFX_Door_Error			\Default Work Unit\Play_SFX_Door_Error	
 	1312371701	Play_SFX_Door_Open			\Default Work Unit\Play_SFX_Door_Open	
 	1313850920	Play_Ambiance_01			\Default Work Unit\Play_Ambiance_01	
@@ -8,11 +10,9 @@ Event	ID	Name			Wwise Object Path	Notes
 	1789658778	Stop_SFX_Alarm_Start			\Default Work Unit\Stop_SFX_Alarm_Start	
 	1945756511	Stop_Crackling_Submarine			\Default Work Unit\Stop_Crackling_Submarine	
 	1967447362	Stop_Ambiance_01			\Default Work Unit\Stop_Ambiance_01	
-	2197570480	Stop_Electricity_Engine			\Default Work Unit\Stop_Electricity_Engine	
 	2294038116	Play_SFX_Alarm_Start			\Default Work Unit\Play_SFX_Alarm_Start	
 	2581363913	Play_SFX_Console_Approved			\Default Work Unit\Play_SFX_Console_Approved	
 	2894064942	Stop_SFX_Avarie			\Default Work Unit\Stop_SFX_Avarie	
-	3495528830	Play_Electricity_Engine			\Default Work Unit\Play_Electricity_Engine	
 	3995708897	Play_Crackling_Submarine			\Default Work Unit\Play_Crackling_Submarine	
 	4108837005	Play_SFX_Console_Denied			\Default Work Unit\Play_SFX_Console_Denied	
 
@@ -36,7 +36,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	8564163	107	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 1\107_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 1\107		66330
 	9808572	21	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\21_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0\21		175375
 	19627871	40	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\40_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0\40		77955
-	20439515	Electric_Hum	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Track 05_6DC33264.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Electric_Hum		521824
+	20439515	Electric_Hum	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Track 05_78803219.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Engine\Electric_Hum		2188496
 	30822695	05	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\05_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0\05		41268
 	38435240	218	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\218_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\218		29838
 	44011532	09	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\09_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0\09		67207
@@ -80,6 +80,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	349765883	SFX_Console_Denied	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Console_Denied_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\SFX_Console_Denied		7275
 	359134993	Avarie_Start	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Avarie_Start_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\Avarie\Avarie_Start_Going\Avarie_Start		13145
 	360551864	37	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\37_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0\37		105975
+	367498797	Track 22	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Track 22_8E60898C.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Engine\Track 22		5399244
 	376228990	57	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\57_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0\57		82173
 	381154468	102	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 1\102_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 1\102		71587
 	383700504	108	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 1\108_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 1\108		86651
@@ -178,5 +179,5 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1045239712	253	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\253_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\253		48607
 	1057235633	ESD_Cracks-003	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-003_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-003		395181
 	1058746717	229	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\229_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\229		51422
-	1072512648	Engine	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Track 18_64EFA247.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Engine		2345324
+	1072512648	Engine	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Track 18_8EE4FF6A.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Engine\Engine		6918628
 

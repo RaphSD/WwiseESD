@@ -18,7 +18,7 @@
 			<IncludedEvents>
 				<Event Id="1313850920" Name="Play_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_Ambiance_01" GUID="{31DC63F8-B1B6-4E0F-A5D2-895CA571B47C}" DurationType="Infinite"/>
 				<Event Id="3995708897" Name="Play_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Play_Crackling_Submarine" GUID="{45DB408B-535E-4C01-AE85-A31852198093}" DurationType="OneShot" DurationMin="97,061539" DurationMax="187,061539"/>
-				<Event Id="3495528830" Name="Play_Electricity_Engine" ObjectPath="\Events\Default Work Unit\Play_Electricity_Engine" GUID="{8304B0B2-C71B-4C79-9552-7294D912EAAC}" DurationType="Infinite"/>
+				<Event Id="639345804" Name="Play_Engine" ObjectPath="\Events\Default Work Unit\Play_Engine" GUID="{8304B0B2-C71B-4C79-9552-7294D912EAAC}" DurationType="Infinite"/>
 				<Event Id="2294038116" Name="Play_SFX_Alarm_Start" ObjectPath="\Events\Default Work Unit\Play_SFX_Alarm_Start" GUID="{DE63DA4B-4173-4C8E-9CDD-3E3EC52CB575}" DurationType="Infinite"/>
 				<Event Id="1317253172" Name="Play_SFX_Avarie" ObjectPath="\Events\Default Work Unit\Play_SFX_Avarie" GUID="{34B24811-E690-484A-8519-C667902EB90B}" DurationType="Infinite"/>
 				<Event Id="2581363913" Name="Play_SFX_Console_Approved" ObjectPath="\Events\Default Work Unit\Play_SFX_Console_Approved" GUID="{58042452-3C50-4A2A-B3A4-7037A31DB6F8}" DurationType="OneShot" DurationMin="0,223250" DurationMax="0,223250"/>
@@ -29,7 +29,7 @@
 				<Event Id="1778798315" Name="Play_SFX_Text_Bip" ObjectPath="\Events\Default Work Unit\Play_SFX_Text_Bip" GUID="{A3076D17-7C31-4EB7-AA01-1BF26CF1381E}" DurationType="OneShot" DurationMin="0,033333" DurationMax="0,033333"/>
 				<Event Id="1967447362" Name="Stop_Ambiance_01" ObjectPath="\Events\Default Work Unit\Stop_Ambiance_01" GUID="{C8DBBB93-0EA5-4D47-B9CC-AD8EEA92E27C}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
 				<Event Id="1945756511" Name="Stop_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Stop_Crackling_Submarine" GUID="{A361B3EA-FB45-44F2-954D-545F39D1A5CC}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
-				<Event Id="2197570480" Name="Stop_Electricity_Engine" ObjectPath="\Events\Default Work Unit\Stop_Electricity_Engine" GUID="{42251E8E-1DA3-4B66-AE97-27FAD5395ADF}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
+				<Event Id="37214798" Name="Stop_Engine" ObjectPath="\Events\Default Work Unit\Stop_Engine" GUID="{42251E8E-1DA3-4B66-AE97-27FAD5395ADF}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
 				<Event Id="1789658778" Name="Stop_SFX_Alarm_Start" ObjectPath="\Events\Default Work Unit\Stop_SFX_Alarm_Start" GUID="{178C4C76-6949-446B-BD99-5BFF96CBA6DF}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
 				<Event Id="2894064942" Name="Stop_SFX_Avarie" ObjectPath="\Events\Default Work Unit\Stop_SFX_Avarie" GUID="{2F3E2090-470C-43FA-A6B9-4C370FD2189E}" DurationType="OneShot" DurationMin="1,178417" DurationMax="1,178417"/>
 			</IncludedEvents>
@@ -52,7 +52,7 @@
 				</File>
 				<File Id="20439515" Language="SFX">
 					<ShortName>Track 05.wav</ShortName>
-					<Path>SFX\Track 05_6DC33264.wem</Path>
+					<Path>SFX\Track 05_78803219.wem</Path>
 				</File>
 				<File Id="30822695" Language="English(US)">
 					<ShortName>Level 0\05.wav</ShortName>
@@ -225,6 +225,10 @@
 				<File Id="360551864" Language="English(US)">
 					<ShortName>Level 0\37.wav</ShortName>
 					<Path>Voices\English(US)\Level 0\37_B95B134F.wem</Path>
+				</File>
+				<File Id="367498797" Language="SFX">
+					<ShortName>Track 22.wav</ShortName>
+					<Path>SFX\Track 22_8E60898C.wem</Path>
 				</File>
 				<File Id="376228990" Language="English(US)">
 					<ShortName>Level 0\57.wav</ShortName>
@@ -620,7 +624,7 @@
 				</File>
 				<File Id="1072512648" Language="SFX">
 					<ShortName>Track 18.wav</ShortName>
-					<Path>SFX\Track 18_64EFA247.wem</Path>
+					<Path>SFX\Track 18_8EE4FF6A.wem</Path>
 				</File>
 			</IncludedMemoryFiles>
 		</SoundBank>

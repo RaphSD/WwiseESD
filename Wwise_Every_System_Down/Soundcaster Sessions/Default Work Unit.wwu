@@ -42,6 +42,14 @@
 							<Position X="2" Y="2"/>
 						</Module>
 						<Module>
+							<ObjectRef Name="Play_Engine" ID="{8304B0B2-C71B-4C79-9552-7294D912EAAC}" WorkUnitID="{3FA4B29B-685F-4625-AF37-09E67FE76CDE}"/>
+							<Position X="2" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Engine" ID="{42251E8E-1DA3-4B66-AE97-27FAD5395ADF}" WorkUnitID="{3FA4B29B-685F-4625-AF37-09E67FE76CDE}"/>
+							<Position X="2" Y="4"/>
+						</Module>
+						<Module>
 							<ObjectRef Name="Play_SFX_Text_Bip" ID="{A3076D17-7C31-4EB7-AA01-1BF26CF1381E}" WorkUnitID="{3FA4B29B-685F-4625-AF37-09E67FE76CDE}"/>
 							<Position X="3" Y="0"/>
 						</Module>
