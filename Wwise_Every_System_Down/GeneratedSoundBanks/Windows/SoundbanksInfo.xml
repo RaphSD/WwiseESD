@@ -34,25 +34,77 @@
 				<Event Id="2894064942" Name="Stop_SFX_Avarie" ObjectPath="\Events\Default Work Unit\Stop_SFX_Avarie" GUID="{2F3E2090-470C-43FA-A6B9-4C370FD2189E}" DurationType="OneShot" DurationMin="1,178417" DurationMax="1,178417"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="6607728" Language="English(US)">
+					<ShortName>Level 0\48.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\48_B95B134F.wem</Path>
+				</File>
+				<File Id="9808572" Language="English(US)">
+					<ShortName>Level 0\21.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\21_B95B134F.wem</Path>
+				</File>
+				<File Id="19627871" Language="English(US)">
+					<ShortName>Level 0\40.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\40_B95B134F.wem</Path>
+				</File>
 				<File Id="20439515" Language="SFX">
 					<ShortName>Track 05.wav</ShortName>
 					<Path>SFX\Track 05_6DC33264.wem</Path>
+				</File>
+				<File Id="30822695" Language="English(US)">
+					<ShortName>Level 0\05.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\05_B95B134F.wem</Path>
 				</File>
 				<File Id="38435240" Language="English(US)">
 					<ShortName>All levels\218.wav</ShortName>
 					<Path>Voices\English(US)\All levels\218_B95B134F.wem</Path>
 				</File>
+				<File Id="44011532" Language="English(US)">
+					<ShortName>Level 0\09.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\09_B95B134F.wem</Path>
+				</File>
+				<File Id="47232328" Language="English(US)">
+					<ShortName>Level 0\29.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\29_B95B134F.wem</Path>
+				</File>
+				<File Id="48876372" Language="English(US)">
+					<ShortName>Level 0\02.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\02_B95B134F.wem</Path>
+				</File>
 				<File Id="53690964" Language="English(US)">
 					<ShortName>All levels\212.wav</ShortName>
 					<Path>Voices\English(US)\All levels\212_B95B134F.wem</Path>
+				</File>
+				<File Id="83024319" Language="English(US)">
+					<ShortName>Level 0\23.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\23_B95B134F.wem</Path>
+				</File>
+				<File Id="95354113" Language="English(US)">
+					<ShortName>Level 0\13.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\13_B95B134F.wem</Path>
 				</File>
 				<File Id="111589941" Language="English(US)">
 					<ShortName>All levels\238.wav</ShortName>
 					<Path>Voices\English(US)\All levels\238_B95B134F.wem</Path>
 				</File>
+				<File Id="128136634" Language="English(US)">
+					<ShortName>Level 0\15.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\15_B95B134F.wem</Path>
+				</File>
+				<File Id="130877606" Language="English(US)">
+					<ShortName>Level 0\56.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\56_B95B134F.wem</Path>
+				</File>
 				<File Id="135524014" Language="English(US)">
 					<ShortName>All levels\220.wav</ShortName>
 					<Path>Voices\English(US)\All levels\220_B95B134F.wem</Path>
+				</File>
+				<File Id="136922940" Language="English(US)">
+					<ShortName>Level 0\39.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\39_B95B134F.wem</Path>
+				</File>
+				<File Id="140732794" Language="English(US)">
+					<ShortName>Level 0\31.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\31_B95B134F.wem</Path>
 				</File>
 				<File Id="151866214" Language="English(US)">
 					<ShortName>All levels\235.wav</ShortName>
@@ -66,6 +118,14 @@
 					<ShortName>All levels\252.wav</ShortName>
 					<Path>Voices\English(US)\All levels\252_B95B134F.wem</Path>
 				</File>
+				<File Id="182660961" Language="English(US)">
+					<ShortName>Level 0\41.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\41_B95B134F.wem</Path>
+				</File>
+				<File Id="184702368" Language="English(US)">
+					<ShortName>Level 0\32.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\32_B95B134F.wem</Path>
+				</File>
 				<File Id="198854823" Language="English(US)">
 					<ShortName>All levels\226.wav</ShortName>
 					<Path>Voices\English(US)\All levels\226_B95B134F.wem</Path>
@@ -73,6 +133,14 @@
 				<File Id="202725381" Language="English(US)">
 					<ShortName>All levels\240.wav</ShortName>
 					<Path>Voices\English(US)\All levels\240_B95B134F.wem</Path>
+				</File>
+				<File Id="214032401" Language="English(US)">
+					<ShortName>Level 0\46.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\46_B95B134F.wem</Path>
+				</File>
+				<File Id="224781068" Language="English(US)">
+					<ShortName>Level 0\33.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\33_B95B134F.wem</Path>
 				</File>
 				<File Id="245231840" Language="English(US)">
 					<ShortName>All levels\239.wav</ShortName>
@@ -106,6 +174,10 @@
 					<ShortName>ESD_Cracks-002.wav</ShortName>
 					<Path>SFX\ESD_Cracks-002_B95B134F.wem</Path>
 				</File>
+				<File Id="325926020" Language="English(US)">
+					<ShortName>Level 0\27.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\27_B95B134F.wem</Path>
+				</File>
 				<File Id="344421868" Language="English(US)">
 					<ShortName>All levels\217.wav</ShortName>
 					<Path>Voices\English(US)\All levels\217_B95B134F.wem</Path>
@@ -117,6 +189,14 @@
 				<File Id="359134993" Language="SFX">
 					<ShortName>Avarie_Start.wav</ShortName>
 					<Path>SFX\Avarie_Start_B95B134F.wem</Path>
+				</File>
+				<File Id="360551864" Language="English(US)">
+					<ShortName>Level 0\37.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\37_B95B134F.wem</Path>
+				</File>
+				<File Id="376228990" Language="English(US)">
+					<ShortName>Level 0\57.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\57_B95B134F.wem</Path>
 				</File>
 				<File Id="393735241" Language="English(US)">
 					<ShortName>All levels\224.wav</ShortName>
@@ -133,6 +213,10 @@
 				<File Id="447996865" Language="English(US)">
 					<ShortName>All levels\227.wav</ShortName>
 					<Path>Voices\English(US)\All levels\227_B95B134F.wem</Path>
+				</File>
+				<File Id="460668804" Language="English(US)">
+					<ShortName>Level 0\28.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\28_B95B134F.wem</Path>
 				</File>
 				<File Id="471209811" Language="English(US)">
 					<ShortName>All levels\205.wav</ShortName>
@@ -154,17 +238,49 @@
 					<ShortName>All levels\222.wav</ShortName>
 					<Path>Voices\English(US)\All levels\222_B95B134F.wem</Path>
 				</File>
+				<File Id="522047815" Language="English(US)">
+					<ShortName>Level 0\36.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\36_B95B134F.wem</Path>
+				</File>
+				<File Id="523663779" Language="English(US)">
+					<ShortName>Level 0\04.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\04_B95B134F.wem</Path>
+				</File>
+				<File Id="538724244" Language="English(US)">
+					<ShortName>Level 0\26.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\26_B95B134F.wem</Path>
+				</File>
+				<File Id="555886518" Language="English(US)">
+					<ShortName>Level 0\69.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\69_B95B134F.wem</Path>
+				</File>
 				<File Id="564516903" Language="English(US)">
 					<ShortName>All levels\215.wav</ShortName>
 					<Path>Voices\English(US)\All levels\215_B95B134F.wem</Path>
+				</File>
+				<File Id="565503049" Language="English(US)">
+					<ShortName>Level 0\03.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\03_B95B134F.wem</Path>
 				</File>
 				<File Id="571333541" Language="SFX">
 					<ShortName>SFX_Door_Error-002.wav</ShortName>
 					<Path>SFX\SFX_Door_Error-002_B95B134F.wem</Path>
 				</File>
+				<File Id="583541583" Language="English(US)">
+					<ShortName>Level 0\44.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\44_B95B134F.wem</Path>
+				</File>
+				<File Id="587689143" Language="English(US)">
+					<ShortName>Level 0\42.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\42_B95B134F.wem</Path>
+				</File>
 				<File Id="596582412" Language="SFX">
 					<ShortName>Ambiance_01.wav</ShortName>
 					<Path>SFX\Ambiance_01_A2672D7D.wem</Path>
+				</File>
+				<File Id="598111179" Language="English(US)">
+					<ShortName>Level 0\55.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\55_B95B134F.wem</Path>
 				</File>
 				<File Id="601000541" Language="English(US)">
 					<ShortName>All levels\231.wav</ShortName>
@@ -174,6 +290,10 @@
 					<ShortName>All levels\210.wav</ShortName>
 					<Path>Voices\English(US)\All levels\210_B95B134F.wem</Path>
 				</File>
+				<File Id="619845382" Language="English(US)">
+					<ShortName>Level 0\01.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\01_B95B134F.wem</Path>
+				</File>
 				<File Id="620206910" Language="SFX">
 					<ShortName>SFX_Text_Bip.wav</ShortName>
 					<Path>SFX\SFX_Text_Bip_B95B134F.wem</Path>
@@ -181,6 +301,14 @@
 				<File Id="622884997" Language="SFX">
 					<ShortName>ESD_Cracks-001.wav</ShortName>
 					<Path>SFX\ESD_Cracks-001_B95B134F.wem</Path>
+				</File>
+				<File Id="642501791" Language="English(US)">
+					<ShortName>Level 0\34.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\34_B95B134F.wem</Path>
+				</File>
+				<File Id="654094160" Language="English(US)">
+					<ShortName>Level 0\17.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\17_B95B134F.wem</Path>
 				</File>
 				<File Id="659685066" Language="English(US)">
 					<ShortName>All levels\223.wav</ShortName>
@@ -198,6 +326,26 @@
 					<ShortName>All levels\209.wav</ShortName>
 					<Path>Voices\English(US)\All levels\209_B95B134F.wem</Path>
 				</File>
+				<File Id="677368854" Language="English(US)">
+					<ShortName>Level 0\38.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\38_B95B134F.wem</Path>
+				</File>
+				<File Id="687706503" Language="English(US)">
+					<ShortName>Level 0\06.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\06_B95B134F.wem</Path>
+				</File>
+				<File Id="695271367" Language="English(US)">
+					<ShortName>Level 0\53.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\53_B95B134F.wem</Path>
+				</File>
+				<File Id="705159245" Language="English(US)">
+					<ShortName>Level 0\35.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\35_B95B134F.wem</Path>
+				</File>
+				<File Id="706144263" Language="English(US)">
+					<ShortName>Level 0\11.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\11_B95B134F.wem</Path>
+				</File>
 				<File Id="706755941" Language="English(US)">
 					<ShortName>All levels\225.wav</ShortName>
 					<Path>Voices\English(US)\All levels\225_B95B134F.wem</Path>
@@ -205,6 +353,18 @@
 				<File Id="746334547" Language="English(US)">
 					<ShortName>All levels\232.wav</ShortName>
 					<Path>Voices\English(US)\All levels\232_B95B134F.wem</Path>
+				</File>
+				<File Id="755686890" Language="English(US)">
+					<ShortName>Level 0\12.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\12_B95B134F.wem</Path>
+				</File>
+				<File Id="758910730" Language="English(US)">
+					<ShortName>Level 0\30.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\30_B95B134F.wem</Path>
+				</File>
+				<File Id="764792462" Language="English(US)">
+					<ShortName>Level 0\16.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\16_B95B134F.wem</Path>
 				</File>
 				<File Id="768980723" Language="SFX">
 					<ShortName>ESD_Cracks-005.wav</ShortName>
@@ -221,6 +381,18 @@
 				<File Id="806033248" Language="English(US)">
 					<ShortName>All levels\237.wav</ShortName>
 					<Path>Voices\English(US)\All levels\237_B95B134F.wem</Path>
+				</File>
+				<File Id="814125618" Language="English(US)">
+					<ShortName>Level 0\45.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\45_B95B134F.wem</Path>
+				</File>
+				<File Id="814412688" Language="English(US)">
+					<ShortName>Level 0\25.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\25_B95B134F.wem</Path>
+				</File>
+				<File Id="850037927" Language="English(US)">
+					<ShortName>Level 0\10.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\10_B95B134F.wem</Path>
 				</File>
 				<File Id="851770343" Language="English(US)">
 					<ShortName>All levels\202.wav</ShortName>
@@ -246,6 +418,14 @@
 					<ShortName>ESD_Cracks-004.wav</ShortName>
 					<Path>SFX\ESD_Cracks-004_B95B134F.wem</Path>
 				</File>
+				<File Id="921070221" Language="English(US)">
+					<ShortName>Level 0\18.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\18_B95B134F.wem</Path>
+				</File>
+				<File Id="925168924" Language="English(US)">
+					<ShortName>Level 0\47.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\47_B95B134F.wem</Path>
+				</File>
 				<File Id="948872807" Language="SFX">
 					<ShortName>Avarie_End.wav</ShortName>
 					<Path>SFX\Avarie_End_B95B134F.wem</Path>
@@ -253,6 +433,18 @@
 				<File Id="958023086" Language="English(US)">
 					<ShortName>All levels\201.wav</ShortName>
 					<Path>Voices\English(US)\All levels\201_B95B134F.wem</Path>
+				</File>
+				<File Id="961201759" Language="English(US)">
+					<ShortName>Level 0\19.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\19_B95B134F.wem</Path>
+				</File>
+				<File Id="968581328" Language="English(US)">
+					<ShortName>Level 0\54.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\54_B95B134F.wem</Path>
+				</File>
+				<File Id="976361701" Language="English(US)">
+					<ShortName>Level 0\14.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\14_B95B134F.wem</Path>
 				</File>
 				<File Id="979976773" Language="English(US)">
 					<ShortName>All levels\233.wav</ShortName>
@@ -265,6 +457,26 @@
 				<File Id="1009030569" Language="SFX">
 					<ShortName>SFX_Door_Error-003.wav</ShortName>
 					<Path>SFX\SFX_Door_Error-003_B95B134F.wem</Path>
+				</File>
+				<File Id="1036830504" Language="English(US)">
+					<ShortName>Level 0\20.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\20_B95B134F.wem</Path>
+				</File>
+				<File Id="1038385588" Language="English(US)">
+					<ShortName>Level 0\59.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\59_B95B134F.wem</Path>
+				</File>
+				<File Id="1039696492" Language="English(US)">
+					<ShortName>Level 0\24.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\24_B95B134F.wem</Path>
+				</File>
+				<File Id="1040302531" Language="English(US)">
+					<ShortName>Level 0\22.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\22_B95B134F.wem</Path>
+				</File>
+				<File Id="1041519503" Language="English(US)">
+					<ShortName>Level 0\08.wav</ShortName>
+					<Path>Voices\English(US)\Level 0\08_B95B134F.wem</Path>
 				</File>
 				<File Id="1045239712" Language="English(US)">
 					<ShortName>All levels\253.wav</ShortName>
