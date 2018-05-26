@@ -1,20 +1,20 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\</ProjectRoot>
+		<SourceFilesRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
 	<MediaFilesNotInAnyBank/>
 	<SoundBanks>
-		<SoundBank Id="454820531" GUID="{089F79C2-AAD7-496D-BE70-B61A8BAD55BA}" Language="SFX">
+		<SoundBank Id="454820531" GUID="{089F79C2-AAD7-496D-BE70-B61A8BAD55BA}" Language="English(US)">
 			<ObjectPath>\SoundBanks\Default Work Unit\ESD_Main_SoundBank</ObjectPath>
 			<ShortName>ESD_Main_SoundBank</ShortName>
-			<Path>ESD_Main_SoundBank.bnk</Path>
+			<Path>English(US)\ESD_Main_SoundBank.bnk</Path>
 			<IncludedEvents>
 				<Event Id="1313850920" Name="Play_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_Ambiance_01" GUID="{31DC63F8-B1B6-4E0F-A5D2-895CA571B47C}" DurationType="Infinite"/>
 				<Event Id="3995708897" Name="Play_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Play_Crackling_Submarine" GUID="{45DB408B-535E-4C01-AE85-A31852198093}" DurationType="OneShot" DurationMin="97,061539" DurationMax="187,061539"/>
@@ -38,21 +38,77 @@
 					<ShortName>Track 05.wav</ShortName>
 					<Path>SFX\Track 05_6DC33264.wem</Path>
 				</File>
+				<File Id="38435240" Language="English(US)">
+					<ShortName>All levels\218.wav</ShortName>
+					<Path>Voices\English(US)\All levels\218_B95B134F.wem</Path>
+				</File>
+				<File Id="53690964" Language="English(US)">
+					<ShortName>All levels\212.wav</ShortName>
+					<Path>Voices\English(US)\All levels\212_B95B134F.wem</Path>
+				</File>
+				<File Id="111589941" Language="English(US)">
+					<ShortName>All levels\238.wav</ShortName>
+					<Path>Voices\English(US)\All levels\238_B95B134F.wem</Path>
+				</File>
+				<File Id="135524014" Language="English(US)">
+					<ShortName>All levels\220.wav</ShortName>
+					<Path>Voices\English(US)\All levels\220_B95B134F.wem</Path>
+				</File>
+				<File Id="151866214" Language="English(US)">
+					<ShortName>All levels\235.wav</ShortName>
+					<Path>Voices\English(US)\All levels\235_B95B134F.wem</Path>
+				</File>
 				<File Id="165936220" Language="SFX">
 					<ShortName>ESD_Cracks-007.wav</ShortName>
 					<Path>SFX\ESD_Cracks-007_B95B134F.wem</Path>
+				</File>
+				<File Id="178333585" Language="English(US)">
+					<ShortName>All levels\252.wav</ShortName>
+					<Path>Voices\English(US)\All levels\252_B95B134F.wem</Path>
+				</File>
+				<File Id="198854823" Language="English(US)">
+					<ShortName>All levels\226.wav</ShortName>
+					<Path>Voices\English(US)\All levels\226_B95B134F.wem</Path>
+				</File>
+				<File Id="202725381" Language="English(US)">
+					<ShortName>All levels\240.wav</ShortName>
+					<Path>Voices\English(US)\All levels\240_B95B134F.wem</Path>
+				</File>
+				<File Id="245231840" Language="English(US)">
+					<ShortName>All levels\239.wav</ShortName>
+					<Path>Voices\English(US)\All levels\239_B95B134F.wem</Path>
 				</File>
 				<File Id="257592282" Language="SFX">
 					<ShortName>SFX_Door_Error-001.wav</ShortName>
 					<Path>SFX\SFX_Door_Error-001_B95B134F.wem</Path>
 				</File>
+				<File Id="262803807" Language="English(US)">
+					<ShortName>All levels\211.wav</ShortName>
+					<Path>Voices\English(US)\All levels\211_B95B134F.wem</Path>
+				</File>
 				<File Id="263819698" Language="SFX">
 					<ShortName>SFX_Alarm.wav</ShortName>
 					<Path>SFX\SFX_Alarm_6D7C38E4.wem</Path>
 				</File>
+				<File Id="272385553" Language="English(US)">
+					<ShortName>All levels\236.wav</ShortName>
+					<Path>Voices\English(US)\All levels\236_B95B134F.wem</Path>
+				</File>
+				<File Id="290438188" Language="English(US)">
+					<ShortName>All levels\219.wav</ShortName>
+					<Path>Voices\English(US)\All levels\219_B95B134F.wem</Path>
+				</File>
+				<File Id="310326957" Language="English(US)">
+					<ShortName>All levels\203.wav</ShortName>
+					<Path>Voices\English(US)\All levels\203_B95B134F.wem</Path>
+				</File>
 				<File Id="318302895" Language="SFX">
 					<ShortName>ESD_Cracks-002.wav</ShortName>
 					<Path>SFX\ESD_Cracks-002_B95B134F.wem</Path>
+				</File>
+				<File Id="344421868" Language="English(US)">
+					<ShortName>All levels\217.wav</ShortName>
+					<Path>Voices\English(US)\All levels\217_B95B134F.wem</Path>
 				</File>
 				<File Id="349765883" Language="SFX">
 					<ShortName>SFX_Console_Denied.wav</ShortName>
@@ -62,9 +118,45 @@
 					<ShortName>Avarie_Start.wav</ShortName>
 					<Path>SFX\Avarie_Start_B95B134F.wem</Path>
 				</File>
+				<File Id="393735241" Language="English(US)">
+					<ShortName>All levels\224.wav</ShortName>
+					<Path>Voices\English(US)\All levels\224_B95B134F.wem</Path>
+				</File>
+				<File Id="419121292" Language="English(US)">
+					<ShortName>All levels\204.wav</ShortName>
+					<Path>Voices\English(US)\All levels\204_B95B134F.wem</Path>
+				</File>
+				<File Id="436507600" Language="English(US)">
+					<ShortName>All levels\214.wav</ShortName>
+					<Path>Voices\English(US)\All levels\214_B95B134F.wem</Path>
+				</File>
+				<File Id="447996865" Language="English(US)">
+					<ShortName>All levels\227.wav</ShortName>
+					<Path>Voices\English(US)\All levels\227_B95B134F.wem</Path>
+				</File>
+				<File Id="471209811" Language="English(US)">
+					<ShortName>All levels\205.wav</ShortName>
+					<Path>Voices\English(US)\All levels\205_B95B134F.wem</Path>
+				</File>
+				<File Id="485714805" Language="English(US)">
+					<ShortName>All levels\251.wav</ShortName>
+					<Path>Voices\English(US)\All levels\251_B95B134F.wem</Path>
+				</File>
+				<File Id="505250805" Language="English(US)">
+					<ShortName>All levels\228.wav</ShortName>
+					<Path>Voices\English(US)\All levels\228_B95B134F.wem</Path>
+				</File>
 				<File Id="509144032" Language="SFX">
 					<ShortName>ESD_Cracks-006.wav</ShortName>
 					<Path>SFX\ESD_Cracks-006_B95B134F.wem</Path>
+				</File>
+				<File Id="519644027" Language="English(US)">
+					<ShortName>All levels\222.wav</ShortName>
+					<Path>Voices\English(US)\All levels\222_B95B134F.wem</Path>
+				</File>
+				<File Id="564516903" Language="English(US)">
+					<ShortName>All levels\215.wav</ShortName>
+					<Path>Voices\English(US)\All levels\215_B95B134F.wem</Path>
 				</File>
 				<File Id="571333541" Language="SFX">
 					<ShortName>SFX_Door_Error-002.wav</ShortName>
@@ -74,6 +166,14 @@
 					<ShortName>Ambiance_01.wav</ShortName>
 					<Path>SFX\Ambiance_01_A2672D7D.wem</Path>
 				</File>
+				<File Id="601000541" Language="English(US)">
+					<ShortName>All levels\231.wav</ShortName>
+					<Path>Voices\English(US)\All levels\231_B95B134F.wem</Path>
+				</File>
+				<File Id="608258014" Language="English(US)">
+					<ShortName>All levels\210.wav</ShortName>
+					<Path>Voices\English(US)\All levels\210_B95B134F.wem</Path>
+				</File>
 				<File Id="620206910" Language="SFX">
 					<ShortName>SFX_Text_Bip.wav</ShortName>
 					<Path>SFX\SFX_Text_Bip_B95B134F.wem</Path>
@@ -82,13 +182,61 @@
 					<ShortName>ESD_Cracks-001.wav</ShortName>
 					<Path>SFX\ESD_Cracks-001_B95B134F.wem</Path>
 				</File>
+				<File Id="659685066" Language="English(US)">
+					<ShortName>All levels\223.wav</ShortName>
+					<Path>Voices\English(US)\All levels\223_B95B134F.wem</Path>
+				</File>
 				<File Id="665512331" Language="SFX">
 					<ShortName>SFX_Console_Approved.wav</ShortName>
 					<Path>SFX\SFX_Console_Approved_B95B134F.wem</Path>
 				</File>
+				<File Id="671322690" Language="English(US)">
+					<ShortName>All levels\207.wav</ShortName>
+					<Path>Voices\English(US)\All levels\207_B95B134F.wem</Path>
+				</File>
+				<File Id="676522681" Language="English(US)">
+					<ShortName>All levels\209.wav</ShortName>
+					<Path>Voices\English(US)\All levels\209_B95B134F.wem</Path>
+				</File>
+				<File Id="706755941" Language="English(US)">
+					<ShortName>All levels\225.wav</ShortName>
+					<Path>Voices\English(US)\All levels\225_B95B134F.wem</Path>
+				</File>
+				<File Id="746334547" Language="English(US)">
+					<ShortName>All levels\232.wav</ShortName>
+					<Path>Voices\English(US)\All levels\232_B95B134F.wem</Path>
+				</File>
 				<File Id="768980723" Language="SFX">
 					<ShortName>ESD_Cracks-005.wav</ShortName>
 					<Path>SFX\ESD_Cracks-005_B95B134F.wem</Path>
+				</File>
+				<File Id="780823360" Language="English(US)">
+					<ShortName>All levels\221.wav</ShortName>
+					<Path>Voices\English(US)\All levels\221_B95B134F.wem</Path>
+				</File>
+				<File Id="794878907" Language="English(US)">
+					<ShortName>All levels\206.wav</ShortName>
+					<Path>Voices\English(US)\All levels\206_B95B134F.wem</Path>
+				</File>
+				<File Id="806033248" Language="English(US)">
+					<ShortName>All levels\237.wav</ShortName>
+					<Path>Voices\English(US)\All levels\237_B95B134F.wem</Path>
+				</File>
+				<File Id="851770343" Language="English(US)">
+					<ShortName>All levels\202.wav</ShortName>
+					<Path>Voices\English(US)\All levels\202_B95B134F.wem</Path>
+				</File>
+				<File Id="855715807" Language="English(US)">
+					<ShortName>All levels\213.wav</ShortName>
+					<Path>Voices\English(US)\All levels\213_B95B134F.wem</Path>
+				</File>
+				<File Id="864943458" Language="English(US)">
+					<ShortName>All levels\234.wav</ShortName>
+					<Path>Voices\English(US)\All levels\234_B95B134F.wem</Path>
+				</File>
+				<File Id="884844583" Language="English(US)">
+					<ShortName>All levels\216.wav</ShortName>
+					<Path>Voices\English(US)\All levels\216_B95B134F.wem</Path>
 				</File>
 				<File Id="889974538" Language="SFX">
 					<ShortName>Avarie_During.wav</ShortName>
@@ -102,13 +250,33 @@
 					<ShortName>Avarie_End.wav</ShortName>
 					<Path>SFX\Avarie_End_B95B134F.wem</Path>
 				</File>
+				<File Id="958023086" Language="English(US)">
+					<ShortName>All levels\201.wav</ShortName>
+					<Path>Voices\English(US)\All levels\201_B95B134F.wem</Path>
+				</File>
+				<File Id="979976773" Language="English(US)">
+					<ShortName>All levels\233.wav</ShortName>
+					<Path>Voices\English(US)\All levels\233_B95B134F.wem</Path>
+				</File>
+				<File Id="1004806919" Language="English(US)">
+					<ShortName>All levels\208.wav</ShortName>
+					<Path>Voices\English(US)\All levels\208_B95B134F.wem</Path>
+				</File>
 				<File Id="1009030569" Language="SFX">
 					<ShortName>SFX_Door_Error-003.wav</ShortName>
 					<Path>SFX\SFX_Door_Error-003_B95B134F.wem</Path>
 				</File>
+				<File Id="1045239712" Language="English(US)">
+					<ShortName>All levels\253.wav</ShortName>
+					<Path>Voices\English(US)\All levels\253_B95B134F.wem</Path>
+				</File>
 				<File Id="1057235633" Language="SFX">
 					<ShortName>ESD_Cracks-003.wav</ShortName>
 					<Path>SFX\ESD_Cracks-003_B95B134F.wem</Path>
+				</File>
+				<File Id="1058746717" Language="English(US)">
+					<ShortName>All levels\229.wav</ShortName>
+					<Path>Voices\English(US)\All levels\229_B95B134F.wem</Path>
 				</File>
 				<File Id="1072512648" Language="SFX">
 					<ShortName>Track 18.wav</ShortName>

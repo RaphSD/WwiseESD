@@ -1,0 +1,96 @@
+Event	ID	Name			Wwise Object Path	Notes
+	1140103785	Play_SFX_Door_Error			\Default Work Unit\Play_SFX_Door_Error	
+	1312371701	Play_SFX_Door_Open			\Default Work Unit\Play_SFX_Door_Open	
+	1313850920	Play_Ambiance_01			\Default Work Unit\Play_Ambiance_01	
+	1317253172	Play_SFX_Avarie			\Default Work Unit\Play_SFX_Avarie	
+	1412165763	Play_SFX_Door_Close			\Default Work Unit\Play_SFX_Door_Close	
+	1778798315	Play_SFX_Text_Bip			\Default Work Unit\Play_SFX_Text_Bip	
+	1789658778	Stop_SFX_Alarm_Start			\Default Work Unit\Stop_SFX_Alarm_Start	
+	1945756511	Stop_Crackling_Submarine			\Default Work Unit\Stop_Crackling_Submarine	
+	1967447362	Stop_Ambiance_01			\Default Work Unit\Stop_Ambiance_01	
+	2197570480	Stop_Electricity_Engine			\Default Work Unit\Stop_Electricity_Engine	
+	2294038116	Play_SFX_Alarm_Start			\Default Work Unit\Play_SFX_Alarm_Start	
+	2581363913	Play_SFX_Console_Approved			\Default Work Unit\Play_SFX_Console_Approved	
+	2894064942	Stop_SFX_Avarie			\Default Work Unit\Stop_SFX_Avarie	
+	3495528830	Play_Electricity_Engine			\Default Work Unit\Play_Electricity_Engine	
+	3995708897	Play_Crackling_Submarine			\Default Work Unit\Play_Crackling_Submarine	
+	4108837005	Play_SFX_Console_Denied			\Default Work Unit\Play_SFX_Console_Denied	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	932301089	RTPC_SFX_Volume			\Default Work Unit\RTPC_SFX_Volume	
+	1596647065	RTPC_Music_Volume			\Default Work Unit\RTPC_Music_Volume	
+
+Audio Bus	ID	Name			Wwise Object Path	Notes
+	393239870	SFX			\Default Work Unit\Master Audio Bus\MAIN\SFX	
+	3161908922	MAIN			\Default Work Unit\Master Audio Bus\MAIN	
+	3313685232	Voices			\Default Work Unit\Master Audio Bus\MAIN\Voices	
+	3803692087	Master Audio Bus			\Default Work Unit\Master Audio Bus	
+	3991942870	Music			\Default Work Unit\Master Audio Bus\MAIN\Music	
+
+Effect plug-ins	ID	Name	Type				Notes
+	2037162648	Auro_Headphones	Auro Headphone			
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	20439515	Electric_Hum	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Track 05_6DC33264.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Electric_Hum		521824
+	38435240	218	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\218_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\218		29838
+	53690964	212	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\212_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\212		32160
+	111589941	238	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\238_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\238		615624
+	135524014	220	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\220_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\220		22493
+	151866214	235	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\235_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\235		45766
+	165936220	ESD_Cracks-007	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-007_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-007		857753
+	178333585	252	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\252_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\252		51160
+	198854823	226	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\226_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\226		102730
+	202725381	240	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\240_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\240		570907
+	245231840	239	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\239_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\239		46202
+	257592282	SFX_Door_Close	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Door_Error-001_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\SFX_Door_Close		3249
+	262803807	211	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\211_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\211		46012
+	263819698	SFX_Alarm	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Alarm_6D7C38E4.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Alarm_Start\SFX_Alarm		15959
+	272385553	236	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\236_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\236		234136
+	290438188	219	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\219_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\219		26237
+	310326957	203	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\203_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\203		70744
+	318302895	ESD_Cracks-002	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-002_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-002		168672
+	344421868	217	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\217_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\217		42330
+	349765883	SFX_Console_Denied	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Console_Denied_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\SFX_Console_Denied		7275
+	359134993	Avarie_Start	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Avarie_Start_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\Avarie\Avarie_Start_Going\Avarie_Start		13145
+	393735241	224	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\224_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\224		93674
+	419121292	204	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\204_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\204		153414
+	436507600	214	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\214_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\214		27552
+	447996865	227	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\227_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\227		22640
+	471209811	205	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\205_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\205		111099
+	485714805	251	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\251_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\251		59088
+	505250805	228	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\228_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\228		34133
+	509144032	ESD_Cracks-006	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-006_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-006		493616
+	519644027	222	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\222_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\222		64953
+	564516903	215	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\215_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\215		32697
+	571333541	SFX_Door_Open	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Door_Error-002_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\SFX_Door_Open		3172
+	596582412	Ambiance_01	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Ambiance_01_A2672D7D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Ambiance_01		589312
+	601000541	231	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\231_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\231		26596
+	608258014	210	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\210_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\210		93071
+	620206910	SFX_Text_Bip	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Text_Bip_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\SFX_Text_Bip		2042
+	622884997	ESD_Cracks-001	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-001_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-001		235473
+	659685066	223	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\223_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\223		55936
+	665512331	SFX_Console_Approved	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Console_Approved_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\SFX_Console_Approved		3120
+	671322690	207	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\207_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\207		58287
+	676522681	209	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\209_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\209		78042
+	706755941	225	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\225_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\225		56305
+	746334547	232	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\232_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\232		52391
+	768980723	ESD_Cracks-005	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-005_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-005		350829
+	780823360	221	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\221_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\221		92851
+	794878907	206	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\206_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\206		113014
+	806033248	237	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\237_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\237		153209
+	851770343	202	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\202_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\202		40548
+	855715807	213	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\213_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\213		37495
+	864943458	234	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\234_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\234		67976
+	884844583	216	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\216_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\216		34783
+	889974538	Avarie_During	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Avarie_During_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\Avarie\Avarie_Start_Going\SFX_Avarie_Going\Avarie_During		7849
+	892078412	ESD_Cracks-004	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-004_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-004		461361
+	948872807	Avarie_End	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Avarie_End_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\Avarie\Avarie_End		11676
+	958023086	201	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\201_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\201		87136
+	979976773	233	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\233_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\233		102257
+	1004806919	208	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\208_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\208		71892
+	1009030569	SFX_Door_Error	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Door_Error-003_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\SFX_Door_Error		9302
+	1045239712	253	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\253_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\253		48607
+	1057235633	ESD_Cracks-003	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-003_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-003		395181
+	1058746717	229	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\229_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels\229		51422
+	1072512648	Engine	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Track 18_64EFA247.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Engine		2345324
+

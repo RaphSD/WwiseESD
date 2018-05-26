@@ -93,6 +93,15 @@
 										</Property>
 									</PropertyList>
 								</Bus>
+								<Bus Name="Voices" ID="{E4A4118B-F3FC-44C9-8996-0884EC975EF5}">
+									<PropertyList>
+										<Property Name="BusChannelConfig" Type="int32">
+											<ValueList>
+												<Value>528</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+								</Bus>
 							</ChildrenList>
 						</Bus>
 					</ChildrenList>
