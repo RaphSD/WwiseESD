@@ -376,6 +376,12 @@
       "Path": "Voices\\English(US)\\All levels\\239_B95B134F.wem"
      },
      {
+      "Id": "245388189",
+      "Language": "English(US)",
+      "ShortName": "Level -1\\-4.wav",
+      "Path": "Voices\\English(US)\\Level -1\\-4_B95B134F.wem"
+     },
+     {
       "Id": "257592282",
       "Language": "SFX",
       "ShortName": "SFX_Door_Error-001.wav",
@@ -478,6 +484,12 @@
       "Path": "Voices\\English(US)\\All levels\\204_B95B134F.wem"
      },
      {
+      "Id": "432331341",
+      "Language": "English(US)",
+      "ShortName": "Level -1\\-2.wav",
+      "Path": "Voices\\English(US)\\Level -1\\-2_B95B134F.wem"
+     },
+     {
       "Id": "436507600",
       "Language": "English(US)",
       "ShortName": "All levels\\214.wav",
@@ -488,6 +500,12 @@
       "Language": "English(US)",
       "ShortName": "All levels\\227.wav",
       "Path": "Voices\\English(US)\\All levels\\227_B95B134F.wem"
+     },
+     {
+      "Id": "448120456",
+      "Language": "English(US)",
+      "ShortName": "Level -1\\-5.wav",
+      "Path": "Voices\\English(US)\\Level -1\\-5_B95B134F.wem"
      },
      {
       "Id": "458688693",
@@ -508,10 +526,28 @@
       "Path": "Voices\\English(US)\\All levels\\205_B95B134F.wem"
      },
      {
+      "Id": "483726050",
+      "Language": "English(US)",
+      "ShortName": "Level -1\\-10.wav",
+      "Path": "Voices\\English(US)\\Level -1\\-10_B95B134F.wem"
+     },
+     {
       "Id": "485714805",
       "Language": "English(US)",
       "ShortName": "All levels\\251.wav",
       "Path": "Voices\\English(US)\\All levels\\251_B95B134F.wem"
+     },
+     {
+      "Id": "488988163",
+      "Language": "English(US)",
+      "ShortName": "Level -1\\-14.wav",
+      "Path": "Voices\\English(US)\\Level -1\\-14_B95B134F.wem"
+     },
+     {
+      "Id": "493284428",
+      "Language": "English(US)",
+      "ShortName": "Level -1\\-16.wav",
+      "Path": "Voices\\English(US)\\Level -1\\-16_B95B134F.wem"
      },
      {
       "Id": "505250805",
@@ -538,10 +574,22 @@
       "Path": "Voices\\English(US)\\Level 0\\36_B95B134F.wem"
      },
      {
+      "Id": "523313104",
+      "Language": "English(US)",
+      "ShortName": "Level -1\\-7.wav",
+      "Path": "Voices\\English(US)\\Level -1\\-7_B95B134F.wem"
+     },
+     {
       "Id": "523663779",
       "Language": "English(US)",
       "ShortName": "Level 0\\04.wav",
       "Path": "Voices\\English(US)\\Level 0\\04_B95B134F.wem"
+     },
+     {
+      "Id": "532552105",
+      "Language": "English(US)",
+      "ShortName": "Level -1\\-1.wav",
+      "Path": "Voices\\English(US)\\Level -1\\-1_B95B134F.wem"
      },
      {
       "Id": "538724244",
@@ -646,6 +694,12 @@
       "Path": "Voices\\English(US)\\Level 0\\17_B95B134F.wem"
      },
      {
+      "Id": "658008287",
+      "Language": "English(US)",
+      "ShortName": "Level -1\\-15.wav",
+      "Path": "Voices\\English(US)\\Level -1\\-15_B95B134F.wem"
+     },
+     {
       "Id": "659685066",
       "Language": "English(US)",
       "ShortName": "All levels\\223.wav",
@@ -656,6 +710,12 @@
       "Language": "SFX",
       "ShortName": "SFX_Console_Approved.wav",
       "Path": "SFX\\SFX_Console_Approved_B95B134F.wem"
+     },
+     {
+      "Id": "669849679",
+      "Language": "English(US)",
+      "ShortName": "Level -1\\-9.wav",
+      "Path": "Voices\\English(US)\\Level -1\\-9_B95B134F.wem"
      },
      {
       "Id": "671322690",
@@ -718,6 +778,12 @@
       "Path": "Voices\\English(US)\\All levels\\232_B95B134F.wem"
      },
      {
+      "Id": "752542252",
+      "Language": "English(US)",
+      "ShortName": "Level -1\\-8.wav",
+      "Path": "Voices\\English(US)\\Level -1\\-8_B95B134F.wem"
+     },
+     {
       "Id": "755686890",
       "Language": "English(US)",
       "ShortName": "Level 0\\12.wav",
@@ -764,6 +830,12 @@
       "Language": "English(US)",
       "ShortName": "Level 1\\106.wav",
       "Path": "Voices\\English(US)\\Level 1\\106_B95B134F.wem"
+     },
+     {
+      "Id": "804453624",
+      "Language": "English(US)",
+      "ShortName": "Level -1\\-3.wav",
+      "Path": "Voices\\English(US)\\Level -1\\-3_B95B134F.wem"
      },
      {
       "Id": "806033248",
@@ -832,6 +904,12 @@
       "Path": "SFX\\ESD_Cracks-004_B95B134F.wem"
      },
      {
+      "Id": "904891644",
+      "Language": "English(US)",
+      "ShortName": "Level -1\\-13.wav",
+      "Path": "Voices\\English(US)\\Level -1\\-13_B95B134F.wem"
+     },
+     {
       "Id": "921070221",
       "Language": "English(US)",
       "ShortName": "Level 0\\18.wav",
@@ -862,6 +940,12 @@
       "Path": "Voices\\English(US)\\Level 0\\19_B95B134F.wem"
      },
      {
+      "Id": "964244408",
+      "Language": "English(US)",
+      "ShortName": "Level -1\\-11.wav",
+      "Path": "Voices\\English(US)\\Level -1\\-11_B95B134F.wem"
+     },
+     {
       "Id": "968581328",
       "Language": "English(US)",
       "ShortName": "Level 0\\54.wav",
@@ -880,6 +964,12 @@
       "Path": "Voices\\English(US)\\All levels\\233_B95B134F.wem"
      },
      {
+      "Id": "990550764",
+      "Language": "English(US)",
+      "ShortName": "Level -1\\-12.wav",
+      "Path": "Voices\\English(US)\\Level -1\\-12_B95B134F.wem"
+     },
+     {
       "Id": "1004806919",
       "Language": "English(US)",
       "ShortName": "All levels\\208.wav",
@@ -890,6 +980,12 @@
       "Language": "SFX",
       "ShortName": "SFX_Door_Error-003.wav",
       "Path": "SFX\\SFX_Door_Error-003_B95B134F.wem"
+     },
+     {
+      "Id": "1027949534",
+      "Language": "English(US)",
+      "ShortName": "Level -1\\-6.wav",
+      "Path": "Voices\\English(US)\\Level -1\\-6_B95B134F.wem"
      },
      {
       "Id": "1032400691",
