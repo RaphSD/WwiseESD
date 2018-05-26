@@ -28,6 +28,7 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 	3991942870	Music			\Default Work Unit\Master Audio Bus\MAIN\Music	
 
 Effect plug-ins	ID	Name	Type				Notes
+	354229131	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
 	2037162648	Auro_Headphones	Auro Headphone			
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size

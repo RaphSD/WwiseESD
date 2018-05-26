@@ -686,6 +686,17 @@
 								<Reference Name="Conversion">
 									<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
 								</Reference>
+								<Reference Name="Effect0">
+									<Custom>
+										<Effect Name="Wwise Parametric EQ (Custom)" ID="{B945D6D8-1EC1-41A7-8FF0-FB61A44132E4}" ShortID="354229131" PluginName="Wwise Parametric EQ" CompanyID="0" PluginID="105" PluginType="3">
+											<PropertyList>
+												<Property Name="FrequencyBand2" Type="Real32" Value="2651"/>
+												<Property Name="GainBand2" Type="Real32" Value="-16"/>
+												<Property Name="QFactorBand2" Type="Real32" Value="12"/>
+											</PropertyList>
+										</Effect>
+									</Custom>
+								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="Voices" ID="{E4A4118B-F3FC-44C9-8996-0884EC975EF5}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
 								</Reference>
