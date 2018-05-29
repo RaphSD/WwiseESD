@@ -6,13 +6,140 @@ Event	ID	Name			Wwise Object Path	Notes
 	1313850920	Play_Ambiance_01			\Default Work Unit\Play_Ambiance_01	
 	1317253172	Play_SFX_Avarie			\Default Work Unit\Play_SFX_Avarie	
 	1412165763	Play_SFX_Door_Close			\Default Work Unit\Play_SFX_Door_Close	
+	1742108440	Play_240			\Default Work Unit\Voices\Play_240	
+	1758886024	Play_253			\Default Work Unit\Voices\Play_253	
+	1758886025	Play_252			\Default Work Unit\Voices\Play_252	
+	1758886026	Play_251			\Default Work Unit\Voices\Play_251	
 	1778798315	Play_SFX_Text_Bip			\Default Work Unit\Play_SFX_Text_Bip	
 	1789658778	Stop_SFX_Alarm_Start			\Default Work Unit\Stop_SFX_Alarm_Start	
+	1809218880	Play_204			\Default Work Unit\Voices\Play_204	
+	1809218881	Play_205			\Default Work Unit\Voices\Play_205	
+	1809218882	Play_206			\Default Work Unit\Voices\Play_206	
+	1809218883	Play_207			\Default Work Unit\Voices\Play_207	
+	1809218885	Play_201			\Default Work Unit\Voices\Play_201	
+	1809218886	Play_202			\Default Work Unit\Voices\Play_202	
+	1809218887	Play_203			\Default Work Unit\Voices\Play_203	
+	1809218892	Play_208			\Default Work Unit\Voices\Play_208	
+	1809218893	Play_209			\Default Work Unit\Voices\Play_209	
+	1825996592	Play_217			\Default Work Unit\Voices\Play_217	
+	1825996593	Play_216			\Default Work Unit\Voices\Play_216	
+	1825996594	Play_215			\Default Work Unit\Voices\Play_215	
+	1825996595	Play_214			\Default Work Unit\Voices\Play_214	
+	1825996596	Play_213			\Default Work Unit\Voices\Play_213	
+	1825996597	Play_212			\Default Work Unit\Voices\Play_212	
+	1825996598	Play_211			\Default Work Unit\Voices\Play_211	
+	1825996599	Play_210			\Default Work Unit\Voices\Play_210	
+	1825996606	Play_219			\Default Work Unit\Voices\Play_219	
+	1825996607	Play_218			\Default Work Unit\Voices\Play_218	
+	1842774178	Play_228			\Default Work Unit\Voices\Play_228	
+	1842774179	Play_229			\Default Work Unit\Voices\Play_229	
+	1842774184	Play_222			\Default Work Unit\Voices\Play_222	
+	1842774185	Play_223			\Default Work Unit\Voices\Play_223	
+	1842774186	Play_220			\Default Work Unit\Voices\Play_220	
+	1842774187	Play_221			\Default Work Unit\Voices\Play_221	
+	1842774188	Play_226			\Default Work Unit\Voices\Play_226	
+	1842774189	Play_227			\Default Work Unit\Voices\Play_227	
+	1842774190	Play_224			\Default Work Unit\Voices\Play_224	
+	1842774191	Play_225			\Default Work Unit\Voices\Play_225	
+	1859551764	Play_239			\Default Work Unit\Voices\Play_239	
+	1859551765	Play_238			\Default Work Unit\Voices\Play_238	
+	1859551768	Play_235			\Default Work Unit\Voices\Play_235	
+	1859551769	Play_234			\Default Work Unit\Voices\Play_234	
+	1859551770	Play_237			\Default Work Unit\Voices\Play_237	
+	1859551771	Play_236			\Default Work Unit\Voices\Play_236	
+	1859551772	Play_231			\Default Work Unit\Voices\Play_231	
+	1859551774	Play_233			\Default Work Unit\Voices\Play_233	
+	1859551775	Play_232			\Default Work Unit\Voices\Play_232	
 	1945756511	Stop_Crackling_Submarine			\Default Work Unit\Stop_Crackling_Submarine	
 	1967447362	Stop_Ambiance_01			\Default Work Unit\Stop_Ambiance_01	
 	2294038116	Play_SFX_Alarm_Start			\Default Work Unit\Play_SFX_Alarm_Start	
 	2581363913	Play_SFX_Console_Approved			\Default Work Unit\Play_SFX_Console_Approved	
 	2894064942	Stop_SFX_Avarie			\Default Work Unit\Stop_SFX_Avarie	
+	3068182265	Play_69			\Default Work Unit\Voices\Play_69	
+	3101737424	Play_46			\Default Work Unit\Voices\Play_46	
+	3101737425	Play_47			\Default Work Unit\Voices\Play_47	
+	3101737426	Play_44			\Default Work Unit\Voices\Play_44	
+	3101737427	Play_45			\Default Work Unit\Voices\Play_45	
+	3101737428	Play_42			\Default Work Unit\Voices\Play_42	
+	3101737430	Play_40			\Default Work Unit\Voices\Play_40	
+	3101737431	Play_41			\Default Work Unit\Voices\Play_41	
+	3101737438	Play_48			\Default Work Unit\Voices\Play_48	
+	3118515008	Play_59			\Default Work Unit\Voices\Play_59	
+	3118515018	Play_53			\Default Work Unit\Voices\Play_53	
+	3118515020	Play_55			\Default Work Unit\Voices\Play_55	
+	3118515021	Play_54			\Default Work Unit\Voices\Play_54	
+	3118515022	Play_57			\Default Work Unit\Voices\Play_57	
+	3118515023	Play_56			\Default Work Unit\Voices\Play_56	
+	3135292724	Play_28			\Default Work Unit\Voices\Play_28	
+	3135292725	Play_29			\Default Work Unit\Voices\Play_29	
+	3135292728	Play_24			\Default Work Unit\Voices\Play_24	
+	3135292729	Play_25			\Default Work Unit\Voices\Play_25	
+	3135292730	Play_26			\Default Work Unit\Voices\Play_26	
+	3135292731	Play_27			\Default Work Unit\Voices\Play_27	
+	3135292732	Play_20			\Default Work Unit\Voices\Play_20	
+	3135292733	Play_21			\Default Work Unit\Voices\Play_21	
+	3135292734	Play_22			\Default Work Unit\Voices\Play_22	
+	3135292735	Play_23			\Default Work Unit\Voices\Play_23	
+	3152070310	Play_39			\Default Work Unit\Voices\Play_39	
+	3152070311	Play_38			\Default Work Unit\Voices\Play_38	
+	3152070312	Play_37			\Default Work Unit\Voices\Play_37	
+	3152070313	Play_36			\Default Work Unit\Voices\Play_36	
+	3152070314	Play_35			\Default Work Unit\Voices\Play_35	
+	3152070315	Play_34			\Default Work Unit\Voices\Play_34	
+	3152070316	Play_33			\Default Work Unit\Voices\Play_33	
+	3152070317	Play_32			\Default Work Unit\Voices\Play_32	
+	3152070318	Play_31			\Default Work Unit\Voices\Play_31	
+	3152070319	Play_30			\Default Work Unit\Voices\Play_30	
+	3168847872	Play_02			\Default Work Unit\Voices\Play_02	
+	3168847873	Play_03			\Default Work Unit\Voices\Play_03	
+	3168847875	Play_01			\Default Work Unit\Voices\Play_01	
+	3168847876	Play_06			\Default Work Unit\Voices\Play_06	
+	3168847878	Play_04			\Default Work Unit\Voices\Play_04	
+	3168847879	Play_05			\Default Work Unit\Voices\Play_05	
+	3168847882	Play_08			\Default Work Unit\Voices\Play_08	
+	3168847883	Play_09			\Default Work Unit\Voices\Play_09	
+	3185625584	Play_15			\Default Work Unit\Voices\Play_15	
+	3185625585	Play_14			\Default Work Unit\Voices\Play_14	
+	3185625586	Play_17			\Default Work Unit\Voices\Play_17	
+	3185625587	Play_16			\Default Work Unit\Voices\Play_16	
+	3185625588	Play_11			\Default Work Unit\Voices\Play_11	
+	3185625589	Play_10			\Default Work Unit\Voices\Play_10	
+	3185625590	Play_13			\Default Work Unit\Voices\Play_13	
+	3185625591	Play_12			\Default Work Unit\Voices\Play_12	
+	3185625596	Play_19			\Default Work Unit\Voices\Play_19	
+	3185625597	Play_18			\Default Work Unit\Voices\Play_18	
+	3705531176	Play_114			\Default Work Unit\Voices\Play_114	
+	3705531177	Play_115			\Default Work Unit\Voices\Play_115	
+	3705531178	Play_116			\Default Work Unit\Voices\Play_116	
+	3705531180	Play_110			\Default Work Unit\Voices\Play_110	
+	3705531181	Play_111			\Default Work Unit\Voices\Play_111	
+	3705531182	Play_112			\Default Work Unit\Voices\Play_112	
+	3705531183	Play_113			\Default Work Unit\Voices\Play_113	
+	3722308758	Play_109			\Default Work Unit\Voices\Play_109	
+	3722308759	Play_108			\Default Work Unit\Voices\Play_108	
+	3722308760	Play_107			\Default Work Unit\Voices\Play_107	
+	3722308761	Play_106			\Default Work Unit\Voices\Play_106	
+	3722308762	Play_105			\Default Work Unit\Voices\Play_105	
+	3722308763	Play_104			\Default Work Unit\Voices\Play_104	
+	3722308764	Play_103			\Default Work Unit\Voices\Play_103	
+	3722308765	Play_102			\Default Work Unit\Voices\Play_102	
+	3722308766	Play_101			\Default Work Unit\Voices\Play_101	
+	3755025360	Play_402			\Default Work Unit\Voices\Play_402	
+	3755025361	Play_403			\Default Work Unit\Voices\Play_403	
+	3755025363	Play_401			\Default Work Unit\Voices\Play_401	
+	3755025364	Play_406			\Default Work Unit\Voices\Play_406	
+	3755025365	Play_407			\Default Work Unit\Voices\Play_407	
+	3755025366	Play_404			\Default Work Unit\Voices\Play_404	
+	3755025367	Play_405			\Default Work Unit\Voices\Play_405	
+	3755025370	Play_408			\Default Work Unit\Voices\Play_408	
+	3755025371	Play_409			\Default Work Unit\Voices\Play_409	
+	3771802944	Play_415			\Default Work Unit\Voices\Play_415	
+	3771802945	Play_414			\Default Work Unit\Voices\Play_414	
+	3771802947	Play_416			\Default Work Unit\Voices\Play_416	
+	3771802948	Play_411			\Default Work Unit\Voices\Play_411	
+	3771802949	Play_410			\Default Work Unit\Voices\Play_410	
+	3771802950	Play_413			\Default Work Unit\Voices\Play_413	
+	3771802951	Play_412			\Default Work Unit\Voices\Play_412	
 	3995708897	Play_Crackling_Submarine			\Default Work Unit\Play_Crackling_Submarine	
 	4108837005	Play_SFX_Console_Denied			\Default Work Unit\Play_SFX_Console_Denied	
 
