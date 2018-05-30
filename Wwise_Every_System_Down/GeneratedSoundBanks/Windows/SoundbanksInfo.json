@@ -78,6 +78,15 @@
       "DurationMax": "2,680625"
      },
      {
+      "Id": "3168847877",
+      "Name": "Play_07",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_07",
+      "GUID": "{EE8DAD45-9543-45DC-8241-4117F303A615}",
+      "DurationType": "OneShot",
+      "DurationMin": "2,970083",
+      "DurationMax": "2,970083"
+     },
+     {
       "Id": "3168847882",
       "Name": "Play_08",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Play_08",
@@ -281,8 +290,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Play_14",
       "GUID": "{48283F96-6FA2-4B56-B88C-75F65E79E29F}",
       "DurationType": "OneShot",
-      "DurationMin": "4,361729",
-      "DurationMax": "4,361729"
+      "DurationMin": "6,669396",
+      "DurationMax": "6,669396"
      },
      {
       "Id": "3185625584",
@@ -938,8 +947,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Play_405",
       "GUID": "{2838EC78-EBCB-4C31-9967-B09FF762119C}",
       "DurationType": "OneShot",
-      "DurationMin": "2,169583",
-      "DurationMax": "2,169583"
+      "DurationMin": "3,188042",
+      "DurationMax": "3,188042"
      },
      {
       "Id": "3755025364",
@@ -965,8 +974,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Play_408",
       "GUID": "{AA695CA4-8A6E-4C66-89B3-FCA8C7C280CA}",
       "DurationType": "OneShot",
-      "DurationMin": "8,748396",
-      "DurationMax": "8,748396"
+      "DurationMin": "8,746458",
+      "DurationMax": "8,746458"
      },
      {
       "Id": "3755025371",
@@ -1055,8 +1064,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Play_42",
       "GUID": "{A63A5B0F-4622-4B3D-A4DE-E6FD2428A246}",
       "DurationType": "OneShot",
-      "DurationMin": "7,799667",
-      "DurationMax": "7,799667"
+      "DurationMin": "11,027187",
+      "DurationMax": "11,027187"
      },
      {
       "Id": "3101737426",
@@ -1149,13 +1158,22 @@
       "DurationMax": "3,142875"
      },
      {
+      "Id": "3118515009",
+      "Name": "Play_58",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_58",
+      "GUID": "{E0DB211C-2F69-40A5-9F99-6141AE546478}",
+      "DurationType": "OneShot",
+      "DurationMin": "14,405354",
+      "DurationMax": "14,405354"
+     },
+     {
       "Id": "3118515008",
       "Name": "Play_59",
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Play_59",
       "GUID": "{EECF3216-0231-48CE-BF73-2E326638594A}",
       "DurationType": "OneShot",
-      "DurationMin": "4,617813",
-      "DurationMax": "4,617813"
+      "DurationMin": "12,819500",
+      "DurationMax": "12,819500"
      },
      {
       "Id": "3068182265",
@@ -1579,12 +1597,6 @@
       "Path": "SFX\\SFX_Console_Denied_B95B134F.wem"
      },
      {
-      "Id": "352582272",
-      "Language": "English(US)",
-      "ShortName": "59-Water.wav",
-      "Path": "Voices\\English(US)\\59-Water_B95B134F.wem"
-     },
-     {
       "Id": "359134993",
       "Language": "SFX",
       "ShortName": "Avarie_Start.wav",
@@ -1615,6 +1627,12 @@
       "Path": "Voices\\English(US)\\Level 1\\108_B95B134F.wem"
      },
      {
+      "Id": "385943685",
+      "Language": "English(US)",
+      "ShortName": "14-refined.wav",
+      "Path": "Voices\\English(US)\\14-refined_B95B134F.wem"
+     },
+     {
       "Id": "393735241",
       "Language": "English(US)",
       "ShortName": "All levels\\224.wav",
@@ -1643,12 +1661,6 @@
       "Language": "English(US)",
       "ShortName": "All levels\\227.wav",
       "Path": "Voices\\English(US)\\All levels\\227_B95B134F.wem"
-     },
-     {
-      "Id": "448120456",
-      "Language": "English(US)",
-      "ShortName": "Level -1\\-5.wav",
-      "Path": "Voices\\English(US)\\Level -1\\-5_B95B134F.wem"
      },
      {
       "Id": "458688693",
@@ -1709,6 +1721,12 @@
       "Language": "SFX",
       "ShortName": "ESD_Cracks-006.wav",
       "Path": "SFX\\ESD_Cracks-006_B95B134F.wem"
+     },
+     {
+      "Id": "511498365",
+      "Language": "English(US)",
+      "ShortName": "58.wav",
+      "Path": "Voices\\English(US)\\58_B95B134F.wem"
      },
      {
       "Id": "519644027",
@@ -1777,10 +1795,10 @@
       "Path": "Voices\\English(US)\\Level 0\\44_B95B134F.wem"
      },
      {
-      "Id": "587689143",
+      "Id": "588393844",
       "Language": "English(US)",
-      "ShortName": "Level 0\\42.wav",
-      "Path": "Voices\\English(US)\\Level 0\\42_B95B134F.wem"
+      "ShortName": "408-refined.wav",
+      "Path": "Voices\\English(US)\\408-refined_B95B134F.wem"
      },
      {
       "Id": "596582412",
@@ -1837,6 +1855,12 @@
       "Path": "SFX\\ESD_Cracks-001_B95B134F.wem"
      },
      {
+      "Id": "629118930",
+      "Language": "English(US)",
+      "ShortName": "59-refined.wav",
+      "Path": "Voices\\English(US)\\59-refined_B95B134F.wem"
+     },
+     {
       "Id": "635247845",
       "Language": "English(US)",
       "ShortName": "110-Redesigned.wav",
@@ -1847,6 +1871,12 @@
       "Language": "English(US)",
       "ShortName": "Level 0\\34.wav",
       "Path": "Voices\\English(US)\\Level 0\\34_B95B134F.wem"
+     },
+     {
+      "Id": "652975904",
+      "Language": "English(US)",
+      "ShortName": "42-refined.wav",
+      "Path": "Voices\\English(US)\\42-refined_B95B134F.wem"
      },
      {
       "Id": "654094160",
@@ -1909,6 +1939,12 @@
       "Path": "Voices\\English(US)\\Level 0\\53_B95B134F.wem"
      },
      {
+      "Id": "697150888",
+      "Language": "English(US)",
+      "ShortName": "07.wav",
+      "Path": "Voices\\English(US)\\07_B95B134F.wem"
+     },
+     {
       "Id": "705159245",
       "Language": "English(US)",
       "ShortName": "Level 0\\35.wav",
@@ -1937,12 +1973,6 @@
       "Language": "English(US)",
       "ShortName": "All levels\\232.wav",
       "Path": "Voices\\English(US)\\All levels\\232_B95B134F.wem"
-     },
-     {
-      "Id": "752542252",
-      "Language": "English(US)",
-      "ShortName": "Level -1\\-8.wav",
-      "Path": "Voices\\English(US)\\Level -1\\-8_B95B134F.wem"
      },
      {
       "Id": "755686890",
@@ -2077,6 +2107,12 @@
       "Path": "Voices\\English(US)\\Level 0\\47_B95B134F.wem"
      },
      {
+      "Id": "932246849",
+      "Language": "English(US)",
+      "ShortName": "405-refined.wav",
+      "Path": "Voices\\English(US)\\405-refined_B95B134F.wem"
+     },
+     {
       "Id": "948872807",
       "Language": "SFX",
       "ShortName": "Avarie_End.wav",
@@ -2099,12 +2135,6 @@
       "Language": "English(US)",
       "ShortName": "Level -1\\-11.wav",
       "Path": "Voices\\English(US)\\Level -1\\-11_B95B134F.wem"
-     },
-     {
-      "Id": "976361701",
-      "Language": "English(US)",
-      "ShortName": "Level 0\\14.wav",
-      "Path": "Voices\\English(US)\\Level 0\\14_B95B134F.wem"
      },
      {
       "Id": "979976773",

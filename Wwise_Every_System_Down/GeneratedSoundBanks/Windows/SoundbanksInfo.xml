@@ -22,6 +22,7 @@
 				<Event Id="3168847878" Name="Play_04" ObjectPath="\Events\Default Work Unit\Voices\Play_04" GUID="{B8E0CDD2-C7D9-4DE6-AD9E-A799E28AEAF7}" DurationType="OneShot" DurationMin="2,605583" DurationMax="2,605583"/>
 				<Event Id="3168847879" Name="Play_05" ObjectPath="\Events\Default Work Unit\Voices\Play_05" GUID="{F0801A33-67E0-449C-BDE6-C01F016F2748}" DurationType="OneShot" DurationMin="1,350042" DurationMax="1,350042"/>
 				<Event Id="3168847876" Name="Play_06" ObjectPath="\Events\Default Work Unit\Voices\Play_06" GUID="{003A7B20-6DCB-421E-A80B-F300D8804A06}" DurationType="OneShot" DurationMin="2,680625" DurationMax="2,680625"/>
+				<Event Id="3168847877" Name="Play_07" ObjectPath="\Events\Default Work Unit\Play_07" GUID="{EE8DAD45-9543-45DC-8241-4117F303A615}" DurationType="OneShot" DurationMin="2,970083" DurationMax="2,970083"/>
 				<Event Id="3168847882" Name="Play_08" ObjectPath="\Events\Default Work Unit\Voices\Play_08" GUID="{A89DB43E-8267-4D79-89EA-69136F09E77B}" DurationType="OneShot" DurationMin="3,782417" DurationMax="3,782417"/>
 				<Event Id="3168847883" Name="Play_09" ObjectPath="\Events\Default Work Unit\Voices\Play_09" GUID="{49B2ADA4-9E1A-4D87-9E84-38A6A706C0D3}" DurationType="OneShot" DurationMin="2,171292" DurationMax="2,171292"/>
 				<Event Id="3185625589" Name="Play_10" ObjectPath="\Events\Default Work Unit\Voices\Play_10" GUID="{9A005B34-FDB4-441D-BE9B-AA8D03A0E298}" DurationType="OneShot" DurationMin="1,735813" DurationMax="1,735813"/>
@@ -44,7 +45,7 @@
 				<Event Id="3705531178" Name="Play_116" ObjectPath="\Events\Default Work Unit\Voices\Play_116" GUID="{1A3A25A0-C8B2-45F9-AD6D-AC7EE33F854F}" DurationType="OneShot" DurationMin="8,977417" DurationMax="8,977417"/>
 				<Event Id="3185625591" Name="Play_12" ObjectPath="\Events\Default Work Unit\Voices\Play_12" GUID="{FC733E6F-5DEF-411A-B28F-B5102E41BF3D}" DurationType="OneShot" DurationMin="2,886979" DurationMax="2,886979"/>
 				<Event Id="3185625590" Name="Play_13" ObjectPath="\Events\Default Work Unit\Voices\Play_13" GUID="{8786A8A0-6ACD-48BB-B54B-940095DA53D6}" DurationType="OneShot" DurationMin="1,908479" DurationMax="1,908479"/>
-				<Event Id="3185625585" Name="Play_14" ObjectPath="\Events\Default Work Unit\Voices\Play_14" GUID="{48283F96-6FA2-4B56-B88C-75F65E79E29F}" DurationType="OneShot" DurationMin="4,361729" DurationMax="4,361729"/>
+				<Event Id="3185625585" Name="Play_14" ObjectPath="\Events\Default Work Unit\Voices\Play_14" GUID="{48283F96-6FA2-4B56-B88C-75F65E79E29F}" DurationType="OneShot" DurationMin="6,669396" DurationMax="6,669396"/>
 				<Event Id="3185625584" Name="Play_15" ObjectPath="\Events\Default Work Unit\Voices\Play_15" GUID="{2724EFE2-5FC5-4D54-99AF-58E633DD0C73}" DurationType="OneShot" DurationMin="2,062729" DurationMax="2,062729"/>
 				<Event Id="3185625587" Name="Play_16" ObjectPath="\Events\Default Work Unit\Voices\Play_16" GUID="{807170F5-9AE4-41E9-97C9-0919D0A04A72}" DurationType="OneShot" DurationMin="2,096083" DurationMax="2,096083"/>
 				<Event Id="3185625586" Name="Play_17" ObjectPath="\Events\Default Work Unit\Voices\Play_17" GUID="{4164DEBA-2BA4-4BE6-869F-1772BB28956E}" DurationType="OneShot" DurationMin="1,799854" DurationMax="1,799854"/>
@@ -117,10 +118,10 @@
 				<Event Id="3755025360" Name="Play_402" ObjectPath="\Events\Default Work Unit\Voices\Play_402" GUID="{5B236577-3F5A-45A2-BC34-C453B3AB3292}" DurationType="OneShot" DurationMin="1,682042" DurationMax="1,682042"/>
 				<Event Id="3755025361" Name="Play_403" ObjectPath="\Events\Default Work Unit\Voices\Play_403" GUID="{3D66F466-7FF2-4899-8B9F-A9AD53794627}" DurationType="OneShot" DurationMin="3,006813" DurationMax="3,006813"/>
 				<Event Id="3755025366" Name="Play_404" ObjectPath="\Events\Default Work Unit\Voices\Play_404" GUID="{29A0559D-26F0-4439-AA1A-9C32A0797067}" DurationType="OneShot" DurationMin="7,631250" DurationMax="7,631250"/>
-				<Event Id="3755025367" Name="Play_405" ObjectPath="\Events\Default Work Unit\Voices\Play_405" GUID="{2838EC78-EBCB-4C31-9967-B09FF762119C}" DurationType="OneShot" DurationMin="2,169583" DurationMax="2,169583"/>
+				<Event Id="3755025367" Name="Play_405" ObjectPath="\Events\Default Work Unit\Voices\Play_405" GUID="{2838EC78-EBCB-4C31-9967-B09FF762119C}" DurationType="OneShot" DurationMin="3,188042" DurationMax="3,188042"/>
 				<Event Id="3755025364" Name="Play_406" ObjectPath="\Events\Default Work Unit\Voices\Play_406" GUID="{121955E1-0037-4D16-B46A-3F19A79CFCF0}" DurationType="OneShot" DurationMin="2,925875" DurationMax="2,925875"/>
 				<Event Id="3755025365" Name="Play_407" ObjectPath="\Events\Default Work Unit\Voices\Play_407" GUID="{D85EDF82-DBBF-413B-B47B-E8A6CD9DA9FC}" DurationType="OneShot" DurationMin="11,435500" DurationMax="11,435500"/>
-				<Event Id="3755025370" Name="Play_408" ObjectPath="\Events\Default Work Unit\Voices\Play_408" GUID="{AA695CA4-8A6E-4C66-89B3-FCA8C7C280CA}" DurationType="OneShot" DurationMin="8,748396" DurationMax="8,748396"/>
+				<Event Id="3755025370" Name="Play_408" ObjectPath="\Events\Default Work Unit\Voices\Play_408" GUID="{AA695CA4-8A6E-4C66-89B3-FCA8C7C280CA}" DurationType="OneShot" DurationMin="8,746458" DurationMax="8,746458"/>
 				<Event Id="3755025371" Name="Play_409" ObjectPath="\Events\Default Work Unit\Voices\Play_409" GUID="{54A79FF0-DDDC-46C1-83FD-31097CC362FA}" DurationType="OneShot" DurationMin="1,820208" DurationMax="1,820208"/>
 				<Event Id="3101737431" Name="Play_41" ObjectPath="\Events\Default Work Unit\Voices\Play_41" GUID="{D433E82F-07C6-4B03-8D5C-96AF71948F0B}" DurationType="OneShot" DurationMin="3,101396" DurationMax="3,101396"/>
 				<Event Id="3771802949" Name="Play_410" ObjectPath="\Events\Default Work Unit\Voices\Play_410" GUID="{0EE05AEE-4A06-4E60-85E4-CF9CBEFA9F6C}" DurationType="OneShot" DurationMin="2,382250" DurationMax="2,382250"/>
@@ -130,7 +131,7 @@
 				<Event Id="3771802945" Name="Play_414" ObjectPath="\Events\Default Work Unit\Voices\Play_414" GUID="{B885C798-E622-45D7-85D9-D067F7A79B21}" DurationType="OneShot" DurationMin="3,944333" DurationMax="3,944333"/>
 				<Event Id="3771802944" Name="Play_415" ObjectPath="\Events\Default Work Unit\Voices\Play_415" GUID="{41E2AE53-595C-49AA-ACAD-D8F4ECE9F9C9}" DurationType="OneShot" DurationMin="3,887104" DurationMax="3,887104"/>
 				<Event Id="3771802947" Name="Play_416" ObjectPath="\Events\Default Work Unit\Voices\Play_416" GUID="{7393BF92-A42C-41D2-B3C4-29C82BC5A147}" DurationType="OneShot" DurationMin="4,890563" DurationMax="4,890563"/>
-				<Event Id="3101737428" Name="Play_42" ObjectPath="\Events\Default Work Unit\Voices\Play_42" GUID="{A63A5B0F-4622-4B3D-A4DE-E6FD2428A246}" DurationType="OneShot" DurationMin="7,799667" DurationMax="7,799667"/>
+				<Event Id="3101737428" Name="Play_42" ObjectPath="\Events\Default Work Unit\Voices\Play_42" GUID="{A63A5B0F-4622-4B3D-A4DE-E6FD2428A246}" DurationType="OneShot" DurationMin="11,027187" DurationMax="11,027187"/>
 				<Event Id="3101737426" Name="Play_44" ObjectPath="\Events\Default Work Unit\Voices\Play_44" GUID="{98D4A8D1-D73D-4F21-B052-9D5E12FB4980}" DurationType="OneShot" DurationMin="3,521000" DurationMax="3,521000"/>
 				<Event Id="3101737427" Name="Play_45" ObjectPath="\Events\Default Work Unit\Voices\Play_45" GUID="{BC90868D-750D-44AD-AE41-3692DE76687A}" DurationType="OneShot" DurationMin="2,736500" DurationMax="2,736500"/>
 				<Event Id="3101737424" Name="Play_46" ObjectPath="\Events\Default Work Unit\Voices\Play_46" GUID="{2EB2DE36-14AF-421B-87F0-ED709BAECBD7}" DurationType="OneShot" DurationMin="2,554958" DurationMax="2,554958"/>
@@ -141,7 +142,8 @@
 				<Event Id="3118515020" Name="Play_55" ObjectPath="\Events\Default Work Unit\Voices\Play_55" GUID="{B43B05E4-52B0-4208-9214-F69663A01B9E}" DurationType="OneShot" DurationMin="1,321750" DurationMax="1,321750"/>
 				<Event Id="3118515023" Name="Play_56" ObjectPath="\Events\Default Work Unit\Voices\Play_56" GUID="{A7DC1EB3-2271-42ED-827E-C7C8852BDEE8}" DurationType="OneShot" DurationMin="1,077438" DurationMax="1,077438"/>
 				<Event Id="3118515022" Name="Play_57" ObjectPath="\Events\Default Work Unit\Voices\Play_57" GUID="{CB1B8A2B-8A50-4E20-922A-FB7907FBE9CA}" DurationType="OneShot" DurationMin="3,142875" DurationMax="3,142875"/>
-				<Event Id="3118515008" Name="Play_59" ObjectPath="\Events\Default Work Unit\Voices\Play_59" GUID="{EECF3216-0231-48CE-BF73-2E326638594A}" DurationType="OneShot" DurationMin="4,617813" DurationMax="4,617813"/>
+				<Event Id="3118515009" Name="Play_58" ObjectPath="\Events\Default Work Unit\Play_58" GUID="{E0DB211C-2F69-40A5-9F99-6141AE546478}" DurationType="OneShot" DurationMin="14,405354" DurationMax="14,405354"/>
+				<Event Id="3118515008" Name="Play_59" ObjectPath="\Events\Default Work Unit\Voices\Play_59" GUID="{EECF3216-0231-48CE-BF73-2E326638594A}" DurationType="OneShot" DurationMin="12,819500" DurationMax="12,819500"/>
 				<Event Id="3068182265" Name="Play_69" ObjectPath="\Events\Default Work Unit\Voices\Play_69" GUID="{62B00172-C6FD-4B0D-A40F-03C1697E4235}" DurationType="OneShot" DurationMin="3,014437" DurationMax="3,014437"/>
 				<Event Id="1313850920" Name="Play_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_Ambiance_01" GUID="{31DC63F8-B1B6-4E0F-A5D2-895CA571B47C}" DurationType="Infinite"/>
 				<Event Id="3995708897" Name="Play_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Play_Crackling_Submarine" GUID="{45DB408B-535E-4C01-AE85-A31852198093}" DurationType="OneShot" DurationMin="97,061539" DurationMax="187,061539"/>
@@ -341,10 +343,6 @@
 					<ShortName>SFX_Console_Denied.wav</ShortName>
 					<Path>SFX\SFX_Console_Denied_B95B134F.wem</Path>
 				</File>
-				<File Id="352582272" Language="English(US)">
-					<ShortName>59-Water.wav</ShortName>
-					<Path>Voices\English(US)\59-Water_B95B134F.wem</Path>
-				</File>
 				<File Id="359134993" Language="SFX">
 					<ShortName>Avarie_Start.wav</ShortName>
 					<Path>SFX\Avarie_Start_B95B134F.wem</Path>
@@ -365,6 +363,10 @@
 					<ShortName>Level 1\108.wav</ShortName>
 					<Path>Voices\English(US)\Level 1\108_B95B134F.wem</Path>
 				</File>
+				<File Id="385943685" Language="English(US)">
+					<ShortName>14-refined.wav</ShortName>
+					<Path>Voices\English(US)\14-refined_B95B134F.wem</Path>
+				</File>
 				<File Id="393735241" Language="English(US)">
 					<ShortName>All levels\224.wav</ShortName>
 					<Path>Voices\English(US)\All levels\224_B95B134F.wem</Path>
@@ -384,10 +386,6 @@
 				<File Id="447996865" Language="English(US)">
 					<ShortName>All levels\227.wav</ShortName>
 					<Path>Voices\English(US)\All levels\227_B95B134F.wem</Path>
-				</File>
-				<File Id="448120456" Language="English(US)">
-					<ShortName>Level -1\-5.wav</ShortName>
-					<Path>Voices\English(US)\Level -1\-5_B95B134F.wem</Path>
 				</File>
 				<File Id="458688693" Language="English(US)">
 					<ShortName>Level 1\103.wav</ShortName>
@@ -428,6 +426,10 @@
 				<File Id="509144032" Language="SFX">
 					<ShortName>ESD_Cracks-006.wav</ShortName>
 					<Path>SFX\ESD_Cracks-006_B95B134F.wem</Path>
+				</File>
+				<File Id="511498365" Language="English(US)">
+					<ShortName>58.wav</ShortName>
+					<Path>Voices\English(US)\58_B95B134F.wem</Path>
 				</File>
 				<File Id="519644027" Language="English(US)">
 					<ShortName>All levels\222.wav</ShortName>
@@ -473,9 +475,9 @@
 					<ShortName>Level 0\44.wav</ShortName>
 					<Path>Voices\English(US)\Level 0\44_B95B134F.wem</Path>
 				</File>
-				<File Id="587689143" Language="English(US)">
-					<ShortName>Level 0\42.wav</ShortName>
-					<Path>Voices\English(US)\Level 0\42_B95B134F.wem</Path>
+				<File Id="588393844" Language="English(US)">
+					<ShortName>408-refined.wav</ShortName>
+					<Path>Voices\English(US)\408-refined_B95B134F.wem</Path>
 				</File>
 				<File Id="596582412" Language="SFX">
 					<ShortName>Ambiance_01.wav</ShortName>
@@ -513,6 +515,10 @@
 					<ShortName>ESD_Cracks-001.wav</ShortName>
 					<Path>SFX\ESD_Cracks-001_B95B134F.wem</Path>
 				</File>
+				<File Id="629118930" Language="English(US)">
+					<ShortName>59-refined.wav</ShortName>
+					<Path>Voices\English(US)\59-refined_B95B134F.wem</Path>
+				</File>
 				<File Id="635247845" Language="English(US)">
 					<ShortName>110-Redesigned.wav</ShortName>
 					<Path>Voices\English(US)\110-Redesigned_B95B134F.wem</Path>
@@ -520,6 +526,10 @@
 				<File Id="642501791" Language="English(US)">
 					<ShortName>Level 0\34.wav</ShortName>
 					<Path>Voices\English(US)\Level 0\34_B95B134F.wem</Path>
+				</File>
+				<File Id="652975904" Language="English(US)">
+					<ShortName>42-refined.wav</ShortName>
+					<Path>Voices\English(US)\42-refined_B95B134F.wem</Path>
 				</File>
 				<File Id="654094160" Language="English(US)">
 					<ShortName>Level 0\17.wav</ShortName>
@@ -561,6 +571,10 @@
 					<ShortName>Level 0\53.wav</ShortName>
 					<Path>Voices\English(US)\Level 0\53_B95B134F.wem</Path>
 				</File>
+				<File Id="697150888" Language="English(US)">
+					<ShortName>07.wav</ShortName>
+					<Path>Voices\English(US)\07_B95B134F.wem</Path>
+				</File>
 				<File Id="705159245" Language="English(US)">
 					<ShortName>Level 0\35.wav</ShortName>
 					<Path>Voices\English(US)\Level 0\35_B95B134F.wem</Path>
@@ -580,10 +594,6 @@
 				<File Id="746334547" Language="English(US)">
 					<ShortName>All levels\232.wav</ShortName>
 					<Path>Voices\English(US)\All levels\232_B95B134F.wem</Path>
-				</File>
-				<File Id="752542252" Language="English(US)">
-					<ShortName>Level -1\-8.wav</ShortName>
-					<Path>Voices\English(US)\Level -1\-8_B95B134F.wem</Path>
 				</File>
 				<File Id="755686890" Language="English(US)">
 					<ShortName>Level 0\12.wav</ShortName>
@@ -673,6 +683,10 @@
 					<ShortName>Level 0\47.wav</ShortName>
 					<Path>Voices\English(US)\Level 0\47_B95B134F.wem</Path>
 				</File>
+				<File Id="932246849" Language="English(US)">
+					<ShortName>405-refined.wav</ShortName>
+					<Path>Voices\English(US)\405-refined_B95B134F.wem</Path>
+				</File>
 				<File Id="948872807" Language="SFX">
 					<ShortName>Avarie_End.wav</ShortName>
 					<Path>SFX\Avarie_End_B95B134F.wem</Path>
@@ -688,10 +702,6 @@
 				<File Id="964244408" Language="English(US)">
 					<ShortName>Level -1\-11.wav</ShortName>
 					<Path>Voices\English(US)\Level -1\-11_B95B134F.wem</Path>
-				</File>
-				<File Id="976361701" Language="English(US)">
-					<ShortName>Level 0\14.wav</ShortName>
-					<Path>Voices\English(US)\Level 0\14_B95B134F.wem</Path>
 				</File>
 				<File Id="979976773" Language="English(US)">
 					<ShortName>All levels\233.wav</ShortName>

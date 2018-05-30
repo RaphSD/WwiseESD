@@ -19,6 +19,7 @@ namespace AK
         static const AkUniqueID PLAY_04 = 3168847878U;
         static const AkUniqueID PLAY_05 = 3168847879U;
         static const AkUniqueID PLAY_06 = 3168847876U;
+        static const AkUniqueID PLAY_07 = 3168847877U;
         static const AkUniqueID PLAY_08 = 3168847882U;
         static const AkUniqueID PLAY_09 = 3168847883U;
         static const AkUniqueID PLAY_10 = 3185625589U;
@@ -64,6 +65,7 @@ namespace AK
         static const AkUniqueID PLAY_55 = 3118515020U;
         static const AkUniqueID PLAY_56 = 3118515023U;
         static const AkUniqueID PLAY_57 = 3118515022U;
+        static const AkUniqueID PLAY_58 = 3118515009U;
         static const AkUniqueID PLAY_59 = 3118515008U;
         static const AkUniqueID PLAY_69 = 3068182265U;
         static const AkUniqueID PLAY_101 = 3722308766U;
