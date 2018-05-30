@@ -61,11 +61,12 @@ Event	ID	Name			Wwise Object Path	Notes
 	3101737426	Play_44			\Default Work Unit\Voices\Play_44	
 	3101737427	Play_45			\Default Work Unit\Voices\Play_45	
 	3101737428	Play_42			\Default Work Unit\Voices\Play_42	
+	3101737429	Play_43			\Default Work Unit\Voices\Play_43	
 	3101737430	Play_40			\Default Work Unit\Voices\Play_40	
 	3101737431	Play_41			\Default Work Unit\Voices\Play_41	
 	3101737438	Play_48			\Default Work Unit\Voices\Play_48	
 	3118515008	Play_59			\Default Work Unit\Voices\Play_59	
-	3118515009	Play_58			\Default Work Unit\Play_58	
+	3118515009	Play_58			\Default Work Unit\Voices\Play_58	
 	3118515018	Play_53			\Default Work Unit\Voices\Play_53	
 	3118515020	Play_55			\Default Work Unit\Voices\Play_55	
 	3118515021	Play_54			\Default Work Unit\Voices\Play_54	
@@ -95,7 +96,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3168847873	Play_03			\Default Work Unit\Voices\Play_03	
 	3168847875	Play_01			\Default Work Unit\Voices\Play_01	
 	3168847876	Play_06			\Default Work Unit\Voices\Play_06	
-	3168847877	Play_07			\Default Work Unit\Play_07	
+	3168847877	Play_07			\Default Work Unit\Voices\Play_07	
 	3168847878	Play_04			\Default Work Unit\Voices\Play_04	
 	3168847879	Play_05			\Default Work Unit\Voices\Play_05	
 	3168847882	Play_08			\Default Work Unit\Voices\Play_08	
@@ -163,6 +164,7 @@ Effect plug-ins	ID	Name	Type				Notes
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	6607728	48	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\48_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\48		142396
 	9808572	21	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\21_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\21		175375
+	13499914	43	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\43_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\43		110029
 	19627871	40	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\40_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\40		77955
 	20439515	Electric_Hum	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Track 05_78803219.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Engine\Electric_Hum		2188496
 	30822695	05	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\05_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\05		41268

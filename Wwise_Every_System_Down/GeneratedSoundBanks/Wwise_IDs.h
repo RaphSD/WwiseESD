@@ -55,6 +55,7 @@ namespace AK
         static const AkUniqueID PLAY_40 = 3101737430U;
         static const AkUniqueID PLAY_41 = 3101737431U;
         static const AkUniqueID PLAY_42 = 3101737428U;
+        static const AkUniqueID PLAY_43 = 3101737429U;
         static const AkUniqueID PLAY_44 = 3101737426U;
         static const AkUniqueID PLAY_45 = 3101737427U;
         static const AkUniqueID PLAY_46 = 3101737424U;

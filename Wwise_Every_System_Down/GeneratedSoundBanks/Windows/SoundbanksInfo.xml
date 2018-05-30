@@ -22,7 +22,7 @@
 				<Event Id="3168847878" Name="Play_04" ObjectPath="\Events\Default Work Unit\Voices\Play_04" GUID="{B8E0CDD2-C7D9-4DE6-AD9E-A799E28AEAF7}" DurationType="OneShot" DurationMin="2,605583" DurationMax="2,605583"/>
 				<Event Id="3168847879" Name="Play_05" ObjectPath="\Events\Default Work Unit\Voices\Play_05" GUID="{F0801A33-67E0-449C-BDE6-C01F016F2748}" DurationType="OneShot" DurationMin="1,350042" DurationMax="1,350042"/>
 				<Event Id="3168847876" Name="Play_06" ObjectPath="\Events\Default Work Unit\Voices\Play_06" GUID="{003A7B20-6DCB-421E-A80B-F300D8804A06}" DurationType="OneShot" DurationMin="2,680625" DurationMax="2,680625"/>
-				<Event Id="3168847877" Name="Play_07" ObjectPath="\Events\Default Work Unit\Play_07" GUID="{EE8DAD45-9543-45DC-8241-4117F303A615}" DurationType="OneShot" DurationMin="2,970083" DurationMax="2,970083"/>
+				<Event Id="3168847877" Name="Play_07" ObjectPath="\Events\Default Work Unit\Voices\Play_07" GUID="{EE8DAD45-9543-45DC-8241-4117F303A615}" DurationType="OneShot" DurationMin="2,970083" DurationMax="2,970083"/>
 				<Event Id="3168847882" Name="Play_08" ObjectPath="\Events\Default Work Unit\Voices\Play_08" GUID="{A89DB43E-8267-4D79-89EA-69136F09E77B}" DurationType="OneShot" DurationMin="3,782417" DurationMax="3,782417"/>
 				<Event Id="3168847883" Name="Play_09" ObjectPath="\Events\Default Work Unit\Voices\Play_09" GUID="{49B2ADA4-9E1A-4D87-9E84-38A6A706C0D3}" DurationType="OneShot" DurationMin="2,171292" DurationMax="2,171292"/>
 				<Event Id="3185625589" Name="Play_10" ObjectPath="\Events\Default Work Unit\Voices\Play_10" GUID="{9A005B34-FDB4-441D-BE9B-AA8D03A0E298}" DurationType="OneShot" DurationMin="1,735813" DurationMax="1,735813"/>
@@ -132,6 +132,7 @@
 				<Event Id="3771802944" Name="Play_415" ObjectPath="\Events\Default Work Unit\Voices\Play_415" GUID="{41E2AE53-595C-49AA-ACAD-D8F4ECE9F9C9}" DurationType="OneShot" DurationMin="3,887104" DurationMax="3,887104"/>
 				<Event Id="3771802947" Name="Play_416" ObjectPath="\Events\Default Work Unit\Voices\Play_416" GUID="{7393BF92-A42C-41D2-B3C4-29C82BC5A147}" DurationType="OneShot" DurationMin="4,890563" DurationMax="4,890563"/>
 				<Event Id="3101737428" Name="Play_42" ObjectPath="\Events\Default Work Unit\Voices\Play_42" GUID="{A63A5B0F-4622-4B3D-A4DE-E6FD2428A246}" DurationType="OneShot" DurationMin="11,027187" DurationMax="11,027187"/>
+				<Event Id="3101737429" Name="Play_43" ObjectPath="\Events\Default Work Unit\Voices\Play_43" GUID="{EEC265C9-9CC8-4E3A-93AA-5B0242FF382A}" DurationType="OneShot" DurationMin="3,547437" DurationMax="3,547437"/>
 				<Event Id="3101737426" Name="Play_44" ObjectPath="\Events\Default Work Unit\Voices\Play_44" GUID="{98D4A8D1-D73D-4F21-B052-9D5E12FB4980}" DurationType="OneShot" DurationMin="3,521000" DurationMax="3,521000"/>
 				<Event Id="3101737427" Name="Play_45" ObjectPath="\Events\Default Work Unit\Voices\Play_45" GUID="{BC90868D-750D-44AD-AE41-3692DE76687A}" DurationType="OneShot" DurationMin="2,736500" DurationMax="2,736500"/>
 				<Event Id="3101737424" Name="Play_46" ObjectPath="\Events\Default Work Unit\Voices\Play_46" GUID="{2EB2DE36-14AF-421B-87F0-ED709BAECBD7}" DurationType="OneShot" DurationMin="2,554958" DurationMax="2,554958"/>
@@ -142,7 +143,7 @@
 				<Event Id="3118515020" Name="Play_55" ObjectPath="\Events\Default Work Unit\Voices\Play_55" GUID="{B43B05E4-52B0-4208-9214-F69663A01B9E}" DurationType="OneShot" DurationMin="1,321750" DurationMax="1,321750"/>
 				<Event Id="3118515023" Name="Play_56" ObjectPath="\Events\Default Work Unit\Voices\Play_56" GUID="{A7DC1EB3-2271-42ED-827E-C7C8852BDEE8}" DurationType="OneShot" DurationMin="1,077438" DurationMax="1,077438"/>
 				<Event Id="3118515022" Name="Play_57" ObjectPath="\Events\Default Work Unit\Voices\Play_57" GUID="{CB1B8A2B-8A50-4E20-922A-FB7907FBE9CA}" DurationType="OneShot" DurationMin="3,142875" DurationMax="3,142875"/>
-				<Event Id="3118515009" Name="Play_58" ObjectPath="\Events\Default Work Unit\Play_58" GUID="{E0DB211C-2F69-40A5-9F99-6141AE546478}" DurationType="OneShot" DurationMin="14,405354" DurationMax="14,405354"/>
+				<Event Id="3118515009" Name="Play_58" ObjectPath="\Events\Default Work Unit\Voices\Play_58" GUID="{E0DB211C-2F69-40A5-9F99-6141AE546478}" DurationType="OneShot" DurationMin="14,405354" DurationMax="14,405354"/>
 				<Event Id="3118515008" Name="Play_59" ObjectPath="\Events\Default Work Unit\Voices\Play_59" GUID="{EECF3216-0231-48CE-BF73-2E326638594A}" DurationType="OneShot" DurationMin="12,819500" DurationMax="12,819500"/>
 				<Event Id="3068182265" Name="Play_69" ObjectPath="\Events\Default Work Unit\Voices\Play_69" GUID="{62B00172-C6FD-4B0D-A40F-03C1697E4235}" DurationType="OneShot" DurationMin="3,014437" DurationMax="3,014437"/>
 				<Event Id="1313850920" Name="Play_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_Ambiance_01" GUID="{31DC63F8-B1B6-4E0F-A5D2-895CA571B47C}" DurationType="Infinite"/>
@@ -170,6 +171,10 @@
 				<File Id="9808572" Language="English(US)">
 					<ShortName>Level 0\21.wav</ShortName>
 					<Path>Voices\English(US)\Level 0\21_B95B134F.wem</Path>
+				</File>
+				<File Id="13499914" Language="English(US)">
+					<ShortName>43.wav</ShortName>
+					<Path>Voices\English(US)\43_B95B134F.wem</Path>
 				</File>
 				<File Id="19627871" Language="English(US)">
 					<ShortName>Level 0\40.wav</ShortName>
