@@ -12,6 +12,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	1758886026	Play_251			\Default Work Unit\Voices\Play_251	
 	1778798315	Play_SFX_Text_Bip			\Default Work Unit\Play_SFX_Text_Bip	
 	1789658778	Stop_SFX_Alarm_Start			\Default Work Unit\Stop_SFX_Alarm_Start	
+	1803737652	Stop_Lever			\Default Work Unit\Stop_Lever	
 	1809218880	Play_204			\Default Work Unit\Voices\Play_204	
 	1809218881	Play_205			\Default Work Unit\Voices\Play_205	
 	1809218882	Play_206			\Default Work Unit\Voices\Play_206	
@@ -112,6 +113,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	3185625591	Play_12			\Default Work Unit\Voices\Play_12	
 	3185625596	Play_19			\Default Work Unit\Voices\Play_19	
 	3185625597	Play_18			\Default Work Unit\Voices\Play_18	
+	3196500978	Play_Lever			\Default Work Unit\Play_Lever	
 	3705531176	Play_114			\Default Work Unit\Voices\Play_114	
 	3705531177	Play_115			\Default Work Unit\Voices\Play_115	
 	3705531178	Play_116			\Default Work Unit\Voices\Play_116	
@@ -145,11 +147,16 @@ Event	ID	Name			Wwise Object Path	Notes
 	3771802950	Play_413			\Default Work Unit\Voices\Play_413	
 	3771802951	Play_412			\Default Work Unit\Voices\Play_412	
 	3995708897	Play_Crackling_Submarine			\Default Work Unit\Play_Crackling_Submarine	
+	4087390633	Play_Gauge_Appear			\Default Work Unit\Play_Gauge_Appear	
 	4108837005	Play_SFX_Console_Denied			\Default Work Unit\Play_SFX_Console_Denied	
 
 Game Parameter	ID	Name			Wwise Object Path	Notes
 	932301089	RTPC_SFX_Volume			\Default Work Unit\RTPC_SFX_Volume	
 	1596647065	RTPC_Music_Volume			\Default Work Unit\RTPC_Music_Volume	
+	4100875197	RTPC_Lever_Position			\Default Work Unit\RTPC_Lever_Position	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	55097821	Modulator Envelope (Custom)				
 
 Audio Bus	ID	Name			Wwise Object Path	Notes
 	393239870	SFX			\Default Work Unit\Master Audio Bus\MAIN\SFX	
@@ -161,6 +168,9 @@ Audio Bus	ID	Name			Wwise Object Path	Notes
 Effect plug-ins	ID	Name	Type				Notes
 	354229131	Wwise Parametric EQ (Custom)	Wwise Parametric EQ			
 	2037162648	Auro_Headphones	Auro Headphone			
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	299189584	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Lever\Wwise Synth One	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	6607728	48	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\48_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\48		142396
@@ -289,6 +299,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	806033248	237	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\237_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\237		153209
 	814125618	45	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\45_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\45		72803
 	814412688	25	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\25_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\25		141763
+	826753049	Gauge_Appear	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Gauge_Appear_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gauge_Appear		142440
 	850037927	10	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\10_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\10		49930
 	851770343	202	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\202_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\202		40548
 	855715807	213	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\213_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\213		37495

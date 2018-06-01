@@ -1217,6 +1217,22 @@
       "DurationType": "Infinite"
      },
      {
+      "Id": "4087390633",
+      "Name": "Play_Gauge_Appear",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Gauge_Appear",
+      "GUID": "{6AC449E9-2632-44F9-9A41-DD265D6680C6}",
+      "DurationType": "OneShot",
+      "DurationMin": "1,483083",
+      "DurationMax": "1,483083"
+     },
+     {
+      "Id": "3196500978",
+      "Name": "Play_Lever",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Lever",
+      "GUID": "{3C5C22D1-52AB-4F92-B477-75E1521AA4DB}",
+      "DurationType": "Unknown"
+     },
+     {
       "Id": "2294038116",
       "Name": "Play_SFX_Alarm_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Alarm_Start",
@@ -1318,6 +1334,16 @@
       "Name": "Stop_Engine",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_Engine",
       "GUID": "{42251E8E-1DA3-4B66-AE97-27FAD5395ADF}",
+      "MaxAttenuation": "0,000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0,000000",
+      "DurationMax": "0,000000"
+     },
+     {
+      "Id": "1803737652",
+      "Name": "Stop_Lever",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_Lever",
+      "GUID": "{12FF7942-EDCC-4546-8296-12148B50F8FA}",
       "MaxAttenuation": "0,000000",
       "DurationType": "OneShot",
       "DurationMin": "0,000000",
@@ -2099,6 +2125,12 @@
       "Language": "English(US)",
       "ShortName": "Level 0\\25.wav",
       "Path": "Voices\\English(US)\\Level 0\\25_B95B134F.wem"
+     },
+     {
+      "Id": "826753049",
+      "Language": "SFX",
+      "ShortName": "Gauge_Appear.wav",
+      "Path": "SFX\\Gauge_Appear_1C9C67B2.wem"
      },
      {
       "Id": "850037927",

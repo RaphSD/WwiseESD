@@ -10,6 +10,11 @@
     "DLL": "AkParametricEQ"
    },
    "Plugin": {
+    "Name": "Wwise Synth One",
+    "ID": "9699330",
+    "DLL": "AkSynthOne"
+   },
+   "Plugin": {
     "Name": "System",
     "ID": "11403271",
     "DLL": "DefaultSink"
