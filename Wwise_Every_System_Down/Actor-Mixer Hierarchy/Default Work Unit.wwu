@@ -2828,6 +2828,11 @@
 										<Sound Name="42" ID="{92677623-76AD-4647-9782-6354565EE943}" ShortID="157525982">
 											<PropertyList>
 												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -2850,6 +2855,11 @@
 										<Sound Name="14" ID="{D056FD31-E8B9-491A-81C7-29253A7E2DF3}" ShortID="333756219">
 											<PropertyList>
 												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -2872,6 +2882,11 @@
 										<Sound Name="07" ID="{CEE7667B-8266-47A4-915A-EEB94D4D8E5F}" ShortID="678533527">
 											<PropertyList>
 												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -2894,6 +2909,11 @@
 										<Sound Name="58" ID="{E6E7BCE4-BE32-4AF4-A9E6-A58F9C722D85}" ShortID="493824079">
 											<PropertyList>
 												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -2916,6 +2936,11 @@
 										<Sound Name="59" ID="{5030C8B6-15FA-4555-B213-76C1C637B507}" ShortID="820144239">
 											<PropertyList>
 												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -2938,6 +2963,11 @@
 										<Sound Name="43" ID="{9172B7B0-0A57-436D-9C1D-6713251964D2}" ShortID="397064005">
 											<PropertyList>
 												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -3052,6 +3082,11 @@
 										<Sound Name="108" ID="{D7B4C7DE-D502-473A-9D4A-06F5C252BB99}" ShortID="142653152">
 											<PropertyList>
 												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -3228,6 +3263,11 @@
 										<Sound Name="105" ID="{6BD985A4-33FB-4B81-9295-A9520E658A7F}" ShortID="223727591">
 											<PropertyList>
 												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -3250,6 +3290,11 @@
 										<Sound Name="106" ID="{0FB5C879-A5BE-41F2-A6BF-4E5554A95595}" ShortID="860806228">
 											<PropertyList>
 												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -3272,6 +3317,11 @@
 										<Sound Name="107" ID="{5C81232B-3173-4C46-BF67-76791A1AFCD2}" ShortID="449524638">
 											<PropertyList>
 												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -3294,6 +3344,11 @@
 										<Sound Name="110" ID="{DE9D7F50-A7B1-42FD-8316-BBBE63AE15B7}" ShortID="970723391">
 											<PropertyList>
 												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-3</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -3628,6 +3683,11 @@
 										<Sound Name="405" ID="{D2AEF034-FE4B-43BB-92A1-F37263E5B097}" ShortID="906551886">
 											<PropertyList>
 												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-8</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -3650,6 +3710,11 @@
 										<Sound Name="408" ID="{F7DAA8F8-5168-4413-8D58-67DE2A69A5EB}" ShortID="117366039">
 											<PropertyList>
 												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -3975,6 +4040,114 @@
 						</BlendContainer>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="Lever" ID="{BCD3046F-CFAB-4551-9773-6E2C5DA5E267}" ShortID="1050776445">
+					<PropertyList>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-33</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="Wwise Synth One" ID="{DDCDADE1-1F02-4A92-8BC9-DBBEF21E475D}" ShortID="299189584" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<PropertyList>
+								<Property Name="BaseFrequency" Type="Real32" Value="95">
+									<RTPCList>
+										<RTPC Name="" ID="{8B8F1EA8-98B7-42D8-850E-CE6FCE57FE6E}" ShortID="347317341">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="RTPC_Lever_Position" ID="{99723076-0502-42FF-9858-AA81D8DA07E4}" WorkUnitID="{8BD1A761-5F2C-4C57-AF5D-5B9FE934F537}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{A43DE1DE-E481-4C0D-9E9F-F1FFA23FD0B1}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="5"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>101.13791</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>100</XPos>
+														<YPos>200</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+								<Property Name="FmAmount" Type="Real32" Value="100"/>
+								<Property Name="Osc1Pwm" Type="Real32" Value="0"/>
+								<Property Name="Osc1Transpose" Type="int32" Value="100"/>
+								<Property Name="Osc2Pwm" Type="Real32" Value="0"/>
+								<Property Name="OutputLevel" Type="Real32">
+									<RTPCList>
+										<RTPC Name="" ID="{7D6A751F-0A73-4613-871A-2F85FA8D3DDF}" ShortID="254845417">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom>
+														<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{7B79458B-828F-40A2-AEA9-7BA5A404D37D}" ShortID="55097821"/>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{DD384E4E-AFEF-4AF5-8D15-EB8C23EAEA84}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-96</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Wwise Synth One" ID="{DDCDADE1-1F02-4A92-8BC9-DBBEF21E475D}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Gauge_Appear" ID="{55CAD721-C39B-4A66-BB81-522CD898E37F}" ShortID="109901820">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Gauge_Appear" ID="{85499329-168B-4699-B427-6FE6A785BAEA}" ShortID="826753049">
+							<Language>SFX</Language>
+							<AudioFile>Gauge_Appear.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Gauge_Appear" ID="{85499329-168B-4699-B427-6FE6A785BAEA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

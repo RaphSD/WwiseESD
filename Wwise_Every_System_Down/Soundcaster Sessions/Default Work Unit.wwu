@@ -65,6 +65,14 @@
 							<ObjectRef Name="Play_SFX_Alarm_Start" ID="{DE63DA4B-4173-4C8E-9CDD-3E3EC52CB575}" WorkUnitID="{3FA4B29B-685F-4625-AF37-09E67FE76CDE}"/>
 							<Position X="4" Y="2"/>
 						</Module>
+						<Module>
+							<ObjectRef Name="Play_Lever" ID="{3C5C22D1-52AB-4F92-B477-75E1521AA4DB}" WorkUnitID="{3FA4B29B-685F-4625-AF37-09E67FE76CDE}"/>
+							<Position X="4" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Lever" ID="{12FF7942-EDCC-4546-8296-12148B50F8FA}" WorkUnitID="{3FA4B29B-685F-4625-AF37-09E67FE76CDE}"/>
+							<Position X="4" Y="4"/>
+						</Module>
 					</ModuleList>
 					<RTPCValueList ShowAll="true">
 						<RTPCValue>
@@ -74,6 +82,10 @@
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Turbulence" ID="{EDA87B19-73AA-40A0-9F19-2073606DB710}"/>
 							<Value>6</Value>
+						</RTPCValue>
+						<RTPCValue>
+							<GameParameterRef Name="RTPC_Lever_Position" ID="{99723076-0502-42FF-9858-AA81D8DA07E4}"/>
+							<Value>0</Value>
 						</RTPCValue>
 						<RTPCValue>
 							<GameParameterRef Name="SS_Air_Month" ID="{09E2B445-C4A3-447F-B3CA-818A1D925EF7}"/>

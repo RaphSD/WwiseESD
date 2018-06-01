@@ -2085,6 +2085,49 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_Lever" ID="{3C5C22D1-52AB-4F92-B477-75E1521AA4DB}">
+					<ChildrenList>
+						<Action Name="" ID="{0391D1C4-3FB5-4DDF-9767-F98E1644B420}" ShortID="609843884">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lever" ID="{BCD3046F-CFAB-4551-9773-6E2C5DA5E267}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_Lever" ID="{12FF7942-EDCC-4546-8296-12148B50F8FA}">
+					<ChildrenList>
+						<Action Name="" ID="{69109BCE-3699-4C88-B7EC-382278C2FC29}" ShortID="656473089">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="0.2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lever" ID="{BCD3046F-CFAB-4551-9773-6E2C5DA5E267}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Gauge_Appear" ID="{6AC449E9-2632-44F9-9A41-DD265D6680C6}">
+					<ChildrenList>
+						<Action Name="" ID="{28FC08A0-82C9-4772-B51A-6A74373FDBDF}" ShortID="986908140">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Gauge_Appear" ID="{55CAD721-C39B-4A66-BB81-522CD898E37F}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>
