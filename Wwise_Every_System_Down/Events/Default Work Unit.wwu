@@ -2112,6 +2112,26 @@
 								</Reference>
 							</ReferenceList>
 						</Action>
+						<Action Name="" ID="{6A2D586E-C290-4383-B946-1D8F9C9AC965}" ShortID="752428666">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Motor_Finish" ID="{3C629E83-6A88-4186-8A34-4BE5334D9C6E}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{2C27A3E0-F024-4477-A3F1-FCABB6939CAD}" ShortID="454170532">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Motor_UI_Finish" ID="{BCBC72D3-839C-4A0C-AB59-684EEA3B1D27}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
 					</ChildrenList>
 				</Event>
 				<Event Name="Play_Gauge_Appear" ID="{6AC449E9-2632-44F9-9A41-DD265D6680C6}">

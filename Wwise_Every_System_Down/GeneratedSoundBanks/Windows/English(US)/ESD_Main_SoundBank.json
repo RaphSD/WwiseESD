@@ -1341,10 +1341,7 @@
       "Name": "Stop_Lever",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_Lever",
       "GUID": "{12FF7942-EDCC-4546-8296-12148B50F8FA}",
-      "MaxAttenuation": "0,000000",
-      "DurationType": "OneShot",
-      "DurationMin": "0,000000",
-      "DurationMax": "0,000000"
+      "DurationType": "Infinite"
      },
      {
       "Id": "1789658778",
@@ -1690,6 +1687,12 @@
       "Language": "English(US)",
       "ShortName": "All levels\\224.wav",
       "Path": "Voices\\English(US)\\All levels\\224_B95B134F.wem"
+     },
+     {
+      "Id": "393951901",
+      "Language": "SFX",
+      "ShortName": "Motor finish-001.wav",
+      "Path": "SFX\\Motor finish-001_24ECFB96.wem"
      },
      {
       "Id": "419121292",
@@ -2082,6 +2085,12 @@
       "Path": "SFX\\ESD_Cracks-005_B95B134F.wem"
      },
      {
+      "Id": "779861897",
+      "Language": "SFX",
+      "ShortName": "Motor_UI_Finish.wav",
+      "Path": "SFX\\Motor_UI_Finish_B95B134F.wem"
+     },
+     {
       "Id": "780823360",
       "Language": "English(US)",
       "ShortName": "All levels\\221.wav",
@@ -2127,7 +2136,7 @@
       "Id": "826753049",
       "Language": "SFX",
       "ShortName": "Gauge_Appear.wav",
-      "Path": "SFX\\Gauge_Appear_1C9C67B2.wem"
+      "Path": "SFX\\Gauge_Appear_B95B134F.wem"
      },
      {
       "Id": "850037927",
@@ -2146,6 +2155,12 @@
       "Language": "English(US)",
       "ShortName": "All levels\\213.wav",
       "Path": "Voices\\English(US)\\All levels\\213_B95B134F.wem"
+     },
+     {
+      "Id": "856156528",
+      "Language": "SFX",
+      "ShortName": "Motor finish-002.wav",
+      "Path": "SFX\\Motor finish-002_319D2801.wem"
      },
      {
       "Id": "864943458",
@@ -2212,6 +2227,12 @@
       "Language": "SFX",
       "ShortName": "Avarie_End.wav",
       "Path": "SFX\\Avarie_End_B95B134F.wem"
+     },
+     {
+      "Id": "952250669",
+      "Language": "SFX",
+      "ShortName": "Track 22.wav",
+      "Path": "SFX\\Track 22_FCEA1256.wem"
      },
      {
       "Id": "958023086",

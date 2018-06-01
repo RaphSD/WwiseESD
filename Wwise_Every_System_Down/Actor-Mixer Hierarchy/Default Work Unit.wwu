@@ -4050,7 +4050,7 @@
 					</PropertyList>
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+							<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
@@ -4087,10 +4087,13 @@
 										</RTPC>
 									</RTPCList>
 								</Property>
-								<Property Name="FmAmount" Type="Real32" Value="100"/>
+								<Property Name="FmAmount" Type="Real32" Value="24.7"/>
+								<Property Name="Osc1Level" Type="Real32" Value="-4"/>
 								<Property Name="Osc1Pwm" Type="Real32" Value="0"/>
-								<Property Name="Osc1Transpose" Type="int32" Value="100"/>
+								<Property Name="Osc1Transpose" Type="int32" Value="114"/>
+								<Property Name="Osc2Level" Type="Real32" Value="-3"/>
 								<Property Name="Osc2Pwm" Type="Real32" Value="0"/>
+								<Property Name="Osc2Transpose" Type="int32" Value="834"/>
 								<Property Name="OutputLevel" Type="Real32">
 									<RTPCList>
 										<RTPC Name="" ID="{7D6A751F-0A73-4613-871A-2F85FA8D3DDF}" ShortID="254845417">
@@ -4132,7 +4135,7 @@
 				<Sound Name="Gauge_Appear" ID="{55CAD721-C39B-4A66-BB81-522CD898E37F}" ShortID="109901820">
 					<ReferenceList>
 						<Reference Name="Conversion">
-							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+							<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
 						</Reference>
 						<Reference Name="OutputBus">
 							<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
@@ -4146,6 +4149,163 @@
 					</ChildrenList>
 					<ActiveSourceList>
 						<ActiveSource Name="Gauge_Appear" ID="{85499329-168B-4699-B427-6FE6A785BAEA}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<BlendContainer Name="Motor_Finish" ID="{3C629E83-6A88-4186-8A34-4BE5334D9C6E}" ShortID="263424550">
+					<PropertyList>
+						<Property Name="Pitch" Type="int32">
+							<ValueList>
+								<Value>-760</Value>
+							</ValueList>
+						</Property>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-6</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<Sound Name="Motor finish-001" ID="{486557BC-9937-4A2A-B640-5ADDC5C51216}" ShortID="173157417">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>67</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Motor finish-001" ID="{0BFD4FE8-DCE3-4B25-820E-5360F2CE2B66}" ShortID="393951901">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="250"/>
+										<Property Name="LoopBegin" Type="Real64" Value="26.4683333333333"/>
+										<Property Name="LoopEnd" Type="Real64" Value="43.8381770833333"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="12.525193452381"/>
+										<Property Name="TrimEnd" Type="Real64" Value="68.7704017857143"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Motor finish-001.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Motor finish-001" ID="{0BFD4FE8-DCE3-4B25-820E-5360F2CE2B66}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Motor finish-002" ID="{A5EA14CB-B683-42B9-8319-DC4AF717E402}" ShortID="814386238">
+							<PropertyList>
+								<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>67</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Motor finish-002" ID="{FCCC66FD-6646-44FC-B52A-793201130741}" ShortID="856156528">
+									<PropertyList>
+										<Property Name="CrossfadeDuration" Type="Real64" Value="250"/>
+										<Property Name="LoopBegin" Type="Real64" Value="72.1971056547619"/>
+										<Property Name="LoopEnd" Type="Real64" Value="91.693869047619"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Motor finish-002.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Motor finish-002" ID="{FCCC66FD-6646-44FC-B52A-793201130741}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Track 22" ID="{46E803F7-3AF5-41A3-ADD6-BE1B015B7D7D}" ShortID="562338091">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>61</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-14</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Track 22" ID="{D4E46625-851F-46F8-A35A-9374E7A9119E}" ShortID="952250669">
+									<PropertyList>
+										<Property Name="FadeInDuration" Type="Real64" Value="0.389285714285714"/>
+										<Property Name="FadeOutDuration" Type="Real64" Value="22.821875"/>
+										<Property Name="LoopBegin" Type="Real64" Value="0.486607142857143"/>
+										<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+										<Property Name="TrimBegin" Type="Real64" Value="0.437946428571429"/>
+										<Property Name="TrimEnd" Type="Real64" Value="31.0455357142857"/>
+									</PropertyList>
+									<Language>SFX</Language>
+									<AudioFile>Track 22.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Track 22" ID="{D4E46625-851F-46F8-A35A-9374E7A9119E}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+					</ChildrenList>
+				</BlendContainer>
+				<Sound Name="Motor_UI_Finish" ID="{BCBC72D3-839C-4A0C-AB59-684EEA3B1D27}" ShortID="565538326">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Motor_UI_Finish" ID="{5041A7A8-575B-4A8C-86DB-64FE665F6A44}" ShortID="779861897">
+							<PropertyList>
+								<Property Name="VolumeOffset" Type="Real64">
+									<ValueList>
+										<Value>4.5</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+							<AudioFile>Motor_UI_Finish.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Motor_UI_Finish" ID="{5041A7A8-575B-4A8C-86DB-64FE665F6A44}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
 			</ChildrenList>

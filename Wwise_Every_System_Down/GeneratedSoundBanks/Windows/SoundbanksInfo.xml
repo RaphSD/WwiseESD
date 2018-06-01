@@ -163,7 +163,7 @@
 				<Event Id="1967447362" Name="Stop_Ambiance_01" ObjectPath="\Events\Default Work Unit\Stop_Ambiance_01" GUID="{C8DBBB93-0EA5-4D47-B9CC-AD8EEA92E27C}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
 				<Event Id="1945756511" Name="Stop_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Stop_Crackling_Submarine" GUID="{A361B3EA-FB45-44F2-954D-545F39D1A5CC}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
 				<Event Id="37214798" Name="Stop_Engine" ObjectPath="\Events\Default Work Unit\Stop_Engine" GUID="{42251E8E-1DA3-4B66-AE97-27FAD5395ADF}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
-				<Event Id="1803737652" Name="Stop_Lever" ObjectPath="\Events\Default Work Unit\Stop_Lever" GUID="{12FF7942-EDCC-4546-8296-12148B50F8FA}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
+				<Event Id="1803737652" Name="Stop_Lever" ObjectPath="\Events\Default Work Unit\Stop_Lever" GUID="{12FF7942-EDCC-4546-8296-12148B50F8FA}" DurationType="Infinite"/>
 				<Event Id="1789658778" Name="Stop_SFX_Alarm_Start" ObjectPath="\Events\Default Work Unit\Stop_SFX_Alarm_Start" GUID="{178C4C76-6949-446B-BD99-5BFF96CBA6DF}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
 				<Event Id="2894064942" Name="Stop_SFX_Avarie" ObjectPath="\Events\Default Work Unit\Stop_SFX_Avarie" GUID="{2F3E2090-470C-43FA-A6B9-4C370FD2189E}" DurationType="OneShot" DurationMin="1,178417" DurationMax="1,178417"/>
 			</IncludedEvents>
@@ -383,6 +383,10 @@
 				<File Id="393735241" Language="English(US)">
 					<ShortName>All levels\224.wav</ShortName>
 					<Path>Voices\English(US)\All levels\224_B95B134F.wem</Path>
+				</File>
+				<File Id="393951901" Language="SFX">
+					<ShortName>Motor finish-001.wav</ShortName>
+					<Path>SFX\Motor finish-001_24ECFB96.wem</Path>
 				</File>
 				<File Id="419121292" Language="English(US)">
 					<ShortName>All levels\204.wav</ShortName>
@@ -644,6 +648,10 @@
 					<ShortName>ESD_Cracks-005.wav</ShortName>
 					<Path>SFX\ESD_Cracks-005_B95B134F.wem</Path>
 				</File>
+				<File Id="779861897" Language="SFX">
+					<ShortName>Motor_UI_Finish.wav</ShortName>
+					<Path>SFX\Motor_UI_Finish_B95B134F.wem</Path>
+				</File>
 				<File Id="780823360" Language="English(US)">
 					<ShortName>All levels\221.wav</ShortName>
 					<Path>Voices\English(US)\All levels\221_B95B134F.wem</Path>
@@ -674,7 +682,7 @@
 				</File>
 				<File Id="826753049" Language="SFX">
 					<ShortName>Gauge_Appear.wav</ShortName>
-					<Path>SFX\Gauge_Appear_1C9C67B2.wem</Path>
+					<Path>SFX\Gauge_Appear_B95B134F.wem</Path>
 				</File>
 				<File Id="850037927" Language="English(US)">
 					<ShortName>Level 0\10.wav</ShortName>
@@ -687,6 +695,10 @@
 				<File Id="855715807" Language="English(US)">
 					<ShortName>All levels\213.wav</ShortName>
 					<Path>Voices\English(US)\All levels\213_B95B134F.wem</Path>
+				</File>
+				<File Id="856156528" Language="SFX">
+					<ShortName>Motor finish-002.wav</ShortName>
+					<Path>SFX\Motor finish-002_319D2801.wem</Path>
 				</File>
 				<File Id="864943458" Language="English(US)">
 					<ShortName>All levels\234.wav</ShortName>
@@ -731,6 +743,10 @@
 				<File Id="948872807" Language="SFX">
 					<ShortName>Avarie_End.wav</ShortName>
 					<Path>SFX\Avarie_End_B95B134F.wem</Path>
+				</File>
+				<File Id="952250669" Language="SFX">
+					<ShortName>Track 22.wav</ShortName>
+					<Path>SFX\Track 22_FCEA1256.wem</Path>
 				</File>
 				<File Id="958023086" Language="English(US)">
 					<ShortName>All levels\201.wav</ShortName>
