@@ -2071,6 +2071,20 @@
 						</Event>
 					</ChildrenList>
 				</Folder>
+				<Event Name="Play_SFX_Ballast_Destroy" ID="{756C1FB8-4B75-4AFE-A07D-9722B7FB33F9}">
+					<ChildrenList>
+						<Action Name="" ID="{CF2C7121-BBE1-4FA2-95F9-C22AFFF2F358}" ShortID="558637752">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Ballast_Destroy" ID="{BC686F93-E553-4627-A204-5AF10FBE5FFA}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

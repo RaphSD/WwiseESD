@@ -1231,6 +1231,15 @@
       "DurationType": "Infinite"
      },
      {
+      "Id": "2141058172",
+      "Name": "Play_SFX_Ballast_Destroy",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Ballast_Destroy",
+      "GUID": "{756C1FB8-4B75-4AFE-A07D-9722B7FB33F9}",
+      "DurationType": "OneShot",
+      "DurationMin": "3,924529",
+      "DurationMax": "6,848559"
+     },
+     {
       "Id": "2581363913",
       "Name": "Play_SFX_Console_Approved",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Console_Approved",
@@ -1352,6 +1361,12 @@
       "Language": "English(US)",
       "ShortName": "43.wav",
       "Path": "Voices\\English(US)\\43_B95B134F.wem"
+     },
+     {
+      "Id": "14735123",
+      "Language": "SFX",
+      "ShortName": "Ballast composing.wav",
+      "Path": "SFX\\Ballast composing_B95B134F.wem"
      },
      {
       "Id": "19627871",
@@ -1720,6 +1735,12 @@
       "Path": "Voices\\English(US)\\All levels\\251_B95B134F.wem"
      },
      {
+      "Id": "487383476",
+      "Language": "SFX",
+      "ShortName": "SFX_Ballast_Destroy_03.wav",
+      "Path": "SFX\\SFX_Ballast_Destroy_03_B95B134F.wem"
+     },
+     {
       "Id": "488988163",
       "Language": "English(US)",
       "ShortName": "Level -1\\-14.wav",
@@ -1748,6 +1769,12 @@
       "Language": "English(US)",
       "ShortName": "58.wav",
       "Path": "Voices\\English(US)\\58_B95B134F.wem"
+     },
+     {
+      "Id": "519562528",
+      "Language": "SFX",
+      "ShortName": "SFX_MetalRumble.wav",
+      "Path": "SFX\\SFX_MetalRumble_0DEB70D5.wem"
      },
      {
       "Id": "519644027",
@@ -1874,6 +1901,12 @@
       "Language": "SFX",
       "ShortName": "ESD_Cracks-001.wav",
       "Path": "SFX\\ESD_Cracks-001_B95B134F.wem"
+     },
+     {
+      "Id": "628179789",
+      "Language": "SFX",
+      "ShortName": "Bluezone_BC0236_metal_whoosh_021.wav",
+      "Path": "SFX\\Bluezone_BC0236_metal_whoosh_021_B95B134F.wem"
      },
      {
       "Id": "629118930",
@@ -2032,6 +2065,12 @@
       "Path": "Voices\\English(US)\\All levels\\221_B95B134F.wem"
      },
      {
+      "Id": "785787238",
+      "Language": "SFX",
+      "ShortName": "SFX_Ballast_Destroy_02.wav",
+      "Path": "SFX\\SFX_Ballast_Destroy_02_B95B134F.wem"
+     },
+     {
       "Id": "794878907",
       "Language": "English(US)",
       "ShortName": "All levels\\206.wav",
@@ -2084,6 +2123,12 @@
       "Language": "English(US)",
       "ShortName": "All levels\\234.wav",
       "Path": "Voices\\English(US)\\All levels\\234_B95B134F.wem"
+     },
+     {
+      "Id": "874182208",
+      "Language": "SFX",
+      "ShortName": "SFX_Ballast_Destroy_01.wav",
+      "Path": "SFX\\SFX_Ballast_Destroy_01_B95B134F.wem"
      },
      {
       "Id": "884844583",

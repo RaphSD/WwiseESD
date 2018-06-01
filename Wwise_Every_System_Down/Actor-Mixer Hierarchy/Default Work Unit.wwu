@@ -3675,6 +3675,306 @@
 						</ActorMixer>
 					</ChildrenList>
 				</Folder>
+				<RandomSequenceContainer Name="SFX_Ballast_Destroy" ID="{BC686F93-E553-4627-A204-5AF10FBE5FFA}" ShortID="258135542">
+					<PropertyList>
+						<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="2"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<BlendContainer Name="SFX_Ballast_Destroy_03" ID="{A04B616A-2378-447E-B4AA-7621CC10FD7F}" ShortID="471233036">
+							<PropertyList>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>32</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>350</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Ballast composing" ID="{52A19CC0-5C7C-4237-A9E3-EBC5E5FEB173}" ShortID="227641559">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>68</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Ballast composing" ID="{DD78601F-D1D2-4D62-8E10-F2AD4BA45F07}" ShortID="14735123">
+											<Language>SFX</Language>
+											<AudioFile>Ballast composing.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Ballast composing" ID="{DD78601F-D1D2-4D62-8E10-F2AD4BA45F07}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Ballast_Destroy_03" ID="{29849FA9-41E8-45AC-969D-A154BEE8C1BD}" ShortID="50712120">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>22</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Ballast_Destroy_03" ID="{5196DAF6-087E-4FC8-BA06-A05278DC21BB}" ShortID="487383476">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Ballast_Destroy_03.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Ballast_Destroy_03" ID="{5196DAF6-087E-4FC8-BA06-A05278DC21BB}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="SFX_Balast_Destroy_02" ID="{F1CE1C25-B39A-478A-BBFB-6F7221EB5B98}" ShortID="440863322">
+							<PropertyList>
+								<Property Name="EnablePositioning" Type="bool" Value="False"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>20</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>180</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-2</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="Bluezone_BC0236_metal_whoosh_021" ID="{F5E1B060-7821-4083-AC36-1E99C7062A1C}" ShortID="348717918">
+									<PropertyList>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-17</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="Bluezone_BC0236_metal_whoosh_021" ID="{324AEA5F-5E37-4AA0-98AF-1F8E512DE911}" ShortID="628179789">
+											<Language>SFX</Language>
+											<AudioFile>Bluezone_BC0236_metal_whoosh_021.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="Bluezone_BC0236_metal_whoosh_021" ID="{324AEA5F-5E37-4AA0-98AF-1F8E512DE911}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_Ballast_Destroy_02" ID="{4EEF183B-4F79-467F-B43A-50A9A376C566}" ShortID="271160643">
+									<PropertyList>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>41</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Ballast_Destroy_02" ID="{73BDA54B-A7C5-4333-9A6E-05CA19B79124}" ShortID="785787238">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Ballast_Destroy_02.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Ballast_Destroy_02" ID="{73BDA54B-A7C5-4333-9A6E-05CA19B79124}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+						</BlendContainer>
+						<BlendContainer Name="SFX_Ballast_Destroy_01" ID="{40AD6CDE-89A0-4C3A-9E2F-9DB0529B4FFF}" ShortID="1017222710">
+							<PropertyList>
+								<Property Name="DivergenceCenter" Type="int32">
+									<ValueList>
+										<Value>100</Value>
+									</ValueList>
+								</Property>
+								<Property Name="EnablePositioning" Type="bool" Value="False"/>
+								<Property Name="Lowpass" Type="int16">
+									<ValueList>
+										<Value>17</Value>
+									</ValueList>
+								</Property>
+								<Property Name="Pitch" Type="int32">
+									<ValueList>
+										<Value>-300</Value>
+									</ValueList>
+								</Property>
+								<Property Name="PositioningType" Type="int16" Value="1"/>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Attenuation">
+									<ObjectRef Name="Attenuation_Cracks" ID="{D8805998-2408-4EF8-8356-1FDD0DA046E8}" WorkUnitID="{CA32DDD9-8D37-4C49-9FA2-92538248BAF5}"/>
+								</Reference>
+								<Reference Name="Conversion">
+									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<Sound Name="SFX_Ballast_Destroy_01" ID="{5D6ED7A5-E23F-4349-9DEC-7A22E7476FB5}" ShortID="473543835">
+									<PropertyList>
+										<Property Name="3DPositionSource" Type="int16" Value="0"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>42</Value>
+											</ValueList>
+										</Property>
+										<Property Name="PositioningType" Type="int16" Value="1"/>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Attenuation">
+											<ObjectRef Name="Attenuation_Cracks" ID="{D8805998-2408-4EF8-8356-1FDD0DA046E8}" WorkUnitID="{CA32DDD9-8D37-4C49-9FA2-92538248BAF5}"/>
+										</Reference>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_Ballast_Destroy_01" ID="{963FC291-1C8A-4B4F-A1BE-EDC1AB898220}" ShortID="874182208">
+											<Language>SFX</Language>
+											<AudioFile>SFX_Ballast_Destroy_01.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<PositioningInfo>
+										<Position Name="" ID="{4F01EAE2-A9F5-4197-9685-A6D3422C61CC}">
+											<ChildrenList>
+												<Path2D Name="SFX_Ballast_Destroy_01_Path" ID="{A89C1786-5F08-4CB0-943E-001E5C48D0A4}">
+													<PointList>
+														<Point>
+															<XPos>1.26582</XPos>
+															<YPos>-54.4586</YPos>
+															<Flags>12</Flags>
+															<Time>0</Time>
+														</Point>
+													</PointList>
+												</Path2D>
+											</ChildrenList>
+										</Position>
+									</PositioningInfo>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_Ballast_Destroy_01" ID="{963FC291-1C8A-4B4F-A1BE-EDC1AB898220}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+								<Sound Name="SFX_MetalRumble" ID="{7AF1EA9A-56B3-4E60-96D9-D8404DDEB8A1}" ShortID="121944562">
+									<PropertyList>
+										<Property Name="Highpass" Type="int16">
+											<ValueList>
+												<Value>29</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MetalRumble" ID="{8862EC8E-6067-4FC8-985F-58F7A880B77C}" ShortID="519562528">
+											<PropertyList>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.502232142857143"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="5.56640624999999"/>
+												<Property Name="FadeOutShape" Type="int16" Value="2"/>
+												<Property Name="TrimBegin" Type="Real64" Value="1.44810267857143"/>
+												<Property Name="TrimEnd" Type="Real64" Value="7.20703125"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_MetalRumble.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MetalRumble" ID="{8862EC8E-6067-4FC8-985F-58F7A880B77C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
+							</ChildrenList>
+							<PositioningInfo>
+								<Position Name="" ID="{E78F7A12-949B-4871-A990-D684AA8895CF}"/>
+							</PositioningInfo>
+						</BlendContainer>
+					</ChildrenList>
+				</RandomSequenceContainer>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>

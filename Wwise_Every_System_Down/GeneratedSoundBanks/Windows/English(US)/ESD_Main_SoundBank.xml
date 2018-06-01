@@ -148,6 +148,7 @@
 				<Event Id="639345804" Name="Play_Engine" ObjectPath="\Events\Default Work Unit\Play_Engine" GUID="{8304B0B2-C71B-4C79-9552-7294D912EAAC}" DurationType="Infinite"/>
 				<Event Id="2294038116" Name="Play_SFX_Alarm_Start" ObjectPath="\Events\Default Work Unit\Play_SFX_Alarm_Start" GUID="{DE63DA4B-4173-4C8E-9CDD-3E3EC52CB575}" DurationType="Infinite"/>
 				<Event Id="1317253172" Name="Play_SFX_Avarie" ObjectPath="\Events\Default Work Unit\Play_SFX_Avarie" GUID="{34B24811-E690-484A-8519-C667902EB90B}" DurationType="Infinite"/>
+				<Event Id="2141058172" Name="Play_SFX_Ballast_Destroy" ObjectPath="\Events\Default Work Unit\Play_SFX_Ballast_Destroy" GUID="{756C1FB8-4B75-4AFE-A07D-9722B7FB33F9}" DurationType="OneShot" DurationMin="3,924529" DurationMax="6,848559"/>
 				<Event Id="2581363913" Name="Play_SFX_Console_Approved" ObjectPath="\Events\Default Work Unit\Play_SFX_Console_Approved" GUID="{58042452-3C50-4A2A-B3A4-7037A31DB6F8}" DurationType="OneShot" DurationMin="0,223250" DurationMax="0,223250"/>
 				<Event Id="4108837005" Name="Play_SFX_Console_Denied" ObjectPath="\Events\Default Work Unit\Play_SFX_Console_Denied" GUID="{34AAF88C-37D9-438A-A8DF-8C608CD90074}" DurationType="OneShot" DurationMin="0,437500" DurationMax="0,437500"/>
 				<Event Id="1412165763" Name="Play_SFX_Door_Close" ObjectPath="\Events\Default Work Unit\Play_SFX_Door_Close" GUID="{67C1B67B-B23A-4868-86DD-CCF6EA3DFAFA}" DurationType="OneShot" DurationMin="0,200000" DurationMax="0,200000"/>
@@ -172,6 +173,10 @@
 				<File Id="13499914" Language="English(US)">
 					<ShortName>43.wav</ShortName>
 					<Path>Voices\English(US)\43_B95B134F.wem</Path>
+				</File>
+				<File Id="14735123" Language="SFX">
+					<ShortName>Ballast composing.wav</ShortName>
+					<Path>SFX\Ballast composing_B95B134F.wem</Path>
 				</File>
 				<File Id="19627871" Language="English(US)">
 					<ShortName>Level 0\40.wav</ShortName>
@@ -417,6 +422,10 @@
 					<ShortName>All levels\251.wav</ShortName>
 					<Path>Voices\English(US)\All levels\251_B95B134F.wem</Path>
 				</File>
+				<File Id="487383476" Language="SFX">
+					<ShortName>SFX_Ballast_Destroy_03.wav</ShortName>
+					<Path>SFX\SFX_Ballast_Destroy_03_B95B134F.wem</Path>
+				</File>
 				<File Id="488988163" Language="English(US)">
 					<ShortName>Level -1\-14.wav</ShortName>
 					<Path>Voices\English(US)\Level -1\-14_B95B134F.wem</Path>
@@ -436,6 +445,10 @@
 				<File Id="511498365" Language="English(US)">
 					<ShortName>58.wav</ShortName>
 					<Path>Voices\English(US)\58_B95B134F.wem</Path>
+				</File>
+				<File Id="519562528" Language="SFX">
+					<ShortName>SFX_MetalRumble.wav</ShortName>
+					<Path>SFX\SFX_MetalRumble_0DEB70D5.wem</Path>
 				</File>
 				<File Id="519644027" Language="English(US)">
 					<ShortName>All levels\222.wav</ShortName>
@@ -520,6 +533,10 @@
 				<File Id="622884997" Language="SFX">
 					<ShortName>ESD_Cracks-001.wav</ShortName>
 					<Path>SFX\ESD_Cracks-001_B95B134F.wem</Path>
+				</File>
+				<File Id="628179789" Language="SFX">
+					<ShortName>Bluezone_BC0236_metal_whoosh_021.wav</ShortName>
+					<Path>SFX\Bluezone_BC0236_metal_whoosh_021_B95B134F.wem</Path>
 				</File>
 				<File Id="629118930" Language="English(US)">
 					<ShortName>59-refined.wav</ShortName>
@@ -625,6 +642,10 @@
 					<ShortName>All levels\221.wav</ShortName>
 					<Path>Voices\English(US)\All levels\221_B95B134F.wem</Path>
 				</File>
+				<File Id="785787238" Language="SFX">
+					<ShortName>SFX_Ballast_Destroy_02.wav</ShortName>
+					<Path>SFX\SFX_Ballast_Destroy_02_B95B134F.wem</Path>
+				</File>
 				<File Id="794878907" Language="English(US)">
 					<ShortName>All levels\206.wav</ShortName>
 					<Path>Voices\English(US)\All levels\206_B95B134F.wem</Path>
@@ -660,6 +681,10 @@
 				<File Id="864943458" Language="English(US)">
 					<ShortName>All levels\234.wav</ShortName>
 					<Path>Voices\English(US)\All levels\234_B95B134F.wem</Path>
+				</File>
+				<File Id="874182208" Language="SFX">
+					<ShortName>SFX_Ballast_Destroy_01.wav</ShortName>
+					<Path>SFX\SFX_Ballast_Destroy_01_B95B134F.wem</Path>
 				</File>
 				<File Id="884844583" Language="English(US)">
 					<ShortName>All levels\216.wav</ShortName>

@@ -148,6 +148,7 @@ namespace AK
         static const AkUniqueID PLAY_ENGINE = 639345804U;
         static const AkUniqueID PLAY_SFX_ALARM_START = 2294038116U;
         static const AkUniqueID PLAY_SFX_AVARIE = 1317253172U;
+        static const AkUniqueID PLAY_SFX_BALLAST_DESTROY = 2141058172U;
         static const AkUniqueID PLAY_SFX_CONSOLE_APPROVED = 2581363913U;
         static const AkUniqueID PLAY_SFX_CONSOLE_DENIED = 4108837005U;
         static const AkUniqueID PLAY_SFX_DOOR_CLOSE = 1412165763U;
