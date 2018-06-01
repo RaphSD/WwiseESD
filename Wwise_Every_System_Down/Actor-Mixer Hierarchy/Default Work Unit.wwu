@@ -726,6 +726,48 @@
 										<ActiveSource Name="Track 22" ID="{05973206-CFD0-4788-A395-0AF6885D36BB}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="SFX_MetalRumble" ID="{6F55F5B6-F6FD-4DF6-B269-E555A9D51774}" ShortID="466004004">
+									<PropertyList>
+										<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+										<Property Name="Lowpass" Type="int16">
+											<ValueList>
+												<Value>41</Value>
+											</ValueList>
+										</Property>
+										<Property Name="Volume" Type="Real64">
+											<ValueList>
+												<Value>-16</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="SFX_MetalRumble" ID="{0B444726-D379-4D9B-9F6E-3EB3A708D272}" ShortID="477910399">
+											<PropertyList>
+												<Property Name="CrossfadeDuration" Type="Real64" Value="250"/>
+												<Property Name="FadeInDuration" Type="Real64" Value="0.343191964285714"/>
+												<Property Name="FadeOutDuration" Type="Real64" Value="0.242745535714286"/>
+												<Property Name="LoopBegin" Type="Real64" Value="0.359933035714285"/>
+												<Property Name="LoopEnd" Type="Real64" Value="6.98939732142857"/>
+												<Property Name="OverrideWavLoop" Type="bool" Value="True"/>
+												<Property Name="TrimBegin" Type="Real64" Value="0.159040178571428"/>
+												<Property Name="TrimEnd" Type="Real64" Value="7.34095982142857"/>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>SFX_MetalRumble.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="SFX_MetalRumble" ID="{0B444726-D379-4D9B-9F6E-3EB3A708D272}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</BlendContainer>
 					</ChildrenList>

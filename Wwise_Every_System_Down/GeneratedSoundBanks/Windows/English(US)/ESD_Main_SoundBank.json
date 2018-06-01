@@ -5,11 +5,11 @@
   "SchemaVersion": "11",
   "SoundbankVersion": "128",
   "RootPaths": {
-   "ProjectRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\",
-   "SourceFilesRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\English(US)\\",
+   "ProjectRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\",
+   "SourceFilesRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\English(US)\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\"
+   "ExternalSourcesOutputRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\"
   },
   "SoundBanks": [
    {
@@ -1691,6 +1691,12 @@
       "Language": "English(US)",
       "ShortName": "All levels\\205.wav",
       "Path": "Voices\\English(US)\\All levels\\205_B95B134F.wem"
+     },
+     {
+      "Id": "477910399",
+      "Language": "SFX",
+      "ShortName": "SFX_MetalRumble.wav",
+      "Path": "SFX\\SFX_MetalRumble_062065F0.wem"
      },
      {
       "Id": "482368949",

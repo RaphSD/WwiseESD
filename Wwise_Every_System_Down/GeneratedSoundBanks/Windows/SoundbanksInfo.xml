@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\</ProjectRoot>
-		<SourceFilesRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -403,6 +403,10 @@
 				<File Id="471209811" Language="English(US)">
 					<ShortName>All levels\205.wav</ShortName>
 					<Path>Voices\English(US)\All levels\205_B95B134F.wem</Path>
+				</File>
+				<File Id="477910399" Language="SFX">
+					<ShortName>SFX_MetalRumble.wav</ShortName>
+					<Path>SFX\SFX_MetalRumble_062065F0.wem</Path>
 				</File>
 				<File Id="482368949" Language="English(US)">
 					<ShortName>54-alarm.wav</ShortName>
