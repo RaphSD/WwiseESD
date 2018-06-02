@@ -1210,6 +1210,15 @@
       "DurationMax": "187,061539"
      },
      {
+      "Id": "641826820",
+      "Name": "Play_Death_Explosion",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Death_Explosion",
+      "GUID": "{03A4E18D-F4C0-4878-B2D2-A9EDB656DA12}",
+      "DurationType": "OneShot",
+      "DurationMin": "11,280575",
+      "DurationMax": "11,280575"
+     },
+     {
       "Id": "639345804",
       "Name": "Play_Engine",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Engine",
@@ -2287,6 +2296,12 @@
       "Language": "English(US)",
       "ShortName": "All levels\\233.wav",
       "Path": "Voices\\English(US)\\All levels\\233_B95B134F.wem"
+     },
+     {
+      "Id": "987483443",
+      "Language": "SFX",
+      "ShortName": "CRi_Raph_ESD.wav",
+      "Path": "SFX\\CRi_Raph_ESD_B95B134F.wem"
      },
      {
       "Id": "990550764",

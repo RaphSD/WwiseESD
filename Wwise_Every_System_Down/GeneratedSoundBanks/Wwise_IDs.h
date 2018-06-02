@@ -145,6 +145,7 @@ namespace AK
         static const AkUniqueID PLAY_416 = 3771802947U;
         static const AkUniqueID PLAY_AMBIANCE_01 = 1313850920U;
         static const AkUniqueID PLAY_CRACKLING_SUBMARINE = 3995708897U;
+        static const AkUniqueID PLAY_DEATH_EXPLOSION = 641826820U;
         static const AkUniqueID PLAY_ENGINE = 639345804U;
         static const AkUniqueID PLAY_GAUGE_APPEAR = 4087390633U;
         static const AkUniqueID PLAY_HULL_BREAK = 86091983U;

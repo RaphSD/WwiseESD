@@ -395,6 +395,39 @@
 										<ActiveSource Name="Track 13" ID="{164DBE21-F52E-46F4-9577-1674F057C0FF}" Platform="Linked"/>
 									</ActiveSourceList>
 								</Sound>
+								<Sound Name="CRi_Raph_ESD" ID="{EDC8025D-36E0-444B-8071-99C0A3CA120D}" ShortID="768840168">
+									<PropertyList>
+										<Property Name="InitialDelay" Type="Real64">
+											<ValueList>
+												<Value>0.5</Value>
+											</ValueList>
+										</Property>
+									</PropertyList>
+									<ReferenceList>
+										<Reference Name="Conversion">
+											<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+										</Reference>
+										<Reference Name="OutputBus">
+											<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+										</Reference>
+									</ReferenceList>
+									<ChildrenList>
+										<AudioFileSource Name="CRi_Raph_ESD" ID="{123B8F4E-9695-43E9-A414-56E531FC2F8C}" ShortID="987483443">
+											<PropertyList>
+												<Property Name="VolumeOffset" Type="Real64">
+													<ValueList>
+														<Value>1.1</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<Language>SFX</Language>
+											<AudioFile>CRi_Raph_ESD.wav</AudioFile>
+										</AudioFileSource>
+									</ChildrenList>
+									<ActiveSourceList>
+										<ActiveSource Name="CRi_Raph_ESD" ID="{123B8F4E-9695-43E9-A414-56E531FC2F8C}" Platform="Linked"/>
+									</ActiveSourceList>
+								</Sound>
 							</ChildrenList>
 						</BlendContainer>
 						<Sound Name="Hull_Break" ID="{33110332-7A47-4A03-8E75-EBE959A7BA8F}" ShortID="398291509">
@@ -1142,6 +1175,13 @@
 				<Folder Name="Voices" ID="{32FEC46E-91E5-47BF-818B-1B1CB4FA6AC4}" ShortID="821278562">
 					<ChildrenList>
 						<ActorMixer Name="Voices" ID="{8B0556F8-65C8-4B37-B247-BC32F67904B6}" ShortID="442861456">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>6</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>

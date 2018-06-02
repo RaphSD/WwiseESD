@@ -2,6 +2,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	37214798	Stop_Engine			\Default Work Unit\Stop_Engine	
 	86091983	Play_Hull_Break			\Default Work Unit\Play_Hull_Break	
 	639345804	Play_Engine			\Default Work Unit\Play_Engine	
+	641826820	Play_Death_Explosion			\Default Work Unit\Play_Death_Explosion	
 	1140103785	Play_SFX_Door_Error			\Default Work Unit\Play_SFX_Door_Error	
 	1312371701	Play_SFX_Door_Open			\Default Work Unit\Play_SFX_Door_Open	
 	1313850920	Play_Ambiance_01			\Default Work Unit\Play_Ambiance_01	
@@ -326,6 +327,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	961201759	19	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\19_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\19		78569
 	964244408	411	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level -1\-11_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level -1 (4xx)\411		94935
 	979976773	233	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\233_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\233		102257
+	987483443	CRi_Raph_ESD	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\CRi_Raph_ESD_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Death_Explosion\CRi_Raph_ESD		48773
 	990550764	412	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level -1\-12_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level -1 (4xx)\412		281168
 	1004806919	208	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\208_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\208		71892
 	1005305863	57	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\57-Water_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\57		164286
