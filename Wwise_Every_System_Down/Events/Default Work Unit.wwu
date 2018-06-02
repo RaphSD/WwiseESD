@@ -2167,6 +2167,20 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Valve_LEDS" ID="{173F1C64-65A9-4CCD-9537-8B1B913CF672}">
+					<ChildrenList>
+						<Action Name="" ID="{714595BC-05FB-4DBC-859F-01EF64E164C4}" ShortID="648421032">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Valve_LEDS" ID="{34C2322A-5A45-483C-890F-50CCC54B801F}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

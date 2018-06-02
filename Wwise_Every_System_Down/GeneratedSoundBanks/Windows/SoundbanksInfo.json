@@ -1328,6 +1328,15 @@
       "DurationMax": "0,033333"
      },
      {
+      "Id": "411742545",
+      "Name": "Play_SFX_Valve_LEDS",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Valve_LEDS",
+      "GUID": "{173F1C64-65A9-4CCD-9537-8B1B913CF672}",
+      "DurationType": "OneShot",
+      "DurationMin": "0,197875",
+      "DurationMax": "0,308875"
+     },
+     {
       "Id": "1967447362",
       "Name": "Stop_Ambiance_01",
       "ObjectPath": "\\Events\\Default Work Unit\\Stop_Ambiance_01",
@@ -1385,6 +1394,12 @@
      }
     ],
     "IncludedMemoryFiles": [
+     {
+      "Id": "22903",
+      "Language": "SFX",
+      "ShortName": "Valve LEDS-002.wav",
+      "Path": "SFX\\Valve LEDS-002_B95B134F.wem"
+     },
      {
       "Id": "6607728",
       "Language": "English(US)",
@@ -1618,6 +1633,12 @@
       "Language": "English(US)",
       "ShortName": "Level -1\\-4.wav",
       "Path": "Voices\\English(US)\\Level -1\\-4_B95B134F.wem"
+     },
+     {
+      "Id": "252600095",
+      "Language": "SFX",
+      "ShortName": "Valve LEDS-004.wav",
+      "Path": "SFX\\Valve LEDS-004_B95B134F.wem"
      },
      {
       "Id": "257592282",
@@ -1894,6 +1915,12 @@
       "Language": "SFX",
       "ShortName": "SFX_Door_Error-002.wav",
       "Path": "SFX\\SFX_Door_Error-002_B95B134F.wem"
+     },
+     {
+      "Id": "574666852",
+      "Language": "SFX",
+      "ShortName": "Valve LEDS-003.wav",
+      "Path": "SFX\\Valve LEDS-003_B95B134F.wem"
      },
      {
       "Id": "583541583",
@@ -2344,6 +2371,12 @@
       "Language": "English(US)",
       "ShortName": "Level 0\\20.wav",
       "Path": "Voices\\English(US)\\Level 0\\20_B95B134F.wem"
+     },
+     {
+      "Id": "1038289671",
+      "Language": "SFX",
+      "ShortName": "Valve LEDS-001.wav",
+      "Path": "SFX\\Valve LEDS-001_B95B134F.wem"
      },
      {
       "Id": "1039696492",

@@ -159,6 +159,7 @@ namespace AK
         static const AkUniqueID PLAY_SFX_DOOR_ERROR = 1140103785U;
         static const AkUniqueID PLAY_SFX_DOOR_OPEN = 1312371701U;
         static const AkUniqueID PLAY_SFX_TEXT_BIP = 1778798315U;
+        static const AkUniqueID PLAY_SFX_VALVE_LEDS = 411742545U;
         static const AkUniqueID STOP_AMBIANCE_01 = 1967447362U;
         static const AkUniqueID STOP_CRACKLING_SUBMARINE = 1945756511U;
         static const AkUniqueID STOP_ENGINE = 37214798U;

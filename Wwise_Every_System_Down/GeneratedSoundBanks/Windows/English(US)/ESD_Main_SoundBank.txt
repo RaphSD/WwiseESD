@@ -1,6 +1,7 @@
 Event	ID	Name			Wwise Object Path	Notes
 	37214798	Stop_Engine			\Default Work Unit\Stop_Engine	
 	86091983	Play_Hull_Break			\Default Work Unit\Play_Hull_Break	
+	411742545	Play_SFX_Valve_LEDS			\Default Work Unit\Play_SFX_Valve_LEDS	
 	639345804	Play_Engine			\Default Work Unit\Play_Engine	
 	641826820	Play_Death_Explosion			\Default Work Unit\Play_Death_Explosion	
 	1140103785	Play_SFX_Door_Error			\Default Work Unit\Play_SFX_Door_Error	
@@ -175,6 +176,7 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	299189584	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Lever\Wwise Synth One	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	22903	Valve LEDS-002	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Valve LEDS-002_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Valve_LEDS\Valve LEDS-002		6065
 	6607728	48	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\48_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\48		142396
 	9808572	21	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\21_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\21		175375
 	13499914	43	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\43_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\43		110029
@@ -214,6 +216,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	224781068	33	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\33_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\33		187982
 	245231840	239	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\239_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\239		46202
 	245388189	404	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level -1\-4_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level -1 (4xx)\404		216570
+	252600095	Valve LEDS-004	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Valve LEDS-004_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Valve_LEDS\Valve LEDS-004		8499
 	257592282	SFX_Door_Close	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Door_Error-001_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\SFX_Door_Close		3249
 	262803807	211	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\211_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\211		46012
 	263819698	SFX_Alarm	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Alarm_6D7C38E4.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Alarm_Start\SFX_Alarm		15959
@@ -260,6 +263,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	564516903	215	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\215_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\215		32697
 	565503049	03	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\03_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\03		127165
 	571333541	SFX_Door_Open	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Door_Error-002_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\SFX_Door_Open		3172
+	574666852	Valve LEDS-003	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Valve LEDS-003_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Valve_LEDS\Valve LEDS-003		7523
 	583541583	44	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\44_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\44		100966
 	588393844	408	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\408-refined_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level -1 (4xx)\408		258854
 	596582412	Ambiance_01	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Ambiance_01_A2672D7D.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Ambiance_01		589312
@@ -335,6 +339,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	1027949534	406	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level -1\-6_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level -1 (4xx)\406		83656
 	1032400691	111	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 1\111_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 1 (1xx)\111		176083
 	1036830504	20	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\20_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\20		67581
+	1038289671	Valve LEDS-001	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Valve LEDS-001_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Valve_LEDS\Valve LEDS-001		6645
 	1039696492	24	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\24_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\24		50970
 	1040302531	22	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\22_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\22		77020
 	1041519503	08	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\08_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\08		103218
