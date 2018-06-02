@@ -225,23 +225,14 @@
 				</Event>
 				<Event Name="Stop_Engine" ID="{42251E8E-1DA3-4B66-AE97-27FAD5395ADF}">
 					<ChildrenList>
-						<Action Name="" ID="{E07F19F6-6C60-4621-9754-EE2FE8033A48}" ShortID="724169383">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Electric_Hum" ID="{8771F283-F540-44FB-B3DE-5CC4B8D3186A}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
 						<Action Name="" ID="{CAB3148A-AF37-4EB8-A756-5DC0C5601983}" ShortID="948465475">
 							<PropertyList>
 								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="2"/>
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Target">
-									<ObjectRef Name="Engine" ID="{863B5767-32F5-4B81-A1D2-E0678EFE50DD}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+									<ObjectRef Name="Engine" ID="{DE9C7840-6446-4A95-BE72-C053CCA4D712}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
@@ -2143,6 +2134,20 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Gauge_Appear" ID="{55CAD721-C39B-4A66-BB81-522CD898E37F}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Hull_Break" ID="{C2E65F7A-0311-4FC7-B632-8A06D732858C}">
+					<ChildrenList>
+						<Action Name="" ID="{388F67F4-B2F5-45E7-A7E5-114AC1A2D508}" ShortID="139625550">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Hull_Break" ID="{33110332-7A47-4A03-8E75-EBE959A7BA8F}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>
