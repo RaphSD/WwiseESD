@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	37214798	Stop_Engine			\Default Work Unit\Stop_Engine	
+	86091983	Play_Hull_Break			\Default Work Unit\Play_Hull_Break	
 	639345804	Play_Engine			\Default Work Unit\Play_Engine	
 	1140103785	Play_SFX_Door_Error			\Default Work Unit\Play_SFX_Door_Error	
 	1312371701	Play_SFX_Door_Open			\Default Work Unit\Play_SFX_Door_Open	
@@ -170,7 +171,7 @@ Effect plug-ins	ID	Name	Type				Notes
 	2037162648	Auro_Headphones	Auro Headphone			
 
 Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
-	299189584	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\Lever\Wwise Synth One	
+	299189584	Wwise Synth One	Wwise Synth One		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Lever\Wwise Synth One	
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	6607728	48	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\48_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\48		142396
@@ -185,12 +186,14 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	47232328	29	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\29_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\29		73457
 	48876372	02	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\02_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\02		224852
 	53690964	212	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\212_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\212		32160
+	59509447	Explosion_Part_01	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Explosion_Part_02_8EB35F75.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Death_Explosion\Explosion_Part_01		594686
 	62885227	113	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 1\113_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 1 (1xx)\113		199994
 	72784210	116	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 1\116_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 1 (1xx)\116		246080
 	83024319	23	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\23_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\23		96396
 	95354113	13	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\13_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\13		58926
 	98514485	107	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\107-Water_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 1 (1xx)\107		148675
 	104744342	112	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 1\112_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 1 (1xx)\112		148148
+	105549964	Hull_Break	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Coque_Plie_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Hull_Break		258926
 	119216152	106	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\106-Water_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 1 (1xx)\106		139731
 	128136634	15	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\15_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\15		62386
 	130877606	56	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\56_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\56		34044
@@ -227,7 +230,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	383700504	108	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 1\108_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 1 (1xx)\108		86651
 	385943685	14	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\14-refined_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\14		204947
 	393735241	224	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\224_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\224		93674
-	393951901	Motor finish-001	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Motor finish-001_24ECFB96.wem		\Actor-Mixer Hierarchy\Default Work Unit\Motor_Finish\Motor finish-001		1704887
+	393951901	Motor finish-001	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Motor finish-001_CEE055EE.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Motor_Finish\Motor finish-001		1704887
 	419121292	204	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\204_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\204		153414
 	432331341	402	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level -1\-2_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level -1 (4xx)\402		55255
 	436507600	214	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\214_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\214		27552
@@ -235,7 +238,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	458688693	103	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 1\103_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 1 (1xx)\103		194930
 	460668804	28	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\28_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\28		87113
 	471209811	205	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\205_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\205		111099
-	477910399	SFX_MetalRumble	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_MetalRumble_062065F0.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Engine\SFX_MetalRumble		1379056
+	477910399	SFX_MetalRumble	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_MetalRumble_29A15080.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Engine\SFX_MetalRumble		1379056
 	482368949	54	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\54-alarm_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\54		395425
 	483726050	410	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level -1\-10_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level -1 (4xx)\410		72890
 	485714805	251	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\251_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\251		59088
@@ -245,7 +248,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	505250805	228	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\228_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\228		34133
 	509144032	ESD_Cracks-006	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-006_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-006		493616
 	511498365	58	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\58_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\58		394967
-	519562528	SFX_MetalRumble	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_MetalRumble_0DEB70D5.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Ballast_Destroy\SFX_Ballast_Destroy_01\SFX_MetalRumble		269160
+	519562528	SFX_MetalRumble	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_MetalRumble_768B4A2F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Ballast_Destroy\SFX_Ballast_Destroy_01\SFX_MetalRumble		269160
 	519644027	222	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\222_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\222		64953
 	522047815	36	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\36_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\36		139637
 	523313104	407	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level -1\-7_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level -1 (4xx)\407		332133
@@ -263,6 +266,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	601000541	231	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\231_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\231		26596
 	605185138	114	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 1\114_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 1 (1xx)\114		268921
 	608258014	210	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\210_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\210		93071
+	608645408	Track 13	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Track 13_B1238C01.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Death_Explosion\Track 13		175288
 	619845382	01	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\01_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\01		606068
 	620206910	SFX_Text_Bip	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Text_Bip_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\SFX_Text_Bip		2042
 	622613650	105	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\105-Water_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 1 (1xx)\105		190418
@@ -293,7 +297,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	764792462	16	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\16_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\16		63515
 	767531981	109	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 1\109_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 1 (1xx)\109		91744
 	768980723	ESD_Cracks-005	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Cracks-005_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Ambiance\Crackling_Submarine\ESD_Cracks-005		350829
-	779861897	Motor_UI_Finish	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Motor_UI_Finish_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Motor_UI_Finish		18150
+	779861897	Motor_UI_Finish	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Motor_UI_Finish_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Motor_UI_Finish		18150
 	780823360	221	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\221_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\221		92851
 	785787238	SFX_Ballast_Destroy_02	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Ballast_Destroy_02_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Ballast_Destroy\SFX_Balast_Destroy_02\SFX_Ballast_Destroy_02		334813
 	794878907	206	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\206_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\206		113014
@@ -301,11 +305,11 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	806033248	237	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\237_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\237		153209
 	814125618	45	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\45_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\45		72803
 	814412688	25	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\25_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\25		141763
-	826753049	Gauge_Appear	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Gauge_Appear_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Gauge_Appear		11181
+	826753049	Gauge_Appear	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Gauge_Appear_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Gauge_Appear		11181
 	850037927	10	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\10_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\10		49930
 	851770343	202	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\202_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\202		40548
 	855715807	213	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\213_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\213		37495
-	856156528	Motor finish-002	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Motor finish-002_319D2801.wem		\Actor-Mixer Hierarchy\Default Work Unit\Motor_Finish\Motor finish-002		3099201
+	856156528	Motor finish-002	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Motor finish-002_93E43BA3.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Motor_Finish\Motor finish-002		3099201
 	864943458	234	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\234_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\234		67976
 	874182208	SFX_Ballast_Destroy_01	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\SFX_Ballast_Destroy_01_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX_Ballast_Destroy\SFX_Ballast_Destroy_01\SFX_Ballast_Destroy_01		234849
 	884844583	216	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\216_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\216		34783
@@ -317,7 +321,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	925168924	47	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\47_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\47		144237
 	932246849	405	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\405-refined_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level -1 (4xx)\405		100311
 	948872807	Avarie_End	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Avarie_End_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\SFX_Computer\Avarie\Avarie_End		11676
-	952250669	Track 22	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Track 22_FCEA1256.wem		\Actor-Mixer Hierarchy\Default Work Unit\Motor_Finish\Track 22		1791434
+	952250669	Track 22	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Track 22_FCEA1256.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Motor_Finish\Track 22		1791434
 	958023086	201	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\All levels\201_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\All levels (2xx)\201		87136
 	961201759	19	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\19_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\19		78569
 	964244408	411	C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level -1\-11_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level -1 (4xx)\411		94935

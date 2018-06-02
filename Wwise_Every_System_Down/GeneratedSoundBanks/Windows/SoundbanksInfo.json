@@ -1226,6 +1226,15 @@
       "DurationMax": "1,483083"
      },
      {
+      "Id": "86091983",
+      "Name": "Play_Hull_Break",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Hull_Break",
+      "GUID": "{C2E65F7A-0311-4FC7-B632-8A06D732858C}",
+      "DurationType": "OneShot",
+      "DurationMin": "5,942104",
+      "DurationMax": "5,942104"
+     },
+     {
       "Id": "3196500978",
       "Name": "Play_Lever",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Lever",
@@ -1440,6 +1449,12 @@
       "Path": "Voices\\English(US)\\All levels\\212_B95B134F.wem"
      },
      {
+      "Id": "59509447",
+      "Language": "SFX",
+      "ShortName": "Explosion_Part_02.wav",
+      "Path": "SFX\\Explosion_Part_02_8EB35F75.wem"
+     },
+     {
       "Id": "62885227",
       "Language": "English(US)",
       "ShortName": "Level 1\\113.wav",
@@ -1474,6 +1489,12 @@
       "Language": "English(US)",
       "ShortName": "Level 1\\112.wav",
       "Path": "Voices\\English(US)\\Level 1\\112_B95B134F.wem"
+     },
+     {
+      "Id": "105549964",
+      "Language": "SFX",
+      "ShortName": "Coque_Plie.wav",
+      "Path": "SFX\\Coque_Plie_B95B134F.wem"
      },
      {
       "Id": "119216152",
@@ -1695,7 +1716,7 @@
       "Id": "393951901",
       "Language": "SFX",
       "ShortName": "Motor finish-001.wav",
-      "Path": "SFX\\Motor finish-001_24ECFB96.wem"
+      "Path": "SFX\\Motor finish-001_CEE055EE.wem"
      },
      {
       "Id": "419121292",
@@ -1743,7 +1764,7 @@
       "Id": "477910399",
       "Language": "SFX",
       "ShortName": "SFX_MetalRumble.wav",
-      "Path": "SFX\\SFX_MetalRumble_062065F0.wem"
+      "Path": "SFX\\SFX_MetalRumble_29A15080.wem"
      },
      {
       "Id": "482368949",
@@ -1803,7 +1824,7 @@
       "Id": "519562528",
       "Language": "SFX",
       "ShortName": "SFX_MetalRumble.wav",
-      "Path": "SFX\\SFX_MetalRumble_0DEB70D5.wem"
+      "Path": "SFX\\SFX_MetalRumble_768B4A2F.wem"
      },
      {
       "Id": "519644027",
@@ -1906,6 +1927,12 @@
       "Language": "English(US)",
       "ShortName": "All levels\\210.wav",
       "Path": "Voices\\English(US)\\All levels\\210_B95B134F.wem"
+     },
+     {
+      "Id": "608645408",
+      "Language": "SFX",
+      "ShortName": "Track 13.wav",
+      "Path": "SFX\\Track 13_B1238C01.wem"
      },
      {
       "Id": "619845382",
@@ -2163,7 +2190,7 @@
       "Id": "856156528",
       "Language": "SFX",
       "ShortName": "Motor finish-002.wav",
-      "Path": "SFX\\Motor finish-002_319D2801.wem"
+      "Path": "SFX\\Motor finish-002_93E43BA3.wem"
      },
      {
       "Id": "864943458",

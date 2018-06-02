@@ -334,7 +334,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+									<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
@@ -407,7 +407,7 @@
 							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
-									<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+									<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
 								</Reference>
 								<Reference Name="OutputBus">
 									<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
