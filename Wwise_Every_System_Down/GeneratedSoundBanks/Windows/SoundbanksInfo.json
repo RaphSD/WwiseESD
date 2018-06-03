@@ -1226,6 +1226,15 @@
       "DurationType": "Infinite"
      },
      {
+      "Id": "1011292186",
+      "Name": "Play_ESD_Music",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_ESD_Music",
+      "GUID": "{EF08A4E4-BD29-4384-92DB-F5658B5DAB1A}",
+      "DurationType": "OneShot",
+      "DurationMin": "118,783997",
+      "DurationMax": "118,783997"
+     },
+     {
       "Id": "4087390633",
       "Name": "Play_Gauge_Appear",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Gauge_Appear",
@@ -1517,6 +1526,12 @@
       "Language": "English(US)",
       "ShortName": "Level 1\\116.wav",
       "Path": "Voices\\English(US)\\Level 1\\116_B95B134F.wem"
+     },
+     {
+      "Id": "79069212",
+      "Language": "SFX",
+      "ShortName": "ESD_Music_Mix.wav",
+      "Path": "SFX\\ESD_Music_Mix_1C9C67B2.wem"
      },
      {
       "Id": "83024319",

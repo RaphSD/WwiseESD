@@ -5,6 +5,7 @@ Event	ID	Name			Wwise Object Path	Notes
 	411742545	Play_SFX_Valve_LEDS			\Default Work Unit\Play_SFX_Valve_LEDS	
 	639345804	Play_Engine			\Default Work Unit\Play_Engine	
 	641826820	Play_Death_Explosion			\Default Work Unit\Play_Death_Explosion	
+	1011292186	Play_ESD_Music			\Default Work Unit\Play_ESD_Music	
 	1140103785	Play_SFX_Door_Error			\Default Work Unit\Play_SFX_Door_Error	
 	1312371701	Play_SFX_Door_Open			\Default Work Unit\Play_SFX_Door_Open	
 	1313850920	Play_Ambiance_01			\Default Work Unit\Play_Ambiance_01	
@@ -195,6 +196,7 @@ In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
 	59509447	Explosion_Part_01	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\Explosion_Part_02_543C8A9E.wem		\Actor-Mixer Hierarchy\Default Work Unit\SFX\Death_Explosion\Explosion_Part_01		594686
 	62885227	113	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 1\113_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 1 (1xx)\113		199994
 	72784210	116	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 1\116_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 1 (1xx)\116		246080
+	79069212	ESD_Music	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\SFX\ESD_Music_Mix_1C9C67B2.wem		\Actor-Mixer Hierarchy\Default Work Unit\ESD_Music		22806592
 	83024319	23	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\23_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\23		96396
 	95354113	13	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\Level 0\13_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 0 (xx)\13		58926
 	98514485	107	D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\Voices\English(US)\107-Water_B95B134F.wem		\Actor-Mixer Hierarchy\Default Work Unit\Voices\Voices\Level 1 (1xx)\107		148675

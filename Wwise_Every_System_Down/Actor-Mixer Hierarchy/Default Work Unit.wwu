@@ -4717,6 +4717,25 @@
 						</BlendContainer>
 					</ChildrenList>
 				</RandomSequenceContainer>
+				<Sound Name="ESD_Music" ID="{D479A74D-46FC-4AD2-8FA1-DEB14B4F3CD3}" ShortID="1040882751">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="ESD_Music_Mix" ID="{39213011-575E-4EA1-8624-32BCD255CE47}" ShortID="79069212">
+							<Language>SFX</Language>
+							<AudioFile>ESD_Music_Mix.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="ESD_Music_Mix" ID="{39213011-575E-4EA1-8624-32BCD255CE47}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
