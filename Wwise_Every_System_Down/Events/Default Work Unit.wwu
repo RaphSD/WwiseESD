@@ -2181,6 +2181,48 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Play_SFX_Glitch_Short" ID="{E1233B76-14C7-46C8-83A6-39FD8DC06EFD}">
+					<ChildrenList>
+						<Action Name="" ID="{1AE5A892-CD69-489B-B781-91084602AF9C}" ShortID="1043781780">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Glitch_Short" ID="{2BD52E83-4E73-437E-8FDF-D0B8E6E9B957}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_SFX_Glitch_Long" ID="{B409ED6A-1E11-44C9-8C72-3D0B521B0A68}">
+					<ChildrenList>
+						<Action Name="" ID="{0AF664B1-ACE7-41F1-B1E9-347F51127878}" ShortID="930118108">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Glitch_Long" ID="{6DD63333-B705-43BB-902A-1A635D2D2BDB}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Stop_SFX_Glitch_Long" ID="{62F74CAC-0127-4A49-BDD8-71F2A25B571F}">
+					<ChildrenList>
+						<Action Name="" ID="{B80C4FB9-5A42-4874-B7CE-30D0BF9F10E3}" ShortID="506846947">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="SFX_Glitch_Long" ID="{6DD63333-B705-43BB-902A-1A635D2D2BDB}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

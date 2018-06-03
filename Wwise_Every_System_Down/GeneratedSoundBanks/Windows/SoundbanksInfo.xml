@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\</ProjectRoot>
+		<SourceFilesRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -161,6 +161,8 @@
 				<Event Id="1412165763" Name="Play_SFX_Door_Close" ObjectPath="\Events\Default Work Unit\Play_SFX_Door_Close" GUID="{67C1B67B-B23A-4868-86DD-CCF6EA3DFAFA}" DurationType="OneShot" DurationMin="0,200000" DurationMax="0,200000"/>
 				<Event Id="1140103785" Name="Play_SFX_Door_Error" ObjectPath="\Events\Default Work Unit\Play_SFX_Door_Error" GUID="{07C18CF4-2FE5-44EF-A8B5-45CACC377ACF}" DurationType="OneShot" DurationMin="0,266667" DurationMax="0,266667"/>
 				<Event Id="1312371701" Name="Play_SFX_Door_Open" ObjectPath="\Events\Default Work Unit\Play_SFX_Door_Open" GUID="{9F775FCD-86C1-4F42-8F54-31FE52B6501F}" DurationType="OneShot" DurationMin="0,200000" DurationMax="0,200000"/>
+				<Event Id="3801466682" Name="Play_SFX_Glitch_Long" ObjectPath="\Events\Default Work Unit\Play_SFX_Glitch_Long" GUID="{B409ED6A-1E11-44C9-8C72-3D0B521B0A68}" DurationType="OneShot" DurationMin="9,610875" DurationMax="9,610875"/>
+				<Event Id="98059318" Name="Play_SFX_Glitch_Short" ObjectPath="\Events\Default Work Unit\Play_SFX_Glitch_Short" GUID="{E1233B76-14C7-46C8-83A6-39FD8DC06EFD}" DurationType="OneShot" DurationMin="0,190000" DurationMax="0,259208"/>
 				<Event Id="1778798315" Name="Play_SFX_Text_Bip" ObjectPath="\Events\Default Work Unit\Play_SFX_Text_Bip" GUID="{A3076D17-7C31-4EB7-AA01-1BF26CF1381E}" DurationType="OneShot" DurationMin="0,033333" DurationMax="0,033333"/>
 				<Event Id="411742545" Name="Play_SFX_Valve_LEDS" ObjectPath="\Events\Default Work Unit\Play_SFX_Valve_LEDS" GUID="{173F1C64-65A9-4CCD-9537-8B1B913CF672}" DurationType="OneShot" DurationMin="0,197875" DurationMax="0,308875"/>
 				<Event Id="1967447362" Name="Stop_Ambiance_01" ObjectPath="\Events\Default Work Unit\Stop_Ambiance_01" GUID="{C8DBBB93-0EA5-4D47-B9CC-AD8EEA92E27C}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
@@ -169,6 +171,7 @@
 				<Event Id="1803737652" Name="Stop_Lever" ObjectPath="\Events\Default Work Unit\Stop_Lever" GUID="{12FF7942-EDCC-4546-8296-12148B50F8FA}" DurationType="Infinite"/>
 				<Event Id="1789658778" Name="Stop_SFX_Alarm_Start" ObjectPath="\Events\Default Work Unit\Stop_SFX_Alarm_Start" GUID="{178C4C76-6949-446B-BD99-5BFF96CBA6DF}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
 				<Event Id="2894064942" Name="Stop_SFX_Avarie" ObjectPath="\Events\Default Work Unit\Stop_SFX_Avarie" GUID="{2F3E2090-470C-43FA-A6B9-4C370FD2189E}" DurationType="OneShot" DurationMin="1,178417" DurationMax="1,178417"/>
+				<Event Id="1544255280" Name="Stop_SFX_Glitch_Long" ObjectPath="\Events\Default Work Unit\Stop_SFX_Glitch_Long" GUID="{62F74CAC-0127-4A49-BDD8-71F2A25B571F}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
 				<File Id="22903" Language="SFX">
@@ -225,7 +228,7 @@
 				</File>
 				<File Id="59509447" Language="SFX">
 					<ShortName>Explosion_Part_02.wav</ShortName>
-					<Path>SFX\Explosion_Part_02_8EB35F75.wem</Path>
+					<Path>SFX\Explosion_Part_02_543C8A9E.wem</Path>
 				</File>
 				<File Id="62885227" Language="English(US)">
 					<ShortName>Level 1\113.wav</ShortName>
@@ -315,6 +318,10 @@
 					<ShortName>All levels\240.wav</ShortName>
 					<Path>Voices\English(US)\All levels\240_B95B134F.wem</Path>
 				</File>
+				<File Id="202936419" Language="SFX">
+					<ShortName>SFX_Glitch_Long.wav</ShortName>
+					<Path>SFX\SFX_Glitch_Long_B95B134F.wem</Path>
+				</File>
 				<File Id="214032401" Language="English(US)">
 					<ShortName>Level 0\46.wav</ShortName>
 					<Path>Voices\English(US)\Level 0\46_B95B134F.wem</Path>
@@ -355,6 +362,10 @@
 					<ShortName>All levels\219.wav</ShortName>
 					<Path>Voices\English(US)\All levels\219_B95B134F.wem</Path>
 				</File>
+				<File Id="303314975" Language="SFX">
+					<ShortName>SFX_Glitch_Short-006.wav</ShortName>
+					<Path>SFX\SFX_Glitch_Short-006_B95B134F.wem</Path>
+				</File>
 				<File Id="310326957" Language="English(US)">
 					<ShortName>All levels\203.wav</ShortName>
 					<Path>Voices\English(US)\All levels\203_B95B134F.wem</Path>
@@ -366,6 +377,10 @@
 				<File Id="325926020" Language="English(US)">
 					<ShortName>Level 0\27.wav</ShortName>
 					<Path>Voices\English(US)\Level 0\27_B95B134F.wem</Path>
+				</File>
+				<File Id="340872849" Language="SFX">
+					<ShortName>SFX_Glitch_Short-004.wav</ShortName>
+					<Path>SFX\SFX_Glitch_Short-004_B95B134F.wem</Path>
 				</File>
 				<File Id="344421868" Language="English(US)">
 					<ShortName>All levels\217.wav</ShortName>
@@ -415,6 +430,10 @@
 					<ShortName>Level -1\-2.wav</ShortName>
 					<Path>Voices\English(US)\Level -1\-2_B95B134F.wem</Path>
 				</File>
+				<File Id="435676598" Language="SFX">
+					<ShortName>SFX_Glitch_Short-001.wav</ShortName>
+					<Path>SFX\SFX_Glitch_Short-001_B95B134F.wem</Path>
+				</File>
 				<File Id="436507600" Language="English(US)">
 					<ShortName>All levels\214.wav</ShortName>
 					<Path>Voices\English(US)\All levels\214_B95B134F.wem</Path>
@@ -430,6 +449,10 @@
 				<File Id="460668804" Language="English(US)">
 					<ShortName>Level 0\28.wav</ShortName>
 					<Path>Voices\English(US)\Level 0\28_B95B134F.wem</Path>
+				</File>
+				<File Id="465677227" Language="SFX">
+					<ShortName>SFX_Glitch_Short-005.wav</ShortName>
+					<Path>SFX\SFX_Glitch_Short-005_B95B134F.wem</Path>
 				</File>
 				<File Id="471209811" Language="English(US)">
 					<ShortName>All levels\205.wav</ShortName>
@@ -553,7 +576,7 @@
 				</File>
 				<File Id="608645408" Language="SFX">
 					<ShortName>Track 13.wav</ShortName>
-					<Path>SFX\Track 13_B1238C01.wem</Path>
+					<Path>SFX\Track 13_84823EBE.wem</Path>
 				</File>
 				<File Id="619845382" Language="English(US)">
 					<ShortName>Level 0\01.wav</ShortName>
@@ -622,6 +645,10 @@
 				<File Id="677368854" Language="English(US)">
 					<ShortName>Level 0\38.wav</ShortName>
 					<Path>Voices\English(US)\Level 0\38_B95B134F.wem</Path>
+				</File>
+				<File Id="684363701" Language="SFX">
+					<ShortName>SFX_Glitch_Short-002.wav</ShortName>
+					<Path>SFX\SFX_Glitch_Short-002_B95B134F.wem</Path>
 				</File>
 				<File Id="687706503" Language="English(US)">
 					<ShortName>Level 0\06.wav</ShortName>
@@ -706,6 +733,10 @@
 				<File Id="814412688" Language="English(US)">
 					<ShortName>Level 0\25.wav</ShortName>
 					<Path>Voices\English(US)\Level 0\25_B95B134F.wem</Path>
+				</File>
+				<File Id="821109450" Language="SFX">
+					<ShortName>SFX_Glitch_Short-003.wav</ShortName>
+					<Path>SFX\SFX_Glitch_Short-003_B95B134F.wem</Path>
 				</File>
 				<File Id="826753049" Language="SFX">
 					<ShortName>Gauge_Appear.wav</ShortName>

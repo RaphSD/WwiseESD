@@ -158,6 +158,8 @@ namespace AK
         static const AkUniqueID PLAY_SFX_DOOR_CLOSE = 1412165763U;
         static const AkUniqueID PLAY_SFX_DOOR_ERROR = 1140103785U;
         static const AkUniqueID PLAY_SFX_DOOR_OPEN = 1312371701U;
+        static const AkUniqueID PLAY_SFX_GLITCH_LONG = 3801466682U;
+        static const AkUniqueID PLAY_SFX_GLITCH_SHORT = 98059318U;
         static const AkUniqueID PLAY_SFX_TEXT_BIP = 1778798315U;
         static const AkUniqueID PLAY_SFX_VALVE_LEDS = 411742545U;
         static const AkUniqueID STOP_AMBIANCE_01 = 1967447362U;
@@ -166,6 +168,7 @@ namespace AK
         static const AkUniqueID STOP_LEVER = 1803737652U;
         static const AkUniqueID STOP_SFX_ALARM_START = 1789658778U;
         static const AkUniqueID STOP_SFX_AVARIE = 2894064942U;
+        static const AkUniqueID STOP_SFX_GLITCH_LONG = 1544255280U;
     } // namespace EVENTS
 
     namespace GAME_PARAMETERS

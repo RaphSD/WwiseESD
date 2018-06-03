@@ -5,11 +5,11 @@
   "SchemaVersion": "11",
   "SoundbankVersion": "128",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\",
-   "SourceFilesRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\English(US)\\",
+   "ProjectRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\",
+   "SourceFilesRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\English(US)\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\"
+   "ExternalSourcesOutputRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\"
   },
   "SoundBanks": [
    {
@@ -1316,6 +1316,24 @@
       "DurationMax": "0,200000"
      },
      {
+      "Id": "3801466682",
+      "Name": "Play_SFX_Glitch_Long",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Glitch_Long",
+      "GUID": "{B409ED6A-1E11-44C9-8C72-3D0B521B0A68}",
+      "DurationType": "OneShot",
+      "DurationMin": "9,610875",
+      "DurationMax": "9,610875"
+     },
+     {
+      "Id": "98059318",
+      "Name": "Play_SFX_Glitch_Short",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Glitch_Short",
+      "GUID": "{E1233B76-14C7-46C8-83A6-39FD8DC06EFD}",
+      "DurationType": "OneShot",
+      "DurationMin": "0,190000",
+      "DurationMax": "0,259208"
+     },
+     {
       "Id": "1778798315",
       "Name": "Play_SFX_Text_Bip",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Text_Bip",
@@ -1388,6 +1406,16 @@
       "DurationType": "OneShot",
       "DurationMin": "1,178417",
       "DurationMax": "1,178417"
+     },
+     {
+      "Id": "1544255280",
+      "Name": "Stop_SFX_Glitch_Long",
+      "ObjectPath": "\\Events\\Default Work Unit\\Stop_SFX_Glitch_Long",
+      "GUID": "{62F74CAC-0127-4A49-BDD8-71F2A25B571F}",
+      "MaxAttenuation": "0,000000",
+      "DurationType": "OneShot",
+      "DurationMin": "0,000000",
+      "DurationMax": "0,000000"
      }
     ],
     "IncludedMemoryFiles": [
@@ -1473,7 +1501,7 @@
       "Id": "59509447",
       "Language": "SFX",
       "ShortName": "Explosion_Part_02.wav",
-      "Path": "SFX\\Explosion_Part_02_8EB35F75.wem"
+      "Path": "SFX\\Explosion_Part_02_543C8A9E.wem"
      },
      {
       "Id": "62885227",
@@ -1608,6 +1636,12 @@
       "Path": "Voices\\English(US)\\All levels\\240_B95B134F.wem"
      },
      {
+      "Id": "202936419",
+      "Language": "SFX",
+      "ShortName": "SFX_Glitch_Long.wav",
+      "Path": "SFX\\SFX_Glitch_Long_B95B134F.wem"
+     },
+     {
       "Id": "214032401",
       "Language": "English(US)",
       "ShortName": "Level 0\\46.wav",
@@ -1668,6 +1702,12 @@
       "Path": "Voices\\English(US)\\All levels\\219_B95B134F.wem"
      },
      {
+      "Id": "303314975",
+      "Language": "SFX",
+      "ShortName": "SFX_Glitch_Short-006.wav",
+      "Path": "SFX\\SFX_Glitch_Short-006_B95B134F.wem"
+     },
+     {
       "Id": "310326957",
       "Language": "English(US)",
       "ShortName": "All levels\\203.wav",
@@ -1684,6 +1724,12 @@
       "Language": "English(US)",
       "ShortName": "Level 0\\27.wav",
       "Path": "Voices\\English(US)\\Level 0\\27_B95B134F.wem"
+     },
+     {
+      "Id": "340872849",
+      "Language": "SFX",
+      "ShortName": "SFX_Glitch_Short-004.wav",
+      "Path": "SFX\\SFX_Glitch_Short-004_B95B134F.wem"
      },
      {
       "Id": "344421868",
@@ -1758,6 +1804,12 @@
       "Path": "Voices\\English(US)\\Level -1\\-2_B95B134F.wem"
      },
      {
+      "Id": "435676598",
+      "Language": "SFX",
+      "ShortName": "SFX_Glitch_Short-001.wav",
+      "Path": "SFX\\SFX_Glitch_Short-001_B95B134F.wem"
+     },
+     {
       "Id": "436507600",
       "Language": "English(US)",
       "ShortName": "All levels\\214.wav",
@@ -1780,6 +1832,12 @@
       "Language": "English(US)",
       "ShortName": "Level 0\\28.wav",
       "Path": "Voices\\English(US)\\Level 0\\28_B95B134F.wem"
+     },
+     {
+      "Id": "465677227",
+      "Language": "SFX",
+      "ShortName": "SFX_Glitch_Short-005.wav",
+      "Path": "SFX\\SFX_Glitch_Short-005_B95B134F.wem"
      },
      {
       "Id": "471209811",
@@ -1965,7 +2023,7 @@
       "Id": "608645408",
       "Language": "SFX",
       "ShortName": "Track 13.wav",
-      "Path": "SFX\\Track 13_B1238C01.wem"
+      "Path": "SFX\\Track 13_84823EBE.wem"
      },
      {
       "Id": "619845382",
@@ -2068,6 +2126,12 @@
       "Language": "English(US)",
       "ShortName": "Level 0\\38.wav",
       "Path": "Voices\\English(US)\\Level 0\\38_B95B134F.wem"
+     },
+     {
+      "Id": "684363701",
+      "Language": "SFX",
+      "ShortName": "SFX_Glitch_Short-002.wav",
+      "Path": "SFX\\SFX_Glitch_Short-002_B95B134F.wem"
      },
      {
       "Id": "687706503",
@@ -2194,6 +2258,12 @@
       "Language": "English(US)",
       "ShortName": "Level 0\\25.wav",
       "Path": "Voices\\English(US)\\Level 0\\25_B95B134F.wem"
+     },
+     {
+      "Id": "821109450",
+      "Language": "SFX",
+      "ShortName": "SFX_Glitch_Short-003.wav",
+      "Path": "SFX\\SFX_Glitch_Short-003_B95B134F.wem"
      },
      {
       "Id": "826753049",
