@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\</ProjectRoot>
-		<SourceFilesRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\</ProjectRoot>
+		<SourceFilesRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -128,9 +128,9 @@
 				<Event Id="3771802948" Name="Play_411" ObjectPath="\Events\Default Work Unit\Voices\Play_411" GUID="{595B3D6A-E809-42FF-8265-1A02FD35611B}" DurationType="OneShot" DurationMin="3,208479" DurationMax="3,208479"/>
 				<Event Id="3771802951" Name="Play_412" ObjectPath="\Events\Default Work Unit\Voices\Play_412" GUID="{22392D4C-EEED-482A-9A75-04FE4A2E38EF}" DurationType="OneShot" DurationMin="10,032854" DurationMax="10,032854"/>
 				<Event Id="3771802950" Name="Play_413" ObjectPath="\Events\Default Work Unit\Voices\Play_413" GUID="{17A731C2-B1E0-4885-89DD-33015EED2AB6}" DurationType="OneShot" DurationMin="4,910292" DurationMax="4,910292"/>
-				<Event Id="3771802945" Name="Play_414" ObjectPath="\Events\Default Work Unit\Voices\Play_414" GUID="{B885C798-E622-45D7-85D9-D067F7A79B21}" DurationType="OneShot" DurationMin="3,944333" DurationMax="3,944333"/>
-				<Event Id="3771802944" Name="Play_415" ObjectPath="\Events\Default Work Unit\Voices\Play_415" GUID="{41E2AE53-595C-49AA-ACAD-D8F4ECE9F9C9}" DurationType="OneShot" DurationMin="3,887104" DurationMax="3,887104"/>
-				<Event Id="3771802947" Name="Play_416" ObjectPath="\Events\Default Work Unit\Voices\Play_416" GUID="{7393BF92-A42C-41D2-B3C4-29C82BC5A147}" DurationType="OneShot" DurationMin="4,890563" DurationMax="4,890563"/>
+				<Event Id="3771802945" Name="Play_414" ObjectPath="\Events\Default Work Unit\Voices\Play_414" GUID="{B885C798-E622-45D7-85D9-D067F7A79B21}" DurationType="OneShot" DurationMin="4,002958" DurationMax="4,002958"/>
+				<Event Id="3771802944" Name="Play_415" ObjectPath="\Events\Default Work Unit\Voices\Play_415" GUID="{41E2AE53-595C-49AA-ACAD-D8F4ECE9F9C9}" DurationType="OneShot" DurationMin="4,057521" DurationMax="4,057521"/>
+				<Event Id="3771802947" Name="Play_416" ObjectPath="\Events\Default Work Unit\Voices\Play_416" GUID="{7393BF92-A42C-41D2-B3C4-29C82BC5A147}" DurationType="OneShot" DurationMin="5,054521" DurationMax="5,054521"/>
 				<Event Id="3101737428" Name="Play_42" ObjectPath="\Events\Default Work Unit\Voices\Play_42" GUID="{A63A5B0F-4622-4B3D-A4DE-E6FD2428A246}" DurationType="OneShot" DurationMin="11,027187" DurationMax="11,027187"/>
 				<Event Id="3101737429" Name="Play_43" ObjectPath="\Events\Default Work Unit\Voices\Play_43" GUID="{EEC265C9-9CC8-4E3A-93AA-5B0242FF382A}" DurationType="OneShot" DurationMin="3,547437" DurationMax="3,547437"/>
 				<Event Id="3101737426" Name="Play_44" ObjectPath="\Events\Default Work Unit\Voices\Play_44" GUID="{98D4A8D1-D73D-4F21-B052-9D5E12FB4980}" DurationType="OneShot" DurationMin="3,521000" DurationMax="3,521000"/>
@@ -483,14 +483,6 @@
 					<ShortName>SFX_Ballast_Destroy_03.wav</ShortName>
 					<Path>SFX\SFX_Ballast_Destroy_03_B95B134F.wem</Path>
 				</File>
-				<File Id="488988163" Language="English(US)">
-					<ShortName>Level -1\-14.wav</ShortName>
-					<Path>Voices\English(US)\Level -1\-14_B95B134F.wem</Path>
-				</File>
-				<File Id="493284428" Language="English(US)">
-					<ShortName>Level -1\-16.wav</ShortName>
-					<Path>Voices\English(US)\Level -1\-16_B95B134F.wem</Path>
-				</File>
 				<File Id="505250805" Language="English(US)">
 					<ShortName>All levels\228.wav</ShortName>
 					<Path>Voices\English(US)\All levels\228_B95B134F.wem</Path>
@@ -591,6 +583,10 @@
 					<ShortName>Track 13.wav</ShortName>
 					<Path>SFX\Track 13_84823EBE.wem</Path>
 				</File>
+				<File Id="612362533" Language="English(US)">
+					<ShortName>416-Water.wav</ShortName>
+					<Path>Voices\English(US)\416-Water_B95B134F.wem</Path>
+				</File>
 				<File Id="619845382" Language="English(US)">
 					<ShortName>Level 0\01.wav</ShortName>
 					<Path>Voices\English(US)\Level 0\01_B95B134F.wem</Path>
@@ -630,10 +626,6 @@
 				<File Id="654094160" Language="English(US)">
 					<ShortName>Level 0\17.wav</ShortName>
 					<Path>Voices\English(US)\Level 0\17_B95B134F.wem</Path>
-				</File>
-				<File Id="658008287" Language="English(US)">
-					<ShortName>Level -1\-15.wav</ShortName>
-					<Path>Voices\English(US)\Level -1\-15_B95B134F.wem</Path>
 				</File>
 				<File Id="659685066" Language="English(US)">
 					<ShortName>All levels\223.wav</ShortName>
@@ -747,6 +739,10 @@
 					<ShortName>SFX_Glitch_Short-003.wav</ShortName>
 					<Path>SFX\SFX_Glitch_Short-003_B95B134F.wem</Path>
 				</File>
+				<File Id="825705893" Language="English(US)">
+					<ShortName>415-Water.wav</ShortName>
+					<Path>Voices\English(US)\415-Water_B95B134F.wem</Path>
+				</File>
 				<File Id="826753049" Language="SFX">
 					<ShortName>Gauge_Appear.wav</ShortName>
 					<Path>SFX\Gauge_Appear_B95B134F.wem</Path>
@@ -854,6 +850,10 @@
 				<File Id="1032400691" Language="English(US)">
 					<ShortName>Level 1\111.wav</ShortName>
 					<Path>Voices\English(US)\Level 1\111_B95B134F.wem</Path>
+				</File>
+				<File Id="1034772289" Language="English(US)">
+					<ShortName>414-Water.wav</ShortName>
+					<Path>Voices\English(US)\414-Water_B95B134F.wem</Path>
 				</File>
 				<File Id="1036830504" Language="English(US)">
 					<ShortName>Level 0\20.wav</ShortName>

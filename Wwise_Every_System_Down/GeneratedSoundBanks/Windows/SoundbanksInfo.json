@@ -5,11 +5,11 @@
   "SchemaVersion": "11",
   "SoundbankVersion": "128",
   "RootPaths": {
-   "ProjectRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\",
-   "SourceFilesRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\.cache\\Windows\\",
-   "SoundBanksRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\",
+   "ProjectRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\",
+   "SourceFilesRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\.cache\\Windows\\",
+   "SoundBanksRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\"
+   "ExternalSourcesOutputRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\"
   },
   "DialogueEvents": [],
   "StreamedFiles": [],
@@ -1037,8 +1037,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Play_414",
       "GUID": "{B885C798-E622-45D7-85D9-D067F7A79B21}",
       "DurationType": "OneShot",
-      "DurationMin": "3,944333",
-      "DurationMax": "3,944333"
+      "DurationMin": "4,002958",
+      "DurationMax": "4,002958"
      },
      {
       "Id": "3771802944",
@@ -1046,8 +1046,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Play_415",
       "GUID": "{41E2AE53-595C-49AA-ACAD-D8F4ECE9F9C9}",
       "DurationType": "OneShot",
-      "DurationMin": "3,887104",
-      "DurationMax": "3,887104"
+      "DurationMin": "4,057521",
+      "DurationMax": "4,057521"
      },
      {
       "Id": "3771802947",
@@ -1055,8 +1055,8 @@
       "ObjectPath": "\\Events\\Default Work Unit\\Voices\\Play_416",
       "GUID": "{7393BF92-A42C-41D2-B3C4-29C82BC5A147}",
       "DurationType": "OneShot",
-      "DurationMin": "4,890563",
-      "DurationMax": "4,890563"
+      "DurationMin": "5,054521",
+      "DurationMax": "5,054521"
      },
      {
       "Id": "3101737428",
@@ -1896,18 +1896,6 @@
       "Path": "SFX\\SFX_Ballast_Destroy_03_B95B134F.wem"
      },
      {
-      "Id": "488988163",
-      "Language": "English(US)",
-      "ShortName": "Level -1\\-14.wav",
-      "Path": "Voices\\English(US)\\Level -1\\-14_B95B134F.wem"
-     },
-     {
-      "Id": "493284428",
-      "Language": "English(US)",
-      "ShortName": "Level -1\\-16.wav",
-      "Path": "Voices\\English(US)\\Level -1\\-16_B95B134F.wem"
-     },
-     {
       "Id": "505250805",
       "Language": "English(US)",
       "ShortName": "All levels\\228.wav",
@@ -2058,6 +2046,12 @@
       "Path": "SFX\\Track 13_84823EBE.wem"
      },
      {
+      "Id": "612362533",
+      "Language": "English(US)",
+      "ShortName": "416-Water.wav",
+      "Path": "Voices\\English(US)\\416-Water_B95B134F.wem"
+     },
+     {
       "Id": "619845382",
       "Language": "English(US)",
       "ShortName": "Level 0\\01.wav",
@@ -2116,12 +2110,6 @@
       "Language": "English(US)",
       "ShortName": "Level 0\\17.wav",
       "Path": "Voices\\English(US)\\Level 0\\17_B95B134F.wem"
-     },
-     {
-      "Id": "658008287",
-      "Language": "English(US)",
-      "ShortName": "Level -1\\-15.wav",
-      "Path": "Voices\\English(US)\\Level -1\\-15_B95B134F.wem"
      },
      {
       "Id": "659685066",
@@ -2292,6 +2280,12 @@
       "Path": "SFX\\SFX_Glitch_Short-003_B95B134F.wem"
      },
      {
+      "Id": "825705893",
+      "Language": "English(US)",
+      "ShortName": "415-Water.wav",
+      "Path": "Voices\\English(US)\\415-Water_B95B134F.wem"
+     },
+     {
       "Id": "826753049",
       "Language": "SFX",
       "ShortName": "Gauge_Appear.wav",
@@ -2452,6 +2446,12 @@
       "Language": "English(US)",
       "ShortName": "Level 1\\111.wav",
       "Path": "Voices\\English(US)\\Level 1\\111_B95B134F.wem"
+     },
+     {
+      "Id": "1034772289",
+      "Language": "English(US)",
+      "ShortName": "414-Water.wav",
+      "Path": "Voices\\English(US)\\414-Water_B95B134F.wem"
      },
      {
       "Id": "1036830504",
