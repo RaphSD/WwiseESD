@@ -86,8 +86,8 @@
 				<Event Id="1859551774" Name="Play_233" ObjectPath="\Events\Default Work Unit\Voices\Play_233" GUID="{0E333E32-D956-4CE9-B328-6C0CDC90C68A}" DurationType="OneShot" DurationMin="3,430312" DurationMax="3,430312"/>
 				<Event Id="1859551769" Name="Play_234" ObjectPath="\Events\Default Work Unit\Voices\Play_234" GUID="{E1E60F4B-A448-40DB-A243-FA8D7F72E949}" DurationType="OneShot" DurationMin="2,604021" DurationMax="2,604021"/>
 				<Event Id="1859551768" Name="Play_235" ObjectPath="\Events\Default Work Unit\Voices\Play_235" GUID="{B91401F0-634C-40A9-80AE-4B949A277A83}" DurationType="OneShot" DurationMin="1,567167" DurationMax="1,567167"/>
-				<Event Id="1859551771" Name="Play_236" ObjectPath="\Events\Default Work Unit\Voices\Play_236" GUID="{4FC91C0D-677B-4047-960B-CE99231B56D1}" DurationType="OneShot" DurationMin="8,479188" DurationMax="8,479188"/>
-				<Event Id="1859551770" Name="Play_237" ObjectPath="\Events\Default Work Unit\Voices\Play_237" GUID="{5BB59B27-F1C6-41F6-A28C-0758BD1DB7A5}" DurationType="OneShot" DurationMin="5,621250" DurationMax="5,621250"/>
+				<Event Id="1859551771" Name="Play_236" ObjectPath="\Events\Default Work Unit\Voices\Play_236" GUID="{4FC91C0D-677B-4047-960B-CE99231B56D1}" DurationType="OneShot" DurationMin="8,547854" DurationMax="8,547854"/>
+				<Event Id="1859551770" Name="Play_237" ObjectPath="\Events\Default Work Unit\Voices\Play_237" GUID="{5BB59B27-F1C6-41F6-A28C-0758BD1DB7A5}" DurationType="OneShot" DurationMin="5,703729" DurationMax="5,703729"/>
 				<Event Id="1859551765" Name="Play_238" ObjectPath="\Events\Default Work Unit\Voices\Play_238" GUID="{AF27969C-FB27-4C49-8972-08E1FB2825E0}" DurationType="OneShot" DurationMin="25,578709" DurationMax="25,578709"/>
 				<Event Id="1859551764" Name="Play_239" ObjectPath="\Events\Default Work Unit\Voices\Play_239" GUID="{2978DDA0-C4EE-4954-96D2-9DF96EE58BD6}" DurationType="OneShot" DurationMin="1,601313" DurationMax="1,601313"/>
 				<Event Id="3135292728" Name="Play_24" ObjectPath="\Events\Default Work Unit\Voices\Play_24" GUID="{AB3D88CE-5A0C-4AB6-80A1-46772ACF15CD}" DurationType="OneShot" DurationMin="1,822083" DurationMax="1,822083"/>
@@ -356,10 +356,6 @@
 					<ShortName>SFX_Alarm.wav</ShortName>
 					<Path>SFX\SFX_Alarm_6D7C38E4.wem</Path>
 				</File>
-				<File Id="272385553" Language="English(US)">
-					<ShortName>All levels\236.wav</ShortName>
-					<Path>Voices\English(US)\All levels\236_B95B134F.wem</Path>
-				</File>
 				<File Id="290438188" Language="English(US)">
 					<ShortName>All levels\219.wav</ShortName>
 					<Path>Voices\English(US)\All levels\219_B95B134F.wem</Path>
@@ -496,6 +492,10 @@
 					<ShortName>All levels\228.wav</ShortName>
 					<Path>Voices\English(US)\All levels\228_B95B134F.wem</Path>
 				</File>
+				<File Id="505977283" Language="English(US)">
+					<ShortName>237-WATER.wav</ShortName>
+					<Path>Voices\English(US)\237-WATER_B95B134F.wem</Path>
+				</File>
 				<File Id="509144032" Language="SFX">
 					<ShortName>ESD_Cracks-006.wav</ShortName>
 					<Path>SFX\ESD_Cracks-006_B95B134F.wem</Path>
@@ -543,6 +543,10 @@
 				<File Id="565503049" Language="English(US)">
 					<ShortName>Level 0\03.wav</ShortName>
 					<Path>Voices\English(US)\Level 0\03_B95B134F.wem</Path>
+				</File>
+				<File Id="567119683" Language="English(US)">
+					<ShortName>236-WATER.wav</ShortName>
+					<Path>Voices\English(US)\236-WATER_B95B134F.wem</Path>
 				</File>
 				<File Id="571333541" Language="SFX">
 					<ShortName>SFX_Door_Error-002.wav</ShortName>
@@ -727,10 +731,6 @@
 				<File Id="804453624" Language="English(US)">
 					<ShortName>Level -1\-3.wav</ShortName>
 					<Path>Voices\English(US)\Level -1\-3_B95B134F.wem</Path>
-				</File>
-				<File Id="806033248" Language="English(US)">
-					<ShortName>All levels\237.wav</ShortName>
-					<Path>Voices\English(US)\All levels\237_B95B134F.wem</Path>
 				</File>
 				<File Id="814125618" Language="English(US)">
 					<ShortName>Level 0\45.wav</ShortName>

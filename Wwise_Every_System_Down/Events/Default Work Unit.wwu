@@ -1652,7 +1652,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="236" ID="{257F2CB3-8ADD-4AAB-B943-977B20F3C6D7}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+											<ObjectRef Name="236" ID="{DF3B989C-7DC8-486D-95AC-6A3D83C63B08}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -1666,7 +1666,7 @@
 									</PropertyList>
 									<ReferenceList>
 										<Reference Name="Target">
-											<ObjectRef Name="237" ID="{1F1D5C83-7025-48BE-AB40-FCF30A958359}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+											<ObjectRef Name="237" ID="{BE90F377-4BCB-42A5-A72E-3D1D3280A81F}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
 										</Reference>
 									</ReferenceList>
 								</Action>
@@ -2068,6 +2068,17 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="Motor_UI_Finish" ID="{BCBC72D3-839C-4A0C-AB59-684EEA3B1D27}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{6D856619-70A4-49C1-9569-0B5C75B15648}" ShortID="923562435">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="2"/>
+								<Property Name="FadeTime" Type="Real64" Value="5.5"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Engine" ID="{DE9C7840-6446-4A95-BE72-C053CCA4D712}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

@@ -160,7 +160,7 @@
 											<PropertyList>
 												<Property Name="Volume" Type="Real64">
 													<ValueList>
-														<Value>-12</Value>
+														<Value>-8</Value>
 													</ValueList>
 												</Property>
 											</PropertyList>
@@ -525,7 +525,7 @@
 								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-33</Value>
+										<Value>-26</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -614,6 +614,13 @@
 							</ActiveSourceList>
 						</Sound>
 						<Sound Name="Motor_UI_Finish" ID="{BCBC72D3-839C-4A0C-AB59-684EEA3B1D27}" ShortID="565538326">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>1</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
 							<ReferenceList>
 								<Reference Name="Conversion">
 									<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
@@ -663,7 +670,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="3"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-10</Value>
+										<Value>-2</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -759,7 +766,7 @@
 								<Property Name="RandomAvoidRepeatingCount" Type="int32" Value="4"/>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-17</Value>
+										<Value>-25</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -932,7 +939,7 @@
 							<PropertyList>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
-										<Value>-9</Value>
+										<Value>-4</Value>
 									</ValueList>
 								</Property>
 							</PropertyList>
@@ -2182,50 +2189,6 @@
 												<ActiveSource Name="235" ID="{982992A5-A5A2-4C06-B09F-DC98BB3C66FF}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<Sound Name="236" ID="{257F2CB3-8ADD-4AAB-B943-977B20F3C6D7}" ShortID="525771658">
-											<PropertyList>
-												<Property Name="IsVoice" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="236" ID="{9AF8C01A-9ABA-49EE-B54F-03D2270699EF}" ShortID="272385553">
-													<Language>English(US)</Language>
-													<AudioFile>All levels\236.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="236" ID="{9AF8C01A-9ABA-49EE-B54F-03D2270699EF}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
-										<Sound Name="237" ID="{1F1D5C83-7025-48BE-AB40-FCF30A958359}" ShortID="283153155">
-											<PropertyList>
-												<Property Name="IsVoice" Type="bool" Value="True"/>
-											</PropertyList>
-											<ReferenceList>
-												<Reference Name="Conversion">
-													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
-												</Reference>
-												<Reference Name="OutputBus">
-													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
-												</Reference>
-											</ReferenceList>
-											<ChildrenList>
-												<AudioFileSource Name="237" ID="{917CCC0C-FD10-440D-87BC-248B02AF1DC2}" ShortID="806033248">
-													<Language>English(US)</Language>
-													<AudioFile>All levels\237.wav</AudioFile>
-												</AudioFileSource>
-											</ChildrenList>
-											<ActiveSourceList>
-												<ActiveSource Name="237" ID="{917CCC0C-FD10-440D-87BC-248B02AF1DC2}" Platform="Linked"/>
-											</ActiveSourceList>
-										</Sound>
 										<Sound Name="239" ID="{6A6EF5AE-EC47-45E0-A087-2E36E084DB51}" ShortID="439084358">
 											<PropertyList>
 												<Property Name="IsVoice" Type="bool" Value="True"/>
@@ -2339,6 +2302,11 @@
 										<Sound Name="238" ID="{4075BD1C-EDEE-4033-AC77-A1FAD7A11DC8}" ShortID="566633674">
 											<PropertyList>
 												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
 											</PropertyList>
 											<ReferenceList>
 												<Reference Name="Conversion">
@@ -2356,6 +2324,60 @@
 											</ChildrenList>
 											<ActiveSourceList>
 												<ActiveSource Name="238 (2)" ID="{F882BC48-2D3C-4034-BDF6-8BBDD7A4F689}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="236" ID="{DF3B989C-7DC8-486D-95AC-6A3D83C63B08}" ShortID="996815525">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-9</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="236-WATER" ID="{A3F2C767-962E-4618-90B7-B466D2D765EB}" ShortID="567119683">
+													<Language>English(US)</Language>
+													<AudioFile>236-WATER.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="236-WATER" ID="{A3F2C767-962E-4618-90B7-B466D2D765EB}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
+										<Sound Name="237" ID="{BE90F377-4BCB-42A5-A72E-3D1D3280A81F}" ShortID="702284100">
+											<PropertyList>
+												<Property Name="IsVoice" Type="bool" Value="True"/>
+												<Property Name="Volume" Type="Real64">
+													<ValueList>
+														<Value>-7</Value>
+													</ValueList>
+												</Property>
+											</PropertyList>
+											<ReferenceList>
+												<Reference Name="Conversion">
+													<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+												</Reference>
+												<Reference Name="OutputBus">
+													<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+												</Reference>
+											</ReferenceList>
+											<ChildrenList>
+												<AudioFileSource Name="237-WATER" ID="{DD728FCB-8A0D-4C43-8D55-0C7C8755F8AA}" ShortID="505977283">
+													<Language>English(US)</Language>
+													<AudioFile>237-WATER.wav</AudioFile>
+												</AudioFileSource>
+											</ChildrenList>
+											<ActiveSourceList>
+												<ActiveSource Name="237-WATER" ID="{DD728FCB-8A0D-4C43-8D55-0C7C8755F8AA}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
 									</ChildrenList>
