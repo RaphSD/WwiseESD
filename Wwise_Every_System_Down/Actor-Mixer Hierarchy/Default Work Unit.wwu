@@ -182,12 +182,7 @@
 												<ActiveSource Name="Avarie_End" ID="{276445D7-816B-4224-9A5B-CC6EBBDF5E42}" Platform="Linked"/>
 											</ActiveSourceList>
 										</Sound>
-										<RandomSequenceContainer Name="Avarie_Start_Going" ID="{DDC1185B-BB8D-4A6E-920F-0220D8F6D5EF}" ShortID="544284575">
-											<PropertyList>
-												<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-												<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-												<Property Name="RandomOrSequence" Type="int16" Value="0"/>
-											</PropertyList>
+										<Sound Name="Avarie_Start" ID="{FC55198E-07A4-4FD6-8F47-8AABE5DDE452}" ShortID="614481066">
 											<ReferenceList>
 												<Reference Name="Conversion">
 													<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
@@ -197,81 +192,15 @@
 												</Reference>
 											</ReferenceList>
 											<ChildrenList>
-												<Sound Name="Avarie_Start" ID="{FC55198E-07A4-4FD6-8F47-8AABE5DDE452}" ShortID="614481066">
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<AudioFileSource Name="Avarie_Start" ID="{EDC6AA48-A824-4611-B5FF-4D3620B5ED19}" ShortID="359134993">
-															<Language>SFX</Language>
-															<AudioFile>Avarie_Start.wav</AudioFile>
-														</AudioFileSource>
-													</ChildrenList>
-													<ActiveSourceList>
-														<ActiveSource Name="Avarie_Start" ID="{EDC6AA48-A824-4611-B5FF-4D3620B5ED19}" Platform="Linked"/>
-													</ActiveSourceList>
-												</Sound>
-												<RandomSequenceContainer Name="SFX_Avarie_Going" ID="{0C2A8D89-E274-4A89-949A-317BC4C50D67}" ShortID="903759175">
-													<PropertyList>
-														<Property Name="InitialDelay" Type="Real64">
-															<ValueList>
-																<Value>0.5</Value>
-															</ValueList>
-														</Property>
-														<Property Name="PlayMechanismLoop" Type="bool" Value="True"/>
-														<Property Name="PlayMechanismSpecialTransitions" Type="bool" Value="True"/>
-														<Property Name="PlayMechanismSpecialTransitionsType" Type="int16" Value="3"/>
-														<Property Name="PlayMechanismSpecialTransitionsValue" Type="Real64" Value="1.5"/>
-														<Property Name="PlayMechanismStepOrContinuous" Type="int16" Value="0"/>
-													</PropertyList>
-													<ReferenceList>
-														<Reference Name="Conversion">
-															<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
-														</Reference>
-														<Reference Name="OutputBus">
-															<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
-														</Reference>
-													</ReferenceList>
-													<ChildrenList>
-														<Sound Name="Avarie_During" ID="{550956F0-38EA-4A63-A33E-3E572C2F2F5E}" ShortID="374588189">
-															<PropertyList>
-																<Property Name="Volume" Type="Real64">
-																	<ValueList>
-																		<Value>-9</Value>
-																	</ValueList>
-																</Property>
-															</PropertyList>
-															<ReferenceList>
-																<Reference Name="Conversion">
-																	<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
-																</Reference>
-																<Reference Name="OutputBus">
-																	<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
-																</Reference>
-															</ReferenceList>
-															<ChildrenList>
-																<AudioFileSource Name="Avarie_During" ID="{A74FC3A0-4E6E-436F-B967-3F61B0C72F4B}" ShortID="889974538">
-																	<Language>SFX</Language>
-																	<AudioFile>Avarie_During.wav</AudioFile>
-																</AudioFileSource>
-															</ChildrenList>
-															<ActiveSourceList>
-																<ActiveSource Name="Avarie_During" ID="{A74FC3A0-4E6E-436F-B967-3F61B0C72F4B}" Platform="Linked"/>
-															</ActiveSourceList>
-														</Sound>
-													</ChildrenList>
-												</RandomSequenceContainer>
+												<AudioFileSource Name="Avarie_Start" ID="{EDC6AA48-A824-4611-B5FF-4D3620B5ED19}" ShortID="359134993">
+													<Language>SFX</Language>
+													<AudioFile>Avarie_Start.wav</AudioFile>
+												</AudioFileSource>
 											</ChildrenList>
-											<Playlist>
-												<ItemRef Name="Avarie_Start" ID="{FC55198E-07A4-4FD6-8F47-8AABE5DDE452}"/>
-												<ItemRef Name="SFX_Avarie_Going" ID="{0C2A8D89-E274-4A89-949A-317BC4C50D67}"/>
-											</Playlist>
-										</RandomSequenceContainer>
+											<ActiveSourceList>
+												<ActiveSource Name="Avarie_Start" ID="{EDC6AA48-A824-4611-B5FF-4D3620B5ED19}" Platform="Linked"/>
+											</ActiveSourceList>
+										</Sound>
 									</ChildrenList>
 								</Folder>
 							</ChildrenList>
@@ -589,6 +518,11 @@
 						</BlendContainer>
 						<Sound Name="Lever" ID="{BCD3046F-CFAB-4551-9773-6E2C5DA5E267}" ShortID="1050776445">
 							<PropertyList>
+								<Property Name="InitialDelay" Type="Real64">
+									<ValueList>
+										<Value>0.5</Value>
+									</ValueList>
+								</Property>
 								<Property Name="Volume" Type="Real64">
 									<ValueList>
 										<Value>-33</Value>
@@ -992,6 +926,32 @@
 							</ChildrenList>
 							<ActiveSourceList>
 								<ActiveSource Name="SFX_Glitch_Long" ID="{AF0B973D-3BE2-4FF5-A873-011109B25756}" Platform="Linked"/>
+							</ActiveSourceList>
+						</Sound>
+						<Sound Name="Lever_Position_OK" ID="{8A4F7E42-2DAD-46A8-AFE1-8E877EECD5F7}" ShortID="1069282118">
+							<PropertyList>
+								<Property Name="Volume" Type="Real64">
+									<ValueList>
+										<Value>-9</Value>
+									</ValueList>
+								</Property>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Conversion">
+									<ObjectRef Name="SFX_Conversion_Settings" ID="{34227372-7ECD-4EA4-AE03-BCCE7933E119}" WorkUnitID="{FAC220E6-56D4-495B-BF05-C8F10B053933}"/>
+								</Reference>
+								<Reference Name="OutputBus">
+									<ObjectRef Name="SFX" ID="{233E8309-12BE-44A8-B5E8-31772FCA495C}" WorkUnitID="{86F3A659-BF8B-4328-AFB3-D714E54FCA2F}"/>
+								</Reference>
+							</ReferenceList>
+							<ChildrenList>
+								<AudioFileSource Name="Lever_Position_OK" ID="{325762B0-4577-40CC-9193-35974D72F2DA}" ShortID="467316639">
+									<Language>SFX</Language>
+									<AudioFile>Lever_Position_OK.wav</AudioFile>
+								</AudioFileSource>
+							</ChildrenList>
+							<ActiveSourceList>
+								<ActiveSource Name="Lever_Position_OK" ID="{325762B0-4577-40CC-9193-35974D72F2DA}" Platform="Linked"/>
 							</ActiveSourceList>
 						</Sound>
 					</ChildrenList>

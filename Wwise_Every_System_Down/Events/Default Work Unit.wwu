@@ -185,44 +185,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_SFX_Avarie" ID="{34B24811-E690-484A-8519-C667902EB90B}">
-					<ChildrenList>
-						<Action Name="" ID="{79EC35B1-6831-49CE-BD37-1259B96481E1}" ShortID="384437437">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Avarie_Start_Going" ID="{DDC1185B-BB8D-4A6E-920F-0220D8F6D5EF}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
-				<Event Name="Stop_SFX_Avarie" ID="{2F3E2090-470C-43FA-A6B9-4C370FD2189E}">
-					<ChildrenList>
-						<Action Name="" ID="{7B523D43-DEF0-448F-B4D6-ADC2B2E3C6B9}" ShortID="338156753">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="2"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Avarie_Start_Going" ID="{DDC1185B-BB8D-4A6E-920F-0220D8F6D5EF}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-						<Action Name="" ID="{28732BD4-F2D7-48DD-9660-7647E6B65C0E}" ShortID="130056881">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Avarie_End" ID="{7C240D95-3ACB-486F-A9BC-082539C9F088}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Stop_Engine" ID="{42251E8E-1DA3-4B66-AE97-27FAD5395ADF}">
 					<ChildrenList>
 						<Action Name="" ID="{CAB3148A-AF37-4EB8-A756-5DC0C5601983}" ShortID="948465475">
@@ -2076,20 +2038,6 @@
 						</Action>
 					</ChildrenList>
 				</Event>
-				<Event Name="Play_Lever" ID="{3C5C22D1-52AB-4F92-B477-75E1521AA4DB}">
-					<ChildrenList>
-						<Action Name="" ID="{0391D1C4-3FB5-4DDF-9767-F98E1644B420}" ShortID="609843884">
-							<PropertyList>
-								<Property Name="ActionType" Type="int16" Value="1"/>
-							</PropertyList>
-							<ReferenceList>
-								<Reference Name="Target">
-									<ObjectRef Name="Lever" ID="{BCD3046F-CFAB-4551-9773-6E2C5DA5E267}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
-								</Reference>
-							</ReferenceList>
-						</Action>
-					</ChildrenList>
-				</Event>
 				<Event Name="Stop_Lever" ID="{12FF7942-EDCC-4546-8296-12148B50F8FA}">
 					<ChildrenList>
 						<Action Name="" ID="{69109BCE-3699-4C88-B7EC-382278C2FC29}" ShortID="656473089">
@@ -2233,6 +2181,58 @@
 							<ReferenceList>
 								<Reference Name="Target">
 									<ObjectRef Name="ESD_Music" ID="{D479A74D-46FC-4AD2-8FA1-DEB14B4F3CD3}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Lever_Position_OK" ID="{5DC65DDD-AB38-40B5-ACC4-CA70B027FE41}">
+					<ChildrenList>
+						<Action Name="" ID="{67C6C7D4-3F6D-4A13-B3A8-115D837361EE}" ShortID="1066487840">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lever_Position_OK" ID="{8A4F7E42-2DAD-46A8-AFE1-8E877EECD5F7}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+						<Action Name="" ID="{18097BCA-2A12-46AC-9095-329A31CFF21C}" ShortID="1058264737">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Lever" ID="{BCD3046F-CFAB-4551-9773-6E2C5DA5E267}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Avarie_Start" ID="{A19A04B4-2414-4305-B7B3-15F40ACAB467}">
+					<ChildrenList>
+						<Action Name="" ID="{78D9E862-0722-4936-9FF7-CB4405E7CF1C}" ShortID="164731534">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Avarie_Start" ID="{FC55198E-07A4-4FD6-8F47-8AABE5DDE452}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
+								</Reference>
+							</ReferenceList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Play_Avarie_End" ID="{BDF3FFFA-F880-465E-B254-824235FBCC29}">
+					<ChildrenList>
+						<Action Name="" ID="{22D412DC-3467-40B6-B590-CD6DAF8D8FF3}" ShortID="596900452">
+							<PropertyList>
+								<Property Name="ActionType" Type="int16" Value="1"/>
+							</PropertyList>
+							<ReferenceList>
+								<Reference Name="Target">
+									<ObjectRef Name="Avarie_End" ID="{7C240D95-3ACB-486F-A9BC-082539C9F088}" WorkUnitID="{F7A5F7D2-E73F-4F8B-8622-CA4155725385}"/>
 								</Reference>
 							</ReferenceList>
 						</Action>

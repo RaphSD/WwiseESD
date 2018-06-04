@@ -14,20 +14,20 @@
 							<Position X="0" Y="1"/>
 						</Module>
 						<Module>
-							<ObjectRef Name="Play_SFX_Avarie" ID="{34B24811-E690-484A-8519-C667902EB90B}" WorkUnitID="{3FA4B29B-685F-4625-AF37-09E67FE76CDE}"/>
-							<Position X="0" Y="3"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Stop_SFX_Avarie" ID="{2F3E2090-470C-43FA-A6B9-4C370FD2189E}" WorkUnitID="{3FA4B29B-685F-4625-AF37-09E67FE76CDE}"/>
-							<Position X="0" Y="4"/>
-						</Module>
-						<Module>
 							<ObjectRef Name="Stop_Crackling_Submarine" ID="{A361B3EA-FB45-44F2-954D-545F39D1A5CC}" WorkUnitID="{3FA4B29B-685F-4625-AF37-09E67FE76CDE}"/>
 							<Position X="1" Y="0"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Stop_Ambiance_01" ID="{C8DBBB93-0EA5-4D47-B9CC-AD8EEA92E27C}" WorkUnitID="{3FA4B29B-685F-4625-AF37-09E67FE76CDE}"/>
 							<Position X="1" Y="1"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Play_Lever_Position_OK" ID="{5DC65DDD-AB38-40B5-ACC4-CA70B027FE41}" WorkUnitID="{3FA4B29B-685F-4625-AF37-09E67FE76CDE}"/>
+							<Position X="1" Y="3"/>
+						</Module>
+						<Module>
+							<ObjectRef Name="Stop_Lever" ID="{12FF7942-EDCC-4546-8296-12148B50F8FA}" WorkUnitID="{3FA4B29B-685F-4625-AF37-09E67FE76CDE}"/>
+							<Position X="1" Y="4"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Play_SFX_Door_Open" ID="{9F775FCD-86C1-4F42-8F54-31FE52B6501F}" WorkUnitID="{3FA4B29B-685F-4625-AF37-09E67FE76CDE}"/>
@@ -68,10 +68,6 @@
 						<Module>
 							<ObjectRef Name="Play_SFX_Alarm_Start" ID="{DE63DA4B-4173-4C8E-9CDD-3E3EC52CB575}" WorkUnitID="{3FA4B29B-685F-4625-AF37-09E67FE76CDE}"/>
 							<Position X="4" Y="2"/>
-						</Module>
-						<Module>
-							<ObjectRef Name="Play_Lever" ID="{3C5C22D1-52AB-4F92-B477-75E1521AA4DB}" WorkUnitID="{3FA4B29B-685F-4625-AF37-09E67FE76CDE}"/>
-							<Position X="4" Y="3"/>
 						</Module>
 						<Module>
 							<ObjectRef Name="Stop_Lever" ID="{12FF7942-EDCC-4546-8296-12148B50F8FA}" WorkUnitID="{3FA4B29B-685F-4625-AF37-09E67FE76CDE}"/>

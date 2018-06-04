@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="11" SoundbankVersion="128">
 	<RootPaths>
-		<ProjectRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\</ProjectRoot>
-		<SourceFilesRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\English(US)\</SoundBanksRoot>
+		<ProjectRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\</ProjectRoot>
+		<SourceFilesRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\English(US)\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\ENJMIN 2017-2018-Lourd\WwiseESD\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<SoundBanks>
 		<SoundBank Id="454820531" GUID="{089F79C2-AAD7-496D-BE70-B61A8BAD55BA}" Language="English(US)">
@@ -144,15 +144,16 @@
 				<Event Id="3118515008" Name="Play_59" ObjectPath="\Events\Default Work Unit\Voices\Play_59" GUID="{EECF3216-0231-48CE-BF73-2E326638594A}" DurationType="OneShot" DurationMin="12,819500" DurationMax="12,819500"/>
 				<Event Id="3068182265" Name="Play_69" ObjectPath="\Events\Default Work Unit\Voices\Play_69" GUID="{62B00172-C6FD-4B0D-A40F-03C1697E4235}" DurationType="OneShot" DurationMin="3,014437" DurationMax="3,014437"/>
 				<Event Id="1313850920" Name="Play_Ambiance_01" ObjectPath="\Events\Default Work Unit\Play_Ambiance_01" GUID="{31DC63F8-B1B6-4E0F-A5D2-895CA571B47C}" DurationType="Infinite"/>
+				<Event Id="3115303814" Name="Play_Avarie_End" ObjectPath="\Events\Default Work Unit\Play_Avarie_End" GUID="{BDF3FFFA-F880-465E-B254-824235FBCC29}" DurationType="OneShot" DurationMin="1,178417" DurationMax="1,178417"/>
+				<Event Id="1818685037" Name="Play_Avarie_Start" ObjectPath="\Events\Default Work Unit\Play_Avarie_Start" GUID="{A19A04B4-2414-4305-B7B3-15F40ACAB467}" DurationType="OneShot" DurationMin="0,721875" DurationMax="0,721875"/>
 				<Event Id="3995708897" Name="Play_Crackling_Submarine" ObjectPath="\Events\Default Work Unit\Play_Crackling_Submarine" GUID="{45DB408B-535E-4C01-AE85-A31852198093}" DurationType="OneShot" DurationMin="97,061539" DurationMax="187,061539"/>
 				<Event Id="641826820" Name="Play_Death_Explosion" ObjectPath="\Events\Default Work Unit\Play_Death_Explosion" GUID="{03A4E18D-F4C0-4878-B2D2-A9EDB656DA12}" DurationType="OneShot" DurationMin="11,280575" DurationMax="11,280575"/>
 				<Event Id="639345804" Name="Play_Engine" ObjectPath="\Events\Default Work Unit\Play_Engine" GUID="{8304B0B2-C71B-4C79-9552-7294D912EAAC}" DurationType="Infinite"/>
 				<Event Id="1011292186" Name="Play_ESD_Music" ObjectPath="\Events\Default Work Unit\Play_ESD_Music" GUID="{EF08A4E4-BD29-4384-92DB-F5658B5DAB1A}" DurationType="OneShot" DurationMin="118,783997" DurationMax="118,783997"/>
 				<Event Id="4087390633" Name="Play_Gauge_Appear" ObjectPath="\Events\Default Work Unit\Play_Gauge_Appear" GUID="{6AC449E9-2632-44F9-9A41-DD265D6680C6}" DurationType="OneShot" DurationMin="1,483083" DurationMax="1,483083"/>
 				<Event Id="86091983" Name="Play_Hull_Break" ObjectPath="\Events\Default Work Unit\Play_Hull_Break" GUID="{C2E65F7A-0311-4FC7-B632-8A06D732858C}" DurationType="OneShot" DurationMin="5,942104" DurationMax="5,942104"/>
-				<Event Id="3196500978" Name="Play_Lever" ObjectPath="\Events\Default Work Unit\Play_Lever" GUID="{3C5C22D1-52AB-4F92-B477-75E1521AA4DB}" DurationType="Unknown"/>
+				<Event Id="2839470373" Name="Play_Lever_Position_OK" ObjectPath="\Events\Default Work Unit\Play_Lever_Position_OK" GUID="{5DC65DDD-AB38-40B5-ACC4-CA70B027FE41}" DurationType="Unknown"/>
 				<Event Id="2294038116" Name="Play_SFX_Alarm_Start" ObjectPath="\Events\Default Work Unit\Play_SFX_Alarm_Start" GUID="{DE63DA4B-4173-4C8E-9CDD-3E3EC52CB575}" DurationType="Infinite"/>
-				<Event Id="1317253172" Name="Play_SFX_Avarie" ObjectPath="\Events\Default Work Unit\Play_SFX_Avarie" GUID="{34B24811-E690-484A-8519-C667902EB90B}" DurationType="Infinite"/>
 				<Event Id="2141058172" Name="Play_SFX_Ballast_Destroy" ObjectPath="\Events\Default Work Unit\Play_SFX_Ballast_Destroy" GUID="{756C1FB8-4B75-4AFE-A07D-9722B7FB33F9}" DurationType="OneShot" DurationMin="3,924529" DurationMax="6,848559"/>
 				<Event Id="2581363913" Name="Play_SFX_Console_Approved" ObjectPath="\Events\Default Work Unit\Play_SFX_Console_Approved" GUID="{58042452-3C50-4A2A-B3A4-7037A31DB6F8}" DurationType="OneShot" DurationMin="0,223250" DurationMax="0,223250"/>
 				<Event Id="4108837005" Name="Play_SFX_Console_Denied" ObjectPath="\Events\Default Work Unit\Play_SFX_Console_Denied" GUID="{34AAF88C-37D9-438A-A8DF-8C608CD90074}" DurationType="OneShot" DurationMin="0,437500" DurationMax="0,437500"/>
@@ -168,7 +169,6 @@
 				<Event Id="37214798" Name="Stop_Engine" ObjectPath="\Events\Default Work Unit\Stop_Engine" GUID="{42251E8E-1DA3-4B66-AE97-27FAD5395ADF}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
 				<Event Id="1803737652" Name="Stop_Lever" ObjectPath="\Events\Default Work Unit\Stop_Lever" GUID="{12FF7942-EDCC-4546-8296-12148B50F8FA}" DurationType="Infinite"/>
 				<Event Id="1789658778" Name="Stop_SFX_Alarm_Start" ObjectPath="\Events\Default Work Unit\Stop_SFX_Alarm_Start" GUID="{178C4C76-6949-446B-BD99-5BFF96CBA6DF}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
-				<Event Id="2894064942" Name="Stop_SFX_Avarie" ObjectPath="\Events\Default Work Unit\Stop_SFX_Avarie" GUID="{2F3E2090-470C-43FA-A6B9-4C370FD2189E}" DurationType="OneShot" DurationMin="1,178417" DurationMax="1,178417"/>
 				<Event Id="1544255280" Name="Stop_SFX_Glitch_Long" ObjectPath="\Events\Default Work Unit\Stop_SFX_Glitch_Long" GUID="{62F74CAC-0127-4A49-BDD8-71F2A25B571F}" MaxAttenuation="0,000000" DurationType="OneShot" DurationMin="0,000000" DurationMax="0,000000"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
@@ -455,6 +455,10 @@
 				<File Id="465677227" Language="SFX">
 					<ShortName>SFX_Glitch_Short-005.wav</ShortName>
 					<Path>SFX\SFX_Glitch_Short-005_B95B134F.wem</Path>
+				</File>
+				<File Id="467316639" Language="SFX">
+					<ShortName>Lever_Position_OK.wav</ShortName>
+					<Path>SFX\Lever_Position_OK_B95B134F.wem</Path>
 				</File>
 				<File Id="471209811" Language="English(US)">
 					<ShortName>All levels\205.wav</ShortName>
@@ -775,10 +779,6 @@
 				<File Id="887218175" Language="English(US)">
 					<ShortName>Level 1\101.wav</ShortName>
 					<Path>Voices\English(US)\Level 1\101_B95B134F.wem</Path>
-				</File>
-				<File Id="889974538" Language="SFX">
-					<ShortName>Avarie_During.wav</ShortName>
-					<Path>SFX\Avarie_During_B95B134F.wem</Path>
 				</File>
 				<File Id="892078412" Language="SFX">
 					<ShortName>ESD_Cracks-004.wav</ShortName>

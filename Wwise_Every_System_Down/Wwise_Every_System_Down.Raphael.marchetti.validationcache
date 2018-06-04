@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="85">
-	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1527873188" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="1528102571" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="1521550313" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="1521550313" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Attenuations\Default Work Unit.wwu" DateLow="1523446193" DateHigh="0"/>
@@ -20,7 +20,7 @@
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="1521550313" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="1521550313" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Effects\Factory McDSP Effects.wwu" DateLow="1521550313" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Events\Default Work Unit.wwu" DateLow="1527872951" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Events\Default Work Unit.wwu" DateLow="1528102571" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Game Parameters\Default Work Unit.wwu" DateLow="1527870776" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="1521550313" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="1521550313" DateHigh="0"/>
@@ -31,12 +31,12 @@
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Queries\Default Work Unit.wwu" DateLow="1521550313" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Queries\Factory Queries.wwu" DateLow="1521550313" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\SoundBanks\Default Work Unit.wwu" DateLow="1523021616" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1527873188" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Soundcaster Sessions\Default Work Unit.wwu" DateLow="1528102569" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\States\Default Work Unit.wwu" DateLow="1521550313" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Switches\Default Work Unit.wwu" DateLow="1521550313" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Triggers\Default Work Unit.wwu" DateLow="1521550313" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Virtual Acoustics\Default Work Unit.wwu" DateLow="1521550313" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Virtual Acoustics\Factory Reflect Acoustic Textures.wwu" DateLow="1521550313" DateHigh="0"/>
-	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Wwise_Every_System_Down.Raphael.marchetti.wsettings" DateLow="1527874535" DateHigh="0"/>
+	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Wwise_Every_System_Down.Raphael.marchetti.wsettings" DateLow="1528102569" DateHigh="0"/>
 	<ValidationCacheItem File="C:\Users\raphael.marchetti\Documents\GitHub\WwiseESD\Wwise_Every_System_Down\Wwise_Every_System_Down.wproj" DateLow="1524751395" DateHigh="0"/>
 </ValidationCache>

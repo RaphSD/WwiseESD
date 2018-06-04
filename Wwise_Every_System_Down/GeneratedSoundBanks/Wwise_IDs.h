@@ -144,15 +144,16 @@ namespace AK
         static const AkUniqueID PLAY_415 = 3771802944U;
         static const AkUniqueID PLAY_416 = 3771802947U;
         static const AkUniqueID PLAY_AMBIANCE_01 = 1313850920U;
+        static const AkUniqueID PLAY_AVARIE_END = 3115303814U;
+        static const AkUniqueID PLAY_AVARIE_START = 1818685037U;
         static const AkUniqueID PLAY_CRACKLING_SUBMARINE = 3995708897U;
         static const AkUniqueID PLAY_DEATH_EXPLOSION = 641826820U;
         static const AkUniqueID PLAY_ENGINE = 639345804U;
         static const AkUniqueID PLAY_ESD_MUSIC = 1011292186U;
         static const AkUniqueID PLAY_GAUGE_APPEAR = 4087390633U;
         static const AkUniqueID PLAY_HULL_BREAK = 86091983U;
-        static const AkUniqueID PLAY_LEVER = 3196500978U;
+        static const AkUniqueID PLAY_LEVER_POSITION_OK = 2839470373U;
         static const AkUniqueID PLAY_SFX_ALARM_START = 2294038116U;
-        static const AkUniqueID PLAY_SFX_AVARIE = 1317253172U;
         static const AkUniqueID PLAY_SFX_BALLAST_DESTROY = 2141058172U;
         static const AkUniqueID PLAY_SFX_CONSOLE_APPROVED = 2581363913U;
         static const AkUniqueID PLAY_SFX_CONSOLE_DENIED = 4108837005U;
@@ -168,7 +169,6 @@ namespace AK
         static const AkUniqueID STOP_ENGINE = 37214798U;
         static const AkUniqueID STOP_LEVER = 1803737652U;
         static const AkUniqueID STOP_SFX_ALARM_START = 1789658778U;
-        static const AkUniqueID STOP_SFX_AVARIE = 2894064942U;
         static const AkUniqueID STOP_SFX_GLITCH_LONG = 1544255280U;
     } // namespace EVENTS
 

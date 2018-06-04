@@ -5,11 +5,11 @@
   "SchemaVersion": "11",
   "SoundbankVersion": "128",
   "RootPaths": {
-   "ProjectRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\",
-   "SourceFilesRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\.cache\\Windows\\",
-   "SoundBanksRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\English(US)\\",
+   "ProjectRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\",
+   "SourceFilesRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\.cache\\Windows\\",
+   "SoundBanksRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\English(US)\\",
    "ExternalSourcesInputFile": "",
-   "ExternalSourcesOutputRoot": "D:\\ENJMIN 2017-2018-Lourd\\WwiseESD\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\"
+   "ExternalSourcesOutputRoot": "C:\\Users\\raphael.marchetti\\Documents\\GitHub\\WwiseESD\\Wwise_Every_System_Down\\GeneratedSoundBanks\\Windows\\"
   },
   "SoundBanks": [
    {
@@ -1198,6 +1198,24 @@
       "DurationType": "Infinite"
      },
      {
+      "Id": "3115303814",
+      "Name": "Play_Avarie_End",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Avarie_End",
+      "GUID": "{BDF3FFFA-F880-465E-B254-824235FBCC29}",
+      "DurationType": "OneShot",
+      "DurationMin": "1,178417",
+      "DurationMax": "1,178417"
+     },
+     {
+      "Id": "1818685037",
+      "Name": "Play_Avarie_Start",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Avarie_Start",
+      "GUID": "{A19A04B4-2414-4305-B7B3-15F40ACAB467}",
+      "DurationType": "OneShot",
+      "DurationMin": "0,721875",
+      "DurationMax": "0,721875"
+     },
+     {
       "Id": "3995708897",
       "Name": "Play_Crackling_Submarine",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_Crackling_Submarine",
@@ -1250,10 +1268,10 @@
       "DurationMax": "5,942104"
      },
      {
-      "Id": "3196500978",
-      "Name": "Play_Lever",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_Lever",
-      "GUID": "{3C5C22D1-52AB-4F92-B477-75E1521AA4DB}",
+      "Id": "2839470373",
+      "Name": "Play_Lever_Position_OK",
+      "ObjectPath": "\\Events\\Default Work Unit\\Play_Lever_Position_OK",
+      "GUID": "{5DC65DDD-AB38-40B5-ACC4-CA70B027FE41}",
       "DurationType": "Unknown"
      },
      {
@@ -1261,13 +1279,6 @@
       "Name": "Play_SFX_Alarm_Start",
       "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Alarm_Start",
       "GUID": "{DE63DA4B-4173-4C8E-9CDD-3E3EC52CB575}",
-      "DurationType": "Infinite"
-     },
-     {
-      "Id": "1317253172",
-      "Name": "Play_SFX_Avarie",
-      "ObjectPath": "\\Events\\Default Work Unit\\Play_SFX_Avarie",
-      "GUID": "{34B24811-E690-484A-8519-C667902EB90B}",
       "DurationType": "Infinite"
      },
      {
@@ -1406,15 +1417,6 @@
       "DurationType": "OneShot",
       "DurationMin": "0,000000",
       "DurationMax": "0,000000"
-     },
-     {
-      "Id": "2894064942",
-      "Name": "Stop_SFX_Avarie",
-      "ObjectPath": "\\Events\\Default Work Unit\\Stop_SFX_Avarie",
-      "GUID": "{2F3E2090-470C-43FA-A6B9-4C370FD2189E}",
-      "DurationType": "OneShot",
-      "DurationMin": "1,178417",
-      "DurationMax": "1,178417"
      },
      {
       "Id": "1544255280",
@@ -1853,6 +1855,12 @@
       "Language": "SFX",
       "ShortName": "SFX_Glitch_Short-005.wav",
       "Path": "SFX\\SFX_Glitch_Short-005_B95B134F.wem"
+     },
+     {
+      "Id": "467316639",
+      "Language": "SFX",
+      "ShortName": "Lever_Position_OK.wav",
+      "Path": "SFX\\Lever_Position_OK_B95B134F.wem"
      },
      {
       "Id": "471209811",
@@ -2333,12 +2341,6 @@
       "Language": "English(US)",
       "ShortName": "Level 1\\101.wav",
       "Path": "Voices\\English(US)\\Level 1\\101_B95B134F.wem"
-     },
-     {
-      "Id": "889974538",
-      "Language": "SFX",
-      "ShortName": "Avarie_During.wav",
-      "Path": "SFX\\Avarie_During_B95B134F.wem"
      },
      {
       "Id": "892078412",
